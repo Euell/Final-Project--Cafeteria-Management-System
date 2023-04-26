@@ -21,7 +21,7 @@ namespace Final_Project__Cafeteria_Management_System
         {
             Application.Exit();
         }
-   
+    
         private void loginbtn_Click(object sender, EventArgs e)
         {
             Main main = new Main();
@@ -48,7 +48,6 @@ namespace Final_Project__Cafeteria_Management_System
             txt_password.UseSystemPasswordChar = true;
             hidepassbtn.Visible = false;
             showpassbtn.Visible = true;
-
         }
     }
 }

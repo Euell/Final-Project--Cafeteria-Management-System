@@ -38,20 +38,20 @@ namespace Final_Project__Cafeteria_Management_System
             this.panel3 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.snacksbtn = new System.Windows.Forms.Button();
-            this.backbtn = new System.Windows.Forms.Button();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.breadsbtn = new System.Windows.Forms.Button();
             this.candiesbtn = new System.Windows.Forms.Button();
             this.homebtn = new System.Windows.Forms.Button();
             this.drinksbtn = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.closebtn = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.backbtn = new System.Windows.Forms.Button();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -93,7 +93,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.drinksPanel.BackColor = System.Drawing.Color.Teal;
             this.drinksPanel.Location = new System.Drawing.Point(0, 263);
             this.drinksPanel.Name = "drinksPanel";
-            this.drinksPanel.Size = new System.Drawing.Size(15, 55);
+            this.drinksPanel.Size = new System.Drawing.Size(10, 55);
             this.drinksPanel.TabIndex = 3;
             this.drinksPanel.Visible = false;
             // 
@@ -102,7 +102,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.homePanel.BackColor = System.Drawing.Color.Teal;
             this.homePanel.Location = new System.Drawing.Point(0, 202);
             this.homePanel.Name = "homePanel";
-            this.homePanel.Size = new System.Drawing.Size(15, 55);
+            this.homePanel.Size = new System.Drawing.Size(10, 55);
             this.homePanel.TabIndex = 16;
             this.homePanel.Visible = false;
             // 
@@ -111,7 +111,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.breadsPanel.BackColor = System.Drawing.Color.Teal;
             this.breadsPanel.Location = new System.Drawing.Point(0, 446);
             this.breadsPanel.Name = "breadsPanel";
-            this.breadsPanel.Size = new System.Drawing.Size(15, 55);
+            this.breadsPanel.Size = new System.Drawing.Size(10, 55);
             this.breadsPanel.TabIndex = 4;
             this.breadsPanel.Visible = false;
             // 
@@ -120,7 +120,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.snacksPanel.BackColor = System.Drawing.Color.Teal;
             this.snacksPanel.Location = new System.Drawing.Point(0, 385);
             this.snacksPanel.Name = "snacksPanel";
-            this.snacksPanel.Size = new System.Drawing.Size(15, 55);
+            this.snacksPanel.Size = new System.Drawing.Size(10, 55);
             this.snacksPanel.TabIndex = 3;
             this.snacksPanel.Visible = false;
             // 
@@ -129,7 +129,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.candiesPanel.BackColor = System.Drawing.Color.Teal;
             this.candiesPanel.Location = new System.Drawing.Point(0, 324);
             this.candiesPanel.Name = "candiesPanel";
-            this.candiesPanel.Size = new System.Drawing.Size(15, 55);
+            this.candiesPanel.Size = new System.Drawing.Size(10, 55);
             this.candiesPanel.TabIndex = 2;
             this.candiesPanel.Visible = false;
             // 
@@ -139,7 +139,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.panel3.Controls.Add(this.label1);
             this.panel3.Controls.Add(this.label7);
             this.panel3.Controls.Add(this.pictureBox1);
-            this.panel3.Location = new System.Drawing.Point(87, 3);
+            this.panel3.Location = new System.Drawing.Point(60, -3);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(122, 169);
             this.panel3.TabIndex = 2;
@@ -168,27 +168,6 @@ namespace Final_Project__Cafeteria_Management_System
             this.label7.TabIndex = 17;
             this.label7.Text = "Cafeteria";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Teal;
-            this.pictureBox1.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.Screenshot_2023_04_20_084940_removebg_preview;
-            this.pictureBox1.Location = new System.Drawing.Point(13, 19);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(96, 81);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.snacks;
-            this.pictureBox5.Location = new System.Drawing.Point(27, 395);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(37, 30);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 15;
-            this.pictureBox5.TabStop = false;
-            // 
             // snacksbtn
             // 
             this.snacksbtn.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -203,64 +182,6 @@ namespace Final_Project__Cafeteria_Management_System
             this.snacksbtn.Text = "Snacks";
             this.snacksbtn.UseVisualStyleBackColor = true;
             this.snacksbtn.Click += new System.EventHandler(this.snacksbtn_Click);
-            // 
-            // backbtn
-            // 
-            this.backbtn.BackColor = System.Drawing.Color.Transparent;
-            this.backbtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.backbtn.FlatAppearance.BorderSize = 0;
-            this.backbtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.backbtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.backbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.backbtn.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.backbtn.ForeColor = System.Drawing.Color.Teal;
-            this.backbtn.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.imageedit_42_3909755759;
-            this.backbtn.Location = new System.Drawing.Point(0, 0);
-            this.backbtn.Name = "backbtn";
-            this.backbtn.Size = new System.Drawing.Size(40, 40);
-            this.backbtn.TabIndex = 13;
-            this.backbtn.UseVisualStyleBackColor = false;
-            this.backbtn.Click += new System.EventHandler(this.backbtn_Click);
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.bread;
-            this.pictureBox6.Location = new System.Drawing.Point(24, 459);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(37, 30);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 11;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.candy__2_;
-            this.pictureBox4.Location = new System.Drawing.Point(27, 334);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(37, 30);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 9;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.drinks;
-            this.pictureBox3.Location = new System.Drawing.Point(27, 276);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(37, 30);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 8;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.imageedit_2_6258554102;
-            this.pictureBox2.Location = new System.Drawing.Point(27, 216);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(37, 30);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 7;
-            this.pictureBox2.TabStop = false;
             // 
             // breadsbtn
             // 
@@ -349,6 +270,85 @@ namespace Final_Project__Cafeteria_Management_System
             this.closebtn.Text = "X";
             this.closebtn.UseVisualStyleBackColor = false;
             this.closebtn.Click += new System.EventHandler(this.closebtn_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Teal;
+            this.pictureBox1.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.Screenshot_2023_04_20_084940_removebg_preview;
+            this.pictureBox1.Location = new System.Drawing.Point(13, 19);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(96, 81);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.snacks;
+            this.pictureBox5.Location = new System.Drawing.Point(27, 395);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(37, 30);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 15;
+            this.pictureBox5.TabStop = false;
+            // 
+            // backbtn
+            // 
+            this.backbtn.BackColor = System.Drawing.Color.Transparent;
+            this.backbtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.backbtn.FlatAppearance.BorderSize = 0;
+            this.backbtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.backbtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.backbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.backbtn.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.backbtn.ForeColor = System.Drawing.Color.Teal;
+            this.backbtn.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.backbtn;
+            this.backbtn.Location = new System.Drawing.Point(0, 0);
+            this.backbtn.Name = "backbtn";
+            this.backbtn.Size = new System.Drawing.Size(33, 33);
+            this.backbtn.TabIndex = 13;
+            this.backbtn.UseVisualStyleBackColor = false;
+            this.backbtn.Click += new System.EventHandler(this.backbtn_Click);
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.bread;
+            this.pictureBox6.Location = new System.Drawing.Point(24, 459);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(37, 30);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 11;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.candy__2_;
+            this.pictureBox4.Location = new System.Drawing.Point(27, 334);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(37, 30);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 9;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.drinks;
+            this.pictureBox3.Location = new System.Drawing.Point(27, 276);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(37, 30);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 8;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.imageedit_2_6258554102;
+            this.pictureBox2.Location = new System.Drawing.Point(27, 216);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(37, 30);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 7;
+            this.pictureBox2.TabStop = false;
             // 
             // Main
             // 

@@ -167,5 +167,8 @@
   <ItemGroup>
     <None Include="Resources\imageedit_42_3909755759.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backbtn.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
