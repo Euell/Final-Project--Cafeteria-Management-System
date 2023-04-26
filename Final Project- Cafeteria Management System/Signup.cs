@@ -12,10 +12,6 @@ namespace Final_Project__Cafeteria_Management_System
 {
     public partial class Signup : Form
     {
-        private void txt_confirmPassword_TextChanged(object sender, EventArgs e)
-        {
-
-        }
         public Signup()
         {
             InitializeComponent();
