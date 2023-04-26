@@ -91,7 +91,7 @@ namespace Final_Project__Cafeteria_Management_System
             // drinksPanel
             // 
             this.drinksPanel.BackColor = System.Drawing.Color.Teal;
-            this.drinksPanel.Location = new System.Drawing.Point(0, 263);
+            this.drinksPanel.Location = new System.Drawing.Point(0, 282);
             this.drinksPanel.Name = "drinksPanel";
             this.drinksPanel.Size = new System.Drawing.Size(10, 55);
             this.drinksPanel.TabIndex = 3;
@@ -100,7 +100,7 @@ namespace Final_Project__Cafeteria_Management_System
             // homePanel
             // 
             this.homePanel.BackColor = System.Drawing.Color.Teal;
-            this.homePanel.Location = new System.Drawing.Point(0, 202);
+            this.homePanel.Location = new System.Drawing.Point(0, 172);
             this.homePanel.Name = "homePanel";
             this.homePanel.Size = new System.Drawing.Size(10, 55);
             this.homePanel.TabIndex = 16;
@@ -109,7 +109,7 @@ namespace Final_Project__Cafeteria_Management_System
             // breadsPanel
             // 
             this.breadsPanel.BackColor = System.Drawing.Color.Teal;
-            this.breadsPanel.Location = new System.Drawing.Point(0, 446);
+            this.breadsPanel.Location = new System.Drawing.Point(0, 493);
             this.breadsPanel.Name = "breadsPanel";
             this.breadsPanel.Size = new System.Drawing.Size(10, 55);
             this.breadsPanel.TabIndex = 4;
@@ -118,7 +118,7 @@ namespace Final_Project__Cafeteria_Management_System
             // snacksPanel
             // 
             this.snacksPanel.BackColor = System.Drawing.Color.Teal;
-            this.snacksPanel.Location = new System.Drawing.Point(0, 385);
+            this.snacksPanel.Location = new System.Drawing.Point(0, 423);
             this.snacksPanel.Name = "snacksPanel";
             this.snacksPanel.Size = new System.Drawing.Size(10, 55);
             this.snacksPanel.TabIndex = 3;
@@ -127,7 +127,7 @@ namespace Final_Project__Cafeteria_Management_System
             // candiesPanel
             // 
             this.candiesPanel.BackColor = System.Drawing.Color.Teal;
-            this.candiesPanel.Location = new System.Drawing.Point(0, 324);
+            this.candiesPanel.Location = new System.Drawing.Point(0, 353);
             this.candiesPanel.Name = "candiesPanel";
             this.candiesPanel.Size = new System.Drawing.Size(10, 55);
             this.candiesPanel.TabIndex = 2;
@@ -175,7 +175,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.snacksbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.snacksbtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.snacksbtn.ForeColor = System.Drawing.Color.White;
-            this.snacksbtn.Location = new System.Drawing.Point(0, 385);
+            this.snacksbtn.Location = new System.Drawing.Point(0, 423);
             this.snacksbtn.Name = "snacksbtn";
             this.snacksbtn.Size = new System.Drawing.Size(228, 55);
             this.snacksbtn.TabIndex = 14;
@@ -190,7 +190,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.breadsbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.breadsbtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.breadsbtn.ForeColor = System.Drawing.Color.White;
-            this.breadsbtn.Location = new System.Drawing.Point(0, 446);
+            this.breadsbtn.Location = new System.Drawing.Point(0, 493);
             this.breadsbtn.Name = "breadsbtn";
             this.breadsbtn.Size = new System.Drawing.Size(228, 55);
             this.breadsbtn.TabIndex = 5;
@@ -205,7 +205,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.candiesbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.candiesbtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.candiesbtn.ForeColor = System.Drawing.Color.White;
-            this.candiesbtn.Location = new System.Drawing.Point(0, 324);
+            this.candiesbtn.Location = new System.Drawing.Point(0, 353);
             this.candiesbtn.Name = "candiesbtn";
             this.candiesbtn.Size = new System.Drawing.Size(228, 55);
             this.candiesbtn.TabIndex = 3;
@@ -221,7 +221,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.homebtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.homebtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.homebtn.ForeColor = System.Drawing.Color.White;
-            this.homebtn.Location = new System.Drawing.Point(0, 202);
+            this.homebtn.Location = new System.Drawing.Point(0, 172);
             this.homebtn.Name = "homebtn";
             this.homebtn.Size = new System.Drawing.Size(228, 55);
             this.homebtn.TabIndex = 0;
@@ -236,7 +236,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.drinksbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.drinksbtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.drinksbtn.ForeColor = System.Drawing.Color.White;
-            this.drinksbtn.Location = new System.Drawing.Point(0, 263);
+            this.drinksbtn.Location = new System.Drawing.Point(0, 282);
             this.drinksbtn.Name = "drinksbtn";
             this.drinksbtn.Size = new System.Drawing.Size(228, 55);
             this.drinksbtn.TabIndex = 17;
@@ -285,7 +285,7 @@ namespace Final_Project__Cafeteria_Management_System
             // pictureBox5
             // 
             this.pictureBox5.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.snacks;
-            this.pictureBox5.Location = new System.Drawing.Point(27, 395);
+            this.pictureBox5.Location = new System.Drawing.Point(27, 433);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(37, 30);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -313,7 +313,7 @@ namespace Final_Project__Cafeteria_Management_System
             // pictureBox6
             // 
             this.pictureBox6.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.bread;
-            this.pictureBox6.Location = new System.Drawing.Point(24, 459);
+            this.pictureBox6.Location = new System.Drawing.Point(24, 506);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(37, 30);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -323,7 +323,7 @@ namespace Final_Project__Cafeteria_Management_System
             // pictureBox4
             // 
             this.pictureBox4.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.candy__2_;
-            this.pictureBox4.Location = new System.Drawing.Point(27, 334);
+            this.pictureBox4.Location = new System.Drawing.Point(27, 363);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(37, 30);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -333,7 +333,7 @@ namespace Final_Project__Cafeteria_Management_System
             // pictureBox3
             // 
             this.pictureBox3.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.drinks;
-            this.pictureBox3.Location = new System.Drawing.Point(27, 276);
+            this.pictureBox3.Location = new System.Drawing.Point(27, 295);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(37, 30);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -343,7 +343,7 @@ namespace Final_Project__Cafeteria_Management_System
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.imageedit_2_6258554102;
-            this.pictureBox2.Location = new System.Drawing.Point(27, 216);
+            this.pictureBox2.Location = new System.Drawing.Point(27, 186);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(37, 30);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
