@@ -21,11 +21,7 @@ namespace Final_Project__Cafeteria_Management_System
         {
             Application.Exit();
         }
-     
-        private void txt_password_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+   
         private void loginbtn_Click(object sender, EventArgs e)
         {
             Main main = new Main();
