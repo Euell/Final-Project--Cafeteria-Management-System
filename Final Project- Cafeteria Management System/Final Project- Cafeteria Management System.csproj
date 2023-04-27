@@ -194,5 +194,11 @@
   <ItemGroup>
     <None Include="Resources\Noodles1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Expand %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\expand button.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

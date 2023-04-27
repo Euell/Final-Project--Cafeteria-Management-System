@@ -50,8 +50,6 @@ namespace Final_Project__Cafeteria_Management_System
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
             this.button17 = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
             this.button19 = new System.Windows.Forms.Button();
@@ -97,17 +95,25 @@ namespace Final_Project__Cafeteria_Management_System
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.backbtn = new System.Windows.Forms.Button();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.backbtn = new System.Windows.Forms.Button();
+            this.menubtn = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.menubtn = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
             this.sidebar.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -126,6 +132,7 @@ namespace Final_Project__Cafeteria_Management_System
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // sidebar
@@ -151,10 +158,10 @@ namespace Final_Project__Cafeteria_Management_System
             this.sidebar.Controls.Add(this.drinksbtn);
             this.sidebar.Dock = System.Windows.Forms.DockStyle.Left;
             this.sidebar.Location = new System.Drawing.Point(0, 0);
-            this.sidebar.MaximumSize = new System.Drawing.Size(258, 625);
+            this.sidebar.MaximumSize = new System.Drawing.Size(218, 625);
             this.sidebar.MinimumSize = new System.Drawing.Size(69, 625);
             this.sidebar.Name = "sidebar";
-            this.sidebar.Size = new System.Drawing.Size(192, 625);
+            this.sidebar.Size = new System.Drawing.Size(218, 625);
             this.sidebar.TabIndex = 0;
             // 
             // closebtn
@@ -166,8 +173,8 @@ namespace Final_Project__Cafeteria_Management_System
             this.closebtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.closebtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.closebtn.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.closebtn.ForeColor = System.Drawing.Color.Teal;
-            this.closebtn.Location = new System.Drawing.Point(0, 29);
+            this.closebtn.ForeColor = System.Drawing.Color.White;
+            this.closebtn.Location = new System.Drawing.Point(0, -1);
             this.closebtn.Name = "closebtn";
             this.closebtn.Size = new System.Drawing.Size(40, 40);
             this.closebtn.TabIndex = 12;
@@ -178,9 +185,9 @@ namespace Final_Project__Cafeteria_Management_System
             // menuPanel
             // 
             this.menuPanel.BackColor = System.Drawing.Color.Teal;
-            this.menuPanel.Location = new System.Drawing.Point(6, 21);
+            this.menuPanel.Location = new System.Drawing.Point(0, -2);
             this.menuPanel.Name = "menuPanel";
-            this.menuPanel.Size = new System.Drawing.Size(10, 55);
+            this.menuPanel.Size = new System.Drawing.Size(10, 35);
             this.menuPanel.TabIndex = 20;
             this.menuPanel.Visible = false;
             // 
@@ -190,9 +197,9 @@ namespace Final_Project__Cafeteria_Management_System
             this.panel3.Controls.Add(this.label1);
             this.panel3.Controls.Add(this.label7);
             this.panel3.Controls.Add(this.pictureBox1);
-            this.panel3.Location = new System.Drawing.Point(73, 3);
+            this.panel3.Location = new System.Drawing.Point(73, -1);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(107, 153);
+            this.panel3.Size = new System.Drawing.Size(126, 165);
             this.panel3.TabIndex = 2;
             // 
             // label1
@@ -201,7 +208,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.label1.BackColor = System.Drawing.Color.Teal;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(3, 95);
+            this.label1.Location = new System.Drawing.Point(3, 115);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(65, 19);
             this.label1.TabIndex = 18;
@@ -213,7 +220,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.label7.BackColor = System.Drawing.Color.Teal;
             this.label7.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(25, 114);
+            this.label7.Location = new System.Drawing.Point(44, 134);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(79, 20);
             this.label7.TabIndex = 17;
@@ -235,7 +242,6 @@ namespace Final_Project__Cafeteria_Management_System
             this.homePanel.Name = "homePanel";
             this.homePanel.Size = new System.Drawing.Size(10, 55);
             this.homePanel.TabIndex = 16;
-            this.homePanel.Visible = false;
             // 
             // breadsPanel
             // 
@@ -355,9 +361,9 @@ namespace Final_Project__Cafeteria_Management_System
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.menubtn);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(192, 0);
+            this.panel1.Location = new System.Drawing.Point(218, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(933, 625);
+            this.panel1.Size = new System.Drawing.Size(907, 625);
             this.panel1.TabIndex = 14;
             // 
             // panel8
@@ -371,53 +377,23 @@ namespace Final_Project__Cafeteria_Management_System
             this.panel8.Controls.Add(this.label29);
             this.panel8.Controls.Add(this.label30);
             this.panel8.Controls.Add(this.pictureBox9);
-            this.panel8.Location = new System.Drawing.Point(460, 221);
+            this.panel8.Location = new System.Drawing.Point(492, 221);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(444, 224);
+            this.panel8.Size = new System.Drawing.Size(391, 207);
             this.panel8.TabIndex = 20;
             // 
             // panel9
             // 
-            this.panel9.Controls.Add(this.button15);
-            this.panel9.Controls.Add(this.button16);
             this.panel9.Controls.Add(this.button17);
             this.panel9.Controls.Add(this.button18);
             this.panel9.Controls.Add(this.button19);
             this.panel9.Controls.Add(this.button20);
             this.panel9.Controls.Add(this.button21);
             this.panel9.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel9.Location = new System.Drawing.Point(400, 0);
+            this.panel9.Location = new System.Drawing.Point(347, 0);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(44, 224);
+            this.panel9.Size = new System.Drawing.Size(44, 207);
             this.panel9.TabIndex = 19;
-            // 
-            // button15
-            // 
-            this.button15.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button15.FlatAppearance.BorderSize = 0;
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button15.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button15.ForeColor = System.Drawing.Color.White;
-            this.button15.Location = new System.Drawing.Point(9, 195);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(28, 29);
-            this.button15.TabIndex = 28;
-            this.button15.Text = "+";
-            this.button15.UseVisualStyleBackColor = true;
-            // 
-            // button16
-            // 
-            this.button16.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button16.FlatAppearance.BorderSize = 0;
-            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button16.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button16.ForeColor = System.Drawing.Color.White;
-            this.button16.Location = new System.Drawing.Point(9, 169);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(28, 29);
-            this.button16.TabIndex = 27;
-            this.button16.Text = "+";
-            this.button16.UseVisualStyleBackColor = true;
             // 
             // button17
             // 
@@ -494,7 +470,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Bradley Hand ITC", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.ForeColor = System.Drawing.Color.White;
-            this.label22.Location = new System.Drawing.Point(342, 42);
+            this.label22.Location = new System.Drawing.Point(295, 41);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(52, 156);
             this.label22.TabIndex = 18;
@@ -748,7 +724,7 @@ namespace Final_Project__Cafeteria_Management_System
             // 
             // panel4
             // 
-            this.panel4.Controls.Add(this.panel5);
+            this.panel4.Controls.Add(this.panel2);
             this.panel4.Controls.Add(this.label12);
             this.panel4.Controls.Add(this.label11);
             this.panel4.Controls.Add(this.label10);
@@ -759,9 +735,10 @@ namespace Final_Project__Cafeteria_Management_System
             this.panel4.Controls.Add(this.label3);
             this.panel4.Controls.Add(this.label4);
             this.panel4.Controls.Add(this.pictureBox7);
+            this.panel4.Controls.Add(this.panel5);
             this.panel4.Location = new System.Drawing.Point(10, 86);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(444, 224);
+            this.panel4.Size = new System.Drawing.Size(471, 224);
             this.panel4.TabIndex = 10;
             // 
             // panel5
@@ -773,8 +750,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.panel5.Controls.Add(this.button3);
             this.panel5.Controls.Add(this.button2);
             this.panel5.Controls.Add(this.button1);
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel5.Location = new System.Drawing.Point(400, 0);
+            this.panel5.Location = new System.Drawing.Point(384, 0);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(44, 224);
             this.panel5.TabIndex = 19;
@@ -904,7 +880,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Bradley Hand ITC", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(-6, 172);
+            this.label10.Location = new System.Drawing.Point(-5, 172);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(263, 26);
             this.label10.TabIndex = 14;
@@ -939,7 +915,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.label6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label6.Font = new System.Drawing.Font("Bradley Hand ITC", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(-6, 93);
+            this.label6.Location = new System.Drawing.Point(-5, 93);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(195, 26);
             this.label6.TabIndex = 11;
@@ -950,7 +926,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Bradley Hand ITC", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(-6, 67);
+            this.label5.Location = new System.Drawing.Point(-5, 67);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(178, 26);
             this.label5.TabIndex = 10;
@@ -989,10 +965,28 @@ namespace Final_Project__Cafeteria_Management_System
             this.label2.TabIndex = 7;
             this.label2.Text = "Menu";
             // 
+            // backbtn
+            // 
+            this.backbtn.BackColor = System.Drawing.Color.Transparent;
+            this.backbtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.backbtn.FlatAppearance.BorderSize = 0;
+            this.backbtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.backbtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.backbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.backbtn.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.backbtn.ForeColor = System.Drawing.Color.White;
+            this.backbtn.Location = new System.Drawing.Point(0, 33);
+            this.backbtn.Name = "backbtn";
+            this.backbtn.Size = new System.Drawing.Size(33, 33);
+            this.backbtn.TabIndex = 13;
+            this.backbtn.Text = "<";
+            this.backbtn.UseVisualStyleBackColor = false;
+            this.backbtn.Click += new System.EventHandler(this.backbtn_Click);
+            // 
             // pictureBox9
             // 
             this.pictureBox9.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.Noodles;
-            this.pictureBox9.Location = new System.Drawing.Point(169, 0);
+            this.pictureBox9.Location = new System.Drawing.Point(117, 3);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(186, 154);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1019,31 +1013,30 @@ namespace Final_Project__Cafeteria_Management_System
             this.pictureBox7.TabIndex = 16;
             this.pictureBox7.TabStop = false;
             // 
-            // backbtn
+            // menubtn
             // 
-            this.backbtn.BackColor = System.Drawing.Color.Transparent;
-            this.backbtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.backbtn.FlatAppearance.BorderSize = 0;
-            this.backbtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.backbtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.backbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.backbtn.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.backbtn.ForeColor = System.Drawing.Color.Teal;
-            this.backbtn.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.backbtn;
-            this.backbtn.Location = new System.Drawing.Point(0, 0);
-            this.backbtn.Name = "backbtn";
-            this.backbtn.Size = new System.Drawing.Size(33, 33);
-            this.backbtn.TabIndex = 13;
-            this.backbtn.UseVisualStyleBackColor = false;
-            this.backbtn.Click += new System.EventHandler(this.backbtn_Click);
+            this.menubtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.menubtn.FlatAppearance.BorderSize = 0;
+            this.menubtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.menubtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menubtn.ForeColor = System.Drawing.Color.White;
+            this.menubtn.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.expand_button;
+            this.menubtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.menubtn.Location = new System.Drawing.Point(16, 3);
+            this.menubtn.Name = "menubtn";
+            this.menubtn.Size = new System.Drawing.Size(28, 27);
+            this.menubtn.TabIndex = 21;
+            this.menubtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.menubtn.UseVisualStyleBackColor = true;
+            this.menubtn.Click += new System.EventHandler(this.menubtn_Click);
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Teal;
             this.pictureBox1.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.Screenshot_2023_04_20_084940_removebg_preview;
-            this.pictureBox1.Location = new System.Drawing.Point(13, 13);
+            this.pictureBox1.Location = new System.Drawing.Point(16, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(79, 64);
+            this.pictureBox1.Size = new System.Drawing.Size(81, 73);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
@@ -1098,22 +1091,97 @@ namespace Final_Project__Cafeteria_Management_System
             this.pictureBox2.TabIndex = 7;
             this.pictureBox2.TabStop = false;
             // 
-            // menubtn
+            // panel2
             // 
-            this.menubtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.menubtn.FlatAppearance.BorderSize = 0;
-            this.menubtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.menubtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.menubtn.ForeColor = System.Drawing.Color.White;
-            this.menubtn.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.imageedit_21_8498662889;
-            this.menubtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.menubtn.Location = new System.Drawing.Point(21, 14);
-            this.menubtn.Name = "menubtn";
-            this.menubtn.Size = new System.Drawing.Size(139, 55);
-            this.menubtn.TabIndex = 21;
-            this.menubtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.menubtn.UseVisualStyleBackColor = true;
-            this.menubtn.Click += new System.EventHandler(this.menubtn_Click);
+            this.panel2.Controls.Add(this.label33);
+            this.panel2.Controls.Add(this.label32);
+            this.panel2.Controls.Add(this.label31);
+            this.panel2.Controls.Add(this.label24);
+            this.panel2.Controls.Add(this.label23);
+            this.panel2.Controls.Add(this.label15);
+            this.panel2.Controls.Add(this.label14);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel2.Location = new System.Drawing.Point(427, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(44, 224);
+            this.panel2.TabIndex = 20;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.Color.White;
+            this.label14.Location = new System.Drawing.Point(3, 43);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(22, 24);
+            this.label14.TabIndex = 5;
+            this.label14.Text = "1";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.White;
+            this.label15.Location = new System.Drawing.Point(3, 69);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(22, 24);
+            this.label15.TabIndex = 6;
+            this.label15.Text = "1";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.ForeColor = System.Drawing.Color.White;
+            this.label23.Location = new System.Drawing.Point(3, 95);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(22, 24);
+            this.label23.TabIndex = 7;
+            this.label23.Text = "1";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.ForeColor = System.Drawing.Color.White;
+            this.label24.Location = new System.Drawing.Point(3, 121);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(22, 24);
+            this.label24.TabIndex = 8;
+            this.label24.Text = "1";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.ForeColor = System.Drawing.Color.White;
+            this.label31.Location = new System.Drawing.Point(3, 145);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(22, 24);
+            this.label31.TabIndex = 9;
+            this.label31.Text = "1";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.ForeColor = System.Drawing.Color.White;
+            this.label32.Location = new System.Drawing.Point(3, 172);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(22, 24);
+            this.label32.TabIndex = 22;
+            this.label32.Text = "1";
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.ForeColor = System.Drawing.Color.White;
+            this.label33.Location = new System.Drawing.Point(3, 196);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(22, 24);
+            this.label33.TabIndex = 23;
+            this.label33.Text = "1";
             // 
             // Main
             // 
@@ -1151,6 +1219,8 @@ namespace Final_Project__Cafeteria_Management_System
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1205,8 +1275,6 @@ namespace Final_Project__Cafeteria_Management_System
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button16;
         private System.Windows.Forms.Button button17;
         private System.Windows.Forms.Button button18;
         private System.Windows.Forms.Button button19;
@@ -1235,5 +1303,13 @@ namespace Final_Project__Cafeteria_Management_System
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label14;
     }
 }

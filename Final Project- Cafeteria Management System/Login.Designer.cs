@@ -67,6 +67,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.closebtn);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.pictureBox1);
@@ -138,7 +139,6 @@ namespace Final_Project__Cafeteria_Management_System
             this.panel4.Controls.Add(this.label8);
             this.panel4.Controls.Add(this.label7);
             this.panel4.Controls.Add(this.loginbtn);
-            this.panel4.Controls.Add(this.closebtn);
             this.panel4.Controls.Add(this.label6);
             this.panel4.Controls.Add(this.panel2);
             this.panel4.Controls.Add(this.panel3);
@@ -197,8 +197,8 @@ namespace Final_Project__Cafeteria_Management_System
             this.closebtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.closebtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.closebtn.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.closebtn.ForeColor = System.Drawing.Color.Teal;
-            this.closebtn.Location = new System.Drawing.Point(410, 0);
+            this.closebtn.ForeColor = System.Drawing.Color.White;
+            this.closebtn.Location = new System.Drawing.Point(0, 0);
             this.closebtn.Name = "closebtn";
             this.closebtn.Size = new System.Drawing.Size(40, 40);
             this.closebtn.TabIndex = 1;
