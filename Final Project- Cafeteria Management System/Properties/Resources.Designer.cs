@@ -153,6 +153,16 @@ namespace Final_Project__Cafeteria_Management_System.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap imageedit_21_8498662889 {
+            get {
+                object obj = ResourceManager.GetObject("imageedit_21_8498662889", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap imageedit_41_7678297079 {
             get {
                 object obj = ResourceManager.GetObject("imageedit_41_7678297079", resourceCulture);
@@ -176,6 +186,16 @@ namespace Final_Project__Cafeteria_Management_System.Properties {
         internal static System.Drawing.Bitmap imageedit_42_3909755759 {
             get {
                 object obj = ResourceManager.GetObject("imageedit_42_3909755759", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Menu {
+            get {
+                object obj = ResourceManager.GetObject("Menu", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -170,5 +170,11 @@
   <ItemGroup>
     <None Include="Resources\backbtn.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imageedit_21_8498662889.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -21,6 +21,42 @@ namespace Final_Project__Cafeteria_Management_System
         {
 
         }
+        bool sidebarExpand;
+        private void sidebarTimer_Tick(object sender, EventArgs e)
+        {
+            if (sidebarExpand)
+            {
+                sidebar.Width -= 10;
+                if (sidebar.Width == sidebar.MinimumSize.Width)
+                {
+                    sidebarExpand = false;
+                    sidebarTimer.Stop();
+                }
+
+            }
+            else
+            {
+                sidebar.Width += 10;
+                if (sidebar.Width == sidebar.MaximumSize.Width)
+                {
+                    sidebarExpand = true;
+                    sidebarTimer.Stop();
+                }
+            }
+        }
+        private void menubtn_Click(object sender, EventArgs e)
+        {
+            sidebarTimer.Start();
+
+
+            homePanel.Visible = false;
+            drinksPanel.Visible = false;
+            candiesPanel.Visible = false;
+            snacksPanel.Visible = false;
+            breadsPanel.Visible = false;
+            menuPanel.Visible = true;
+        }
+
 
         private void closebtn_Click(object sender, EventArgs e)
         {
@@ -41,6 +77,7 @@ namespace Final_Project__Cafeteria_Management_System
             candiesPanel.Visible = false;
             snacksPanel.Visible = false;
             breadsPanel.Visible = false;
+            menuPanel.Visible = false;
         }
 
         private void drinksbtn_Click(object sender, EventArgs e)
@@ -50,6 +87,7 @@ namespace Final_Project__Cafeteria_Management_System
             candiesPanel.Visible = false;
             snacksPanel.Visible = false;
             breadsPanel.Visible = false;
+            menuPanel.Visible = false;
         }
 
         private void candiesbtn_Click(object sender, EventArgs e)
@@ -59,6 +97,7 @@ namespace Final_Project__Cafeteria_Management_System
             candiesPanel.Visible = true;
             snacksPanel.Visible = false;
             breadsPanel.Visible = false;
+            menuPanel.Visible = false;
         }
 
         private void snacksbtn_Click(object sender, EventArgs e)
@@ -68,6 +107,7 @@ namespace Final_Project__Cafeteria_Management_System
             candiesPanel.Visible = false;
             snacksPanel.Visible = true;
             breadsPanel.Visible = false;
+            menuPanel.Visible = false;
         }
 
         private void breadsbtn_Click(object sender, EventArgs e)
@@ -77,6 +117,9 @@ namespace Final_Project__Cafeteria_Management_System
             candiesPanel.Visible = false;
             snacksPanel.Visible = false;
             breadsPanel.Visible = true;
+              menuPanel.Visible = false;
         }
+
+       
     }
 }

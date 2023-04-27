@@ -29,7 +29,8 @@ namespace Final_Project__Cafeteria_Management_System
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.components = new System.ComponentModel.Container();
+            this.sidebar = new System.Windows.Forms.Panel();
             this.drinksPanel = new System.Windows.Forms.Panel();
             this.homePanel = new System.Windows.Forms.Panel();
             this.breadsPanel = new System.Windows.Forms.Panel();
@@ -38,21 +39,24 @@ namespace Final_Project__Cafeteria_Management_System
             this.panel3 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.snacksbtn = new System.Windows.Forms.Button();
-            this.backbtn = new System.Windows.Forms.Button();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.breadsbtn = new System.Windows.Forms.Button();
             this.candiesbtn = new System.Windows.Forms.Button();
             this.homebtn = new System.Windows.Forms.Button();
             this.drinksbtn = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.closebtn = new System.Windows.Forms.Button();
-            this.panel1.SuspendLayout();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.backbtn = new System.Windows.Forms.Button();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.sidebarTimer = new System.Windows.Forms.Timer(this.components);
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.menuPanel = new System.Windows.Forms.Panel();
+            this.menubtn = new System.Windows.Forms.Button();
+            this.sidebar.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -62,31 +66,35 @@ namespace Final_Project__Cafeteria_Management_System
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
-            // panel1
+            // sidebar
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(31)))), ((int)(((byte)(32)))));
-            this.panel1.Controls.Add(this.drinksPanel);
-            this.panel1.Controls.Add(this.homePanel);
-            this.panel1.Controls.Add(this.breadsPanel);
-            this.panel1.Controls.Add(this.snacksPanel);
-            this.panel1.Controls.Add(this.candiesPanel);
-            this.panel1.Controls.Add(this.panel3);
-            this.panel1.Controls.Add(this.pictureBox5);
-            this.panel1.Controls.Add(this.snacksbtn);
-            this.panel1.Controls.Add(this.backbtn);
-            this.panel1.Controls.Add(this.pictureBox6);
-            this.panel1.Controls.Add(this.pictureBox4);
-            this.panel1.Controls.Add(this.pictureBox3);
-            this.panel1.Controls.Add(this.pictureBox2);
-            this.panel1.Controls.Add(this.breadsbtn);
-            this.panel1.Controls.Add(this.candiesbtn);
-            this.panel1.Controls.Add(this.homebtn);
-            this.panel1.Controls.Add(this.drinksbtn);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(231, 625);
-            this.panel1.TabIndex = 0;
+            this.sidebar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(31)))), ((int)(((byte)(32)))));
+            this.sidebar.Controls.Add(this.menuPanel);
+            this.sidebar.Controls.Add(this.backbtn);
+            this.sidebar.Controls.Add(this.panel3);
+            this.sidebar.Controls.Add(this.drinksPanel);
+            this.sidebar.Controls.Add(this.homePanel);
+            this.sidebar.Controls.Add(this.breadsPanel);
+            this.sidebar.Controls.Add(this.snacksPanel);
+            this.sidebar.Controls.Add(this.candiesPanel);
+            this.sidebar.Controls.Add(this.pictureBox5);
+            this.sidebar.Controls.Add(this.snacksbtn);
+            this.sidebar.Controls.Add(this.pictureBox6);
+            this.sidebar.Controls.Add(this.pictureBox4);
+            this.sidebar.Controls.Add(this.pictureBox3);
+            this.sidebar.Controls.Add(this.pictureBox2);
+            this.sidebar.Controls.Add(this.breadsbtn);
+            this.sidebar.Controls.Add(this.candiesbtn);
+            this.sidebar.Controls.Add(this.homebtn);
+            this.sidebar.Controls.Add(this.drinksbtn);
+            this.sidebar.Controls.Add(this.menubtn);
+            this.sidebar.Dock = System.Windows.Forms.DockStyle.Left;
+            this.sidebar.Location = new System.Drawing.Point(0, 0);
+            this.sidebar.MaximumSize = new System.Drawing.Size(258, 625);
+            this.sidebar.MinimumSize = new System.Drawing.Size(69, 625);
+            this.sidebar.Name = "sidebar";
+            this.sidebar.Size = new System.Drawing.Size(258, 625);
+            this.sidebar.TabIndex = 0;
             // 
             // drinksPanel
             // 
@@ -139,9 +147,9 @@ namespace Final_Project__Cafeteria_Management_System
             this.panel3.Controls.Add(this.label1);
             this.panel3.Controls.Add(this.label7);
             this.panel3.Controls.Add(this.pictureBox1);
-            this.panel3.Location = new System.Drawing.Point(60, -3);
+            this.panel3.Location = new System.Drawing.Point(145, -1);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(122, 169);
+            this.panel3.Size = new System.Drawing.Size(107, 153);
             this.panel3.TabIndex = 2;
             // 
             // label1
@@ -150,7 +158,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.label1.BackColor = System.Drawing.Color.Teal;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(9, 112);
+            this.label1.Location = new System.Drawing.Point(3, 95);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(65, 19);
             this.label1.TabIndex = 18;
@@ -162,32 +170,11 @@ namespace Final_Project__Cafeteria_Management_System
             this.label7.BackColor = System.Drawing.Color.Teal;
             this.label7.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(38, 133);
+            this.label7.Location = new System.Drawing.Point(25, 114);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(79, 20);
             this.label7.TabIndex = 17;
             this.label7.Text = "Cafeteria";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Teal;
-            this.pictureBox1.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.Screenshot_2023_04_20_084940_removebg_preview;
-            this.pictureBox1.Location = new System.Drawing.Point(13, 19);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(96, 81);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.snacks;
-            this.pictureBox5.Location = new System.Drawing.Point(27, 414);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(37, 30);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 15;
-            this.pictureBox5.TabStop = false;
             // 
             // snacksbtn
             // 
@@ -203,6 +190,114 @@ namespace Final_Project__Cafeteria_Management_System
             this.snacksbtn.Text = "Snacks";
             this.snacksbtn.UseVisualStyleBackColor = true;
             this.snacksbtn.Click += new System.EventHandler(this.snacksbtn_Click);
+            // 
+            // breadsbtn
+            // 
+            this.breadsbtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.breadsbtn.FlatAppearance.BorderSize = 0;
+            this.breadsbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.breadsbtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.breadsbtn.ForeColor = System.Drawing.Color.White;
+            this.breadsbtn.Location = new System.Drawing.Point(0, 465);
+            this.breadsbtn.Name = "breadsbtn";
+            this.breadsbtn.Size = new System.Drawing.Size(228, 55);
+            this.breadsbtn.TabIndex = 5;
+            this.breadsbtn.Text = "Breads";
+            this.breadsbtn.UseVisualStyleBackColor = true;
+            this.breadsbtn.Click += new System.EventHandler(this.breadsbtn_Click);
+            // 
+            // candiesbtn
+            // 
+            this.candiesbtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.candiesbtn.FlatAppearance.BorderSize = 0;
+            this.candiesbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.candiesbtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.candiesbtn.ForeColor = System.Drawing.Color.White;
+            this.candiesbtn.Location = new System.Drawing.Point(0, 343);
+            this.candiesbtn.Name = "candiesbtn";
+            this.candiesbtn.Size = new System.Drawing.Size(228, 55);
+            this.candiesbtn.TabIndex = 3;
+            this.candiesbtn.Text = "Candies";
+            this.candiesbtn.UseVisualStyleBackColor = true;
+            this.candiesbtn.Click += new System.EventHandler(this.candiesbtn_Click);
+            // 
+            // homebtn
+            // 
+            this.homebtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.homebtn.FlatAppearance.BorderSize = 0;
+            this.homebtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.homebtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.homebtn.ForeColor = System.Drawing.Color.White;
+            this.homebtn.Location = new System.Drawing.Point(0, 221);
+            this.homebtn.Name = "homebtn";
+            this.homebtn.Size = new System.Drawing.Size(228, 55);
+            this.homebtn.TabIndex = 0;
+            this.homebtn.Text = "Home";
+            this.homebtn.UseVisualStyleBackColor = true;
+            this.homebtn.Click += new System.EventHandler(this.homebtn_Click);
+            // 
+            // drinksbtn
+            // 
+            this.drinksbtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.drinksbtn.FlatAppearance.BorderSize = 0;
+            this.drinksbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.drinksbtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.drinksbtn.ForeColor = System.Drawing.Color.White;
+            this.drinksbtn.Location = new System.Drawing.Point(0, 282);
+            this.drinksbtn.Name = "drinksbtn";
+            this.drinksbtn.Size = new System.Drawing.Size(228, 55);
+            this.drinksbtn.TabIndex = 17;
+            this.drinksbtn.Text = "Drinks";
+            this.drinksbtn.UseVisualStyleBackColor = true;
+            this.drinksbtn.Click += new System.EventHandler(this.drinksbtn_Click);
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.Teal;
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(258, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(867, 12);
+            this.panel2.TabIndex = 1;
+            // 
+            // closebtn
+            // 
+            this.closebtn.BackColor = System.Drawing.Color.Transparent;
+            this.closebtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.closebtn.FlatAppearance.BorderSize = 0;
+            this.closebtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.closebtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.closebtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.closebtn.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.closebtn.ForeColor = System.Drawing.Color.Teal;
+            this.closebtn.Location = new System.Drawing.Point(1085, 12);
+            this.closebtn.Name = "closebtn";
+            this.closebtn.Size = new System.Drawing.Size(40, 40);
+            this.closebtn.TabIndex = 12;
+            this.closebtn.Text = "X";
+            this.closebtn.UseVisualStyleBackColor = false;
+            this.closebtn.Click += new System.EventHandler(this.closebtn_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Teal;
+            this.pictureBox1.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.Screenshot_2023_04_20_084940_removebg_preview;
+            this.pictureBox1.Location = new System.Drawing.Point(13, 13);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(79, 64);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.snacks;
+            this.pictureBox5.Location = new System.Drawing.Point(27, 414);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(37, 30);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 15;
+            this.pictureBox5.TabStop = false;
             // 
             // backbtn
             // 
@@ -252,6 +347,12 @@ namespace Final_Project__Cafeteria_Management_System
             this.pictureBox3.TabIndex = 8;
             this.pictureBox3.TabStop = false;
             // 
+            // sidebarTimer
+            // 
+            this.sidebarTimer.Enabled = true;
+            this.sidebarTimer.Interval = 10;
+            this.sidebarTimer.Tick += new System.EventHandler(this.sidebarTimer_Tick);
+            // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.imageedit_2_6258554102;
@@ -262,93 +363,32 @@ namespace Final_Project__Cafeteria_Management_System
             this.pictureBox2.TabIndex = 7;
             this.pictureBox2.TabStop = false;
             // 
-            // breadsbtn
+            // menuPanel
             // 
-            this.breadsbtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.breadsbtn.FlatAppearance.BorderSize = 0;
-            this.breadsbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.breadsbtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.breadsbtn.ForeColor = System.Drawing.Color.White;
-            this.breadsbtn.Location = new System.Drawing.Point(0, 465);
-            this.breadsbtn.Name = "breadsbtn";
-            this.breadsbtn.Size = new System.Drawing.Size(228, 55);
-            this.breadsbtn.TabIndex = 5;
-            this.breadsbtn.Text = "Breads";
-            this.breadsbtn.UseVisualStyleBackColor = true;
-            this.breadsbtn.Click += new System.EventHandler(this.breadsbtn_Click);
+            this.menuPanel.BackColor = System.Drawing.Color.Teal;
+            this.menuPanel.Location = new System.Drawing.Point(0, 36);
+            this.menuPanel.Name = "menuPanel";
+            this.menuPanel.Size = new System.Drawing.Size(10, 55);
+            this.menuPanel.TabIndex = 20;
+            this.menuPanel.Visible = false;
             // 
-            // candiesbtn
+            // menubtn
             // 
-            this.candiesbtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.candiesbtn.FlatAppearance.BorderSize = 0;
-            this.candiesbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.candiesbtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.candiesbtn.ForeColor = System.Drawing.Color.White;
-            this.candiesbtn.Location = new System.Drawing.Point(0, 343);
-            this.candiesbtn.Name = "candiesbtn";
-            this.candiesbtn.Size = new System.Drawing.Size(228, 55);
-            this.candiesbtn.TabIndex = 3;
-            this.candiesbtn.Text = "Candies";
-            this.candiesbtn.UseVisualStyleBackColor = true;
-            this.candiesbtn.Click += new System.EventHandler(this.candiesbtn_Click);
-            // 
-            // homebtn
-            // 
-            this.homebtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.homebtn.FlatAppearance.BorderSize = 0;
-            this.homebtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(31)))), ((int)(((byte)(32)))));
-            this.homebtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.homebtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.homebtn.ForeColor = System.Drawing.Color.White;
-            this.homebtn.Location = new System.Drawing.Point(0, 221);
-            this.homebtn.Name = "homebtn";
-            this.homebtn.Size = new System.Drawing.Size(228, 55);
-            this.homebtn.TabIndex = 0;
-            this.homebtn.Text = "Home";
-            this.homebtn.UseVisualStyleBackColor = true;
-            this.homebtn.Click += new System.EventHandler(this.homebtn_Click);
-            // 
-            // drinksbtn
-            // 
-            this.drinksbtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.drinksbtn.FlatAppearance.BorderSize = 0;
-            this.drinksbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.drinksbtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.drinksbtn.ForeColor = System.Drawing.Color.White;
-            this.drinksbtn.Location = new System.Drawing.Point(0, 282);
-            this.drinksbtn.Name = "drinksbtn";
-            this.drinksbtn.Size = new System.Drawing.Size(228, 55);
-            this.drinksbtn.TabIndex = 17;
-            this.drinksbtn.Text = "Drinks";
-            this.drinksbtn.UseVisualStyleBackColor = true;
-            this.drinksbtn.Click += new System.EventHandler(this.drinksbtn_Click);
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.Teal;
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(231, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(894, 12);
-            this.panel2.TabIndex = 1;
-            // 
-            // closebtn
-            // 
-            this.closebtn.BackColor = System.Drawing.Color.Transparent;
-            this.closebtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.closebtn.FlatAppearance.BorderSize = 0;
-            this.closebtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.closebtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.closebtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.closebtn.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.closebtn.ForeColor = System.Drawing.Color.Teal;
-            this.closebtn.Location = new System.Drawing.Point(1085, 12);
-            this.closebtn.Name = "closebtn";
-            this.closebtn.Size = new System.Drawing.Size(40, 40);
-            this.closebtn.TabIndex = 12;
-            this.closebtn.Text = "X";
-            this.closebtn.UseVisualStyleBackColor = false;
-            this.closebtn.Click += new System.EventHandler(this.closebtn_Click);
+            this.menubtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.menubtn.FlatAppearance.BorderSize = 0;
+            this.menubtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.menubtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menubtn.ForeColor = System.Drawing.Color.White;
+            this.menubtn.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.imageedit_21_8498662889;
+            this.menubtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.menubtn.Location = new System.Drawing.Point(12, 36);
+            this.menubtn.Name = "menubtn";
+            this.menubtn.Size = new System.Drawing.Size(139, 55);
+            this.menubtn.TabIndex = 21;
+            this.menubtn.Text = "                  Menu";
+            this.menubtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.menubtn.UseVisualStyleBackColor = true;
+            this.menubtn.Click += new System.EventHandler(this.menubtn_Click);
             // 
             // Main
             // 
@@ -358,13 +398,13 @@ namespace Final_Project__Cafeteria_Management_System
             this.ClientSize = new System.Drawing.Size(1125, 625);
             this.Controls.Add(this.closebtn);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.sidebar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Main";
             this.Load += new System.EventHandler(this.Main_Load);
-            this.panel1.ResumeLayout(false);
+            this.sidebar.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -379,7 +419,7 @@ namespace Final_Project__Cafeteria_Management_System
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel sidebar;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.PictureBox pictureBox1;
@@ -388,7 +428,6 @@ namespace Final_Project__Cafeteria_Management_System
         private System.Windows.Forms.Button homebtn;
         private System.Windows.Forms.Button breadsbtn;
         private System.Windows.Forms.Button candiesbtn;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox6;
@@ -402,5 +441,9 @@ namespace Final_Project__Cafeteria_Management_System
         private System.Windows.Forms.Panel homePanel;
         private System.Windows.Forms.Button drinksbtn;
         private System.Windows.Forms.Panel drinksPanel;
+        private System.Windows.Forms.Timer sidebarTimer;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Panel menuPanel;
+        private System.Windows.Forms.Button menubtn;
     }
 }
