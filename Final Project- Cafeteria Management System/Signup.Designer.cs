@@ -42,6 +42,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.panel5 = new System.Windows.Forms.Panel();
             this.showpassbtn2 = new System.Windows.Forms.Button();
             this.hidepassbtn2 = new System.Windows.Forms.Button();
+            this.txt_confirmPassword = new System.Windows.Forms.TextBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.registerbtn = new System.Windows.Forms.Button();
             this.closebtn = new System.Windows.Forms.Button();
@@ -55,7 +56,6 @@ namespace Final_Project__Cafeteria_Management_System
             this.txt_password = new System.Windows.Forms.TextBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.txt_confirmPassword = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -236,6 +236,17 @@ namespace Final_Project__Cafeteria_Management_System
             this.hidepassbtn2.UseVisualStyleBackColor = false;
             this.hidepassbtn2.Click += new System.EventHandler(this.hidepassbtn2_Click);
             // 
+            // txt_confirmPassword
+            // 
+            this.txt_confirmPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_confirmPassword.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_confirmPassword.ForeColor = System.Drawing.Color.Teal;
+            this.txt_confirmPassword.Location = new System.Drawing.Point(55, 14);
+            this.txt_confirmPassword.Name = "txt_confirmPassword";
+            this.txt_confirmPassword.Size = new System.Drawing.Size(370, 20);
+            this.txt_confirmPassword.TabIndex = 26;
+            this.txt_confirmPassword.UseSystemPasswordChar = true;
+            // 
             // pictureBox6
             // 
             this.pictureBox6.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.Screenshot_2023_04_20_085620_removebg_preview;
@@ -249,6 +260,7 @@ namespace Final_Project__Cafeteria_Management_System
             // registerbtn
             // 
             this.registerbtn.BackColor = System.Drawing.Color.Teal;
+            this.registerbtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.registerbtn.FlatAppearance.BorderSize = 0;
             this.registerbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.registerbtn.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -396,17 +408,6 @@ namespace Final_Project__Cafeteria_Management_System
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            // 
-            // txt_confirmPassword
-            // 
-            this.txt_confirmPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txt_confirmPassword.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_confirmPassword.ForeColor = System.Drawing.Color.Teal;
-            this.txt_confirmPassword.Location = new System.Drawing.Point(55, 14);
-            this.txt_confirmPassword.Name = "txt_confirmPassword";
-            this.txt_confirmPassword.Size = new System.Drawing.Size(370, 20);
-            this.txt_confirmPassword.TabIndex = 26;
-            this.txt_confirmPassword.UseSystemPasswordChar = true;
             // 
             // Signup
             // 

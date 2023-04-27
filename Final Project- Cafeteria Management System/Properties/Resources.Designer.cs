@@ -203,6 +203,16 @@ namespace Final_Project__Cafeteria_Management_System.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Sandwich {
+            get {
+                object obj = ResourceManager.GetObject("Sandwich", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Screenshot_2023_04_20_080034_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("Screenshot_2023-04-20_080034-removebg-preview", resourceCulture);
