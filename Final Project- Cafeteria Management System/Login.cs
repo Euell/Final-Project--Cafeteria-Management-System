@@ -49,5 +49,10 @@ namespace Final_Project__Cafeteria_Management_System
             hidepassbtn.Visible = false;
             showpassbtn.Visible = true;
         }
+
+        private void txt_username_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

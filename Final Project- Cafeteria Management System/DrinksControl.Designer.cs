@@ -176,6 +176,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.label14.Size = new System.Drawing.Size(22, 24);
             this.label14.TabIndex = 24;
             this.label14.Text = "0";
+            this.label14.Visible = false;
             // 
             // panel3
             // 
@@ -199,6 +200,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.label1.Size = new System.Drawing.Size(22, 24);
             this.label1.TabIndex = 24;
             this.label1.Text = "0";
+            this.label1.Visible = false;
             // 
             // button2
             // 
@@ -258,6 +260,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.label5.Size = new System.Drawing.Size(22, 24);
             this.label5.TabIndex = 24;
             this.label5.Text = "0";
+            this.label5.Visible = false;
             // 
             // button3
             // 
@@ -317,6 +320,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.label8.Size = new System.Drawing.Size(22, 24);
             this.label8.TabIndex = 24;
             this.label8.Text = "0";
+            this.label8.Visible = false;
             // 
             // button4
             // 
@@ -376,6 +380,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.label11.Size = new System.Drawing.Size(22, 24);
             this.label11.TabIndex = 24;
             this.label11.Text = "0";
+            this.label11.Visible = false;
             // 
             // button5
             // 
@@ -435,6 +440,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.label16.Size = new System.Drawing.Size(22, 24);
             this.label16.TabIndex = 24;
             this.label16.Text = "0";
+            this.label16.Visible = false;
             // 
             // button6
             // 
@@ -494,6 +500,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.label19.Size = new System.Drawing.Size(22, 24);
             this.label19.TabIndex = 24;
             this.label19.Text = "0";
+            this.label19.Visible = false;
             // 
             // button7
             // 
@@ -553,6 +560,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.label22.Size = new System.Drawing.Size(22, 24);
             this.label22.TabIndex = 24;
             this.label22.Text = "0";
+            this.label22.Visible = false;
             // 
             // button8
             // 
