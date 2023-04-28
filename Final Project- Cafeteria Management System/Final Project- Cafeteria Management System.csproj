@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DrinksControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DrinksControl.Designer.cs">
+      <DependentUpon>DrinksControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="HomeControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -72,6 +78,9 @@
     <Compile Include="Signup.Designer.cs">
       <DependentUpon>Signup.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="DrinksControl.resx">
+      <DependentUpon>DrinksControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="HomeControl.resx">
       <DependentUpon>HomeControl.cs</DependentUpon>
     </EmbeddedResource>
@@ -199,6 +208,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\expand button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Le Minirale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Absolute.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Evian.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Summit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Coke.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Royal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Root Beer.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
