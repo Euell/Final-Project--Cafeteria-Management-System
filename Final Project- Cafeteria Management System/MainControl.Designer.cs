@@ -75,13 +75,12 @@ namespace Final_Project__Cafeteria_Management_System
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
+            this.chickenAndCheeseSandwich = new System.Windows.Forms.Label();
+            this.vegAndCheeseSandwich = new System.Windows.Forms.Label();
+            this.eggAndCheeseSandwich = new System.Windows.Forms.Label();
+            this.vegSandwich = new System.Windows.Forms.Label();
+            this.chickenSandwich = new System.Windows.Forms.Label();
+            this.eggSandwich = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
@@ -93,15 +92,16 @@ namespace Final_Project__Cafeteria_Management_System
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.chickenAndCheeseSandwichBtn = new System.Windows.Forms.Button();
+            this.vegAndCheeseSandwichBtn = new System.Windows.Forms.Button();
+            this.eggAndCheeseSandwichBtn = new System.Windows.Forms.Button();
+            this.vegSandwichBtn = new System.Windows.Forms.Button();
+            this.chickenSandwichBtn = new System.Windows.Forms.Button();
+            this.cheeseSandwichBtn = new System.Windows.Forms.Button();
+            this.eggSandwichBtn = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.cheeseSandwich = new System.Windows.Forms.Label();
             this.mainPanel.SuspendLayout();
             this.panel8.SuspendLayout();
             this.panel11.SuspendLayout();
@@ -684,102 +684,90 @@ namespace Final_Project__Cafeteria_Management_System
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.label33);
-            this.panel2.Controls.Add(this.label32);
-            this.panel2.Controls.Add(this.label31);
-            this.panel2.Controls.Add(this.label24);
-            this.panel2.Controls.Add(this.label23);
-            this.panel2.Controls.Add(this.label15);
-            this.panel2.Controls.Add(this.label14);
+            this.panel2.Controls.Add(this.cheeseSandwich);
+            this.panel2.Controls.Add(this.chickenAndCheeseSandwich);
+            this.panel2.Controls.Add(this.vegAndCheeseSandwich);
+            this.panel2.Controls.Add(this.eggAndCheeseSandwich);
+            this.panel2.Controls.Add(this.vegSandwich);
+            this.panel2.Controls.Add(this.chickenSandwich);
+            this.panel2.Controls.Add(this.eggSandwich);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel2.Location = new System.Drawing.Point(427, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(44, 224);
             this.panel2.TabIndex = 20;
             // 
-            // label33
+            // chickenAndCheeseSandwich
             // 
-            this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.ForeColor = System.Drawing.Color.White;
-            this.label33.Location = new System.Drawing.Point(3, 196);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(22, 24);
-            this.label33.TabIndex = 23;
-            this.label33.Text = "0";
-            this.label33.Visible = false;
+            this.chickenAndCheeseSandwich.AutoSize = true;
+            this.chickenAndCheeseSandwich.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chickenAndCheeseSandwich.ForeColor = System.Drawing.Color.White;
+            this.chickenAndCheeseSandwich.Location = new System.Drawing.Point(3, 196);
+            this.chickenAndCheeseSandwich.Name = "chickenAndCheeseSandwich";
+            this.chickenAndCheeseSandwich.Size = new System.Drawing.Size(22, 24);
+            this.chickenAndCheeseSandwich.TabIndex = 23;
+            this.chickenAndCheeseSandwich.Text = "0";
+            this.chickenAndCheeseSandwich.Visible = false;
             // 
-            // label32
+            // vegAndCheeseSandwich
             // 
-            this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.ForeColor = System.Drawing.Color.White;
-            this.label32.Location = new System.Drawing.Point(3, 172);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(22, 24);
-            this.label32.TabIndex = 22;
-            this.label32.Text = "0";
-            this.label32.Visible = false;
+            this.vegAndCheeseSandwich.AutoSize = true;
+            this.vegAndCheeseSandwich.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.vegAndCheeseSandwich.ForeColor = System.Drawing.Color.White;
+            this.vegAndCheeseSandwich.Location = new System.Drawing.Point(3, 172);
+            this.vegAndCheeseSandwich.Name = "vegAndCheeseSandwich";
+            this.vegAndCheeseSandwich.Size = new System.Drawing.Size(22, 24);
+            this.vegAndCheeseSandwich.TabIndex = 22;
+            this.vegAndCheeseSandwich.Text = "0";
+            this.vegAndCheeseSandwich.Visible = false;
             // 
-            // label31
+            // eggAndCheeseSandwich
             // 
-            this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.ForeColor = System.Drawing.Color.White;
-            this.label31.Location = new System.Drawing.Point(3, 145);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(22, 24);
-            this.label31.TabIndex = 9;
-            this.label31.Text = "0";
-            this.label31.Visible = false;
+            this.eggAndCheeseSandwich.AutoSize = true;
+            this.eggAndCheeseSandwich.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.eggAndCheeseSandwich.ForeColor = System.Drawing.Color.White;
+            this.eggAndCheeseSandwich.Location = new System.Drawing.Point(3, 145);
+            this.eggAndCheeseSandwich.Name = "eggAndCheeseSandwich";
+            this.eggAndCheeseSandwich.Size = new System.Drawing.Size(22, 24);
+            this.eggAndCheeseSandwich.TabIndex = 9;
+            this.eggAndCheeseSandwich.Text = "0";
+            this.eggAndCheeseSandwich.Visible = false;
             // 
-            // label24
+            // vegSandwich
             // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.ForeColor = System.Drawing.Color.White;
-            this.label24.Location = new System.Drawing.Point(3, 121);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(22, 24);
-            this.label24.TabIndex = 8;
-            this.label24.Text = "0";
-            this.label24.Visible = false;
+            this.vegSandwich.AutoSize = true;
+            this.vegSandwich.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.vegSandwich.ForeColor = System.Drawing.Color.White;
+            this.vegSandwich.Location = new System.Drawing.Point(3, 121);
+            this.vegSandwich.Name = "vegSandwich";
+            this.vegSandwich.Size = new System.Drawing.Size(22, 24);
+            this.vegSandwich.TabIndex = 8;
+            this.vegSandwich.Text = "0";
+            this.vegSandwich.Visible = false;
             // 
-            // label23
+            // chickenSandwich
             // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.ForeColor = System.Drawing.Color.White;
-            this.label23.Location = new System.Drawing.Point(3, 95);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(22, 24);
-            this.label23.TabIndex = 7;
-            this.label23.Text = "0";
-            this.label23.Visible = false;
+            this.chickenSandwich.AutoSize = true;
+            this.chickenSandwich.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chickenSandwich.ForeColor = System.Drawing.Color.White;
+            this.chickenSandwich.Location = new System.Drawing.Point(3, 95);
+            this.chickenSandwich.Name = "chickenSandwich";
+            this.chickenSandwich.Size = new System.Drawing.Size(22, 24);
+            this.chickenSandwich.TabIndex = 7;
+            this.chickenSandwich.Text = "0";
+            this.chickenSandwich.Visible = false;
             // 
-            // label15
+            // eggSandwich
             // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.Color.White;
-            this.label15.Location = new System.Drawing.Point(3, 69);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(22, 24);
-            this.label15.TabIndex = 6;
-            this.label15.Text = "0";
-            this.label15.Visible = false;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.Color.White;
-            this.label14.Location = new System.Drawing.Point(3, 43);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(22, 24);
-            this.label14.TabIndex = 5;
-            this.label14.Text = "0";
-            this.label14.Visible = false;
+            this.eggSandwich.AutoSize = true;
+            this.eggSandwich.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.eggSandwich.ForeColor = System.Drawing.Color.White;
+            this.eggSandwich.Location = new System.Drawing.Point(3, 43);
+            this.eggSandwich.Name = "eggSandwich";
+            this.eggSandwich.Size = new System.Drawing.Size(22, 24);
+            this.eggSandwich.TabIndex = 5;
+            this.eggSandwich.Text = "0";
+            this.eggSandwich.Visible = false;
             // 
             // label12
             // 
@@ -894,115 +882,122 @@ namespace Final_Project__Cafeteria_Management_System
             // 
             // panel5
             // 
-            this.panel5.Controls.Add(this.button7);
-            this.panel5.Controls.Add(this.button6);
-            this.panel5.Controls.Add(this.button5);
-            this.panel5.Controls.Add(this.button4);
-            this.panel5.Controls.Add(this.button3);
-            this.panel5.Controls.Add(this.button2);
-            this.panel5.Controls.Add(this.button1);
+            this.panel5.Controls.Add(this.chickenAndCheeseSandwichBtn);
+            this.panel5.Controls.Add(this.vegAndCheeseSandwichBtn);
+            this.panel5.Controls.Add(this.eggAndCheeseSandwichBtn);
+            this.panel5.Controls.Add(this.vegSandwichBtn);
+            this.panel5.Controls.Add(this.chickenSandwichBtn);
+            this.panel5.Controls.Add(this.cheeseSandwichBtn);
+            this.panel5.Controls.Add(this.eggSandwichBtn);
             this.panel5.Location = new System.Drawing.Point(393, 0);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(44, 224);
             this.panel5.TabIndex = 19;
             // 
-            // button7
+            // chickenAndCheeseSandwichBtn
             // 
-            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(9, 195);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(28, 29);
-            this.button7.TabIndex = 28;
-            this.button7.Text = "+";
-            this.button7.UseVisualStyleBackColor = true;
+            this.chickenAndCheeseSandwichBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chickenAndCheeseSandwichBtn.FlatAppearance.BorderSize = 0;
+            this.chickenAndCheeseSandwichBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.chickenAndCheeseSandwichBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chickenAndCheeseSandwichBtn.ForeColor = System.Drawing.Color.White;
+            this.chickenAndCheeseSandwichBtn.Location = new System.Drawing.Point(9, 195);
+            this.chickenAndCheeseSandwichBtn.Name = "chickenAndCheeseSandwichBtn";
+            this.chickenAndCheeseSandwichBtn.Size = new System.Drawing.Size(28, 29);
+            this.chickenAndCheeseSandwichBtn.TabIndex = 28;
+            this.chickenAndCheeseSandwichBtn.Text = "+";
+            this.chickenAndCheeseSandwichBtn.UseVisualStyleBackColor = true;
+            this.chickenAndCheeseSandwichBtn.Click += new System.EventHandler(this.chickenAndCheeseSandwichBtn_Click);
             // 
-            // button6
+            // vegAndCheeseSandwichBtn
             // 
-            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(9, 169);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(28, 29);
-            this.button6.TabIndex = 27;
-            this.button6.Text = "+";
-            this.button6.UseVisualStyleBackColor = true;
+            this.vegAndCheeseSandwichBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.vegAndCheeseSandwichBtn.FlatAppearance.BorderSize = 0;
+            this.vegAndCheeseSandwichBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.vegAndCheeseSandwichBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.vegAndCheeseSandwichBtn.ForeColor = System.Drawing.Color.White;
+            this.vegAndCheeseSandwichBtn.Location = new System.Drawing.Point(9, 169);
+            this.vegAndCheeseSandwichBtn.Name = "vegAndCheeseSandwichBtn";
+            this.vegAndCheeseSandwichBtn.Size = new System.Drawing.Size(28, 29);
+            this.vegAndCheeseSandwichBtn.TabIndex = 27;
+            this.vegAndCheeseSandwichBtn.Text = "+";
+            this.vegAndCheeseSandwichBtn.UseVisualStyleBackColor = true;
+            this.vegAndCheeseSandwichBtn.Click += new System.EventHandler(this.vegAndCheeseSandwichBtn_Click);
             // 
-            // button5
+            // eggAndCheeseSandwichBtn
             // 
-            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(9, 142);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(28, 29);
-            this.button5.TabIndex = 26;
-            this.button5.Text = "+";
-            this.button5.UseVisualStyleBackColor = true;
+            this.eggAndCheeseSandwichBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.eggAndCheeseSandwichBtn.FlatAppearance.BorderSize = 0;
+            this.eggAndCheeseSandwichBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.eggAndCheeseSandwichBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.eggAndCheeseSandwichBtn.ForeColor = System.Drawing.Color.White;
+            this.eggAndCheeseSandwichBtn.Location = new System.Drawing.Point(9, 142);
+            this.eggAndCheeseSandwichBtn.Name = "eggAndCheeseSandwichBtn";
+            this.eggAndCheeseSandwichBtn.Size = new System.Drawing.Size(28, 29);
+            this.eggAndCheeseSandwichBtn.TabIndex = 26;
+            this.eggAndCheeseSandwichBtn.Text = "+";
+            this.eggAndCheeseSandwichBtn.UseVisualStyleBackColor = true;
+            this.eggAndCheeseSandwichBtn.Click += new System.EventHandler(this.eggAndCheeseSandwichBtn_Click);
             // 
-            // button4
+            // vegSandwichBtn
             // 
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(9, 116);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(28, 29);
-            this.button4.TabIndex = 25;
-            this.button4.Text = "+";
-            this.button4.UseVisualStyleBackColor = true;
+            this.vegSandwichBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.vegSandwichBtn.FlatAppearance.BorderSize = 0;
+            this.vegSandwichBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.vegSandwichBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.vegSandwichBtn.ForeColor = System.Drawing.Color.White;
+            this.vegSandwichBtn.Location = new System.Drawing.Point(9, 116);
+            this.vegSandwichBtn.Name = "vegSandwichBtn";
+            this.vegSandwichBtn.Size = new System.Drawing.Size(28, 29);
+            this.vegSandwichBtn.TabIndex = 25;
+            this.vegSandwichBtn.Text = "+";
+            this.vegSandwichBtn.UseVisualStyleBackColor = true;
+            this.vegSandwichBtn.Click += new System.EventHandler(this.vegSandwichBtn_Click);
             // 
-            // button3
+            // chickenSandwichBtn
             // 
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(9, 90);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(28, 29);
-            this.button3.TabIndex = 24;
-            this.button3.Text = "+";
-            this.button3.UseVisualStyleBackColor = true;
+            this.chickenSandwichBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chickenSandwichBtn.FlatAppearance.BorderSize = 0;
+            this.chickenSandwichBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.chickenSandwichBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chickenSandwichBtn.ForeColor = System.Drawing.Color.White;
+            this.chickenSandwichBtn.Location = new System.Drawing.Point(9, 90);
+            this.chickenSandwichBtn.Name = "chickenSandwichBtn";
+            this.chickenSandwichBtn.Size = new System.Drawing.Size(28, 29);
+            this.chickenSandwichBtn.TabIndex = 24;
+            this.chickenSandwichBtn.Text = "+";
+            this.chickenSandwichBtn.UseVisualStyleBackColor = true;
+            this.chickenSandwichBtn.Click += new System.EventHandler(this.chickenSandwichBtn_Click);
             // 
-            // button2
+            // cheeseSandwichBtn
             // 
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(9, 64);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(28, 29);
-            this.button2.TabIndex = 23;
-            this.button2.Text = "+";
-            this.button2.UseVisualStyleBackColor = true;
+            this.cheeseSandwichBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cheeseSandwichBtn.FlatAppearance.BorderSize = 0;
+            this.cheeseSandwichBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cheeseSandwichBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cheeseSandwichBtn.ForeColor = System.Drawing.Color.White;
+            this.cheeseSandwichBtn.Location = new System.Drawing.Point(9, 64);
+            this.cheeseSandwichBtn.Name = "cheeseSandwichBtn";
+            this.cheeseSandwichBtn.Size = new System.Drawing.Size(28, 29);
+            this.cheeseSandwichBtn.TabIndex = 23;
+            this.cheeseSandwichBtn.Text = "+";
+            this.cheeseSandwichBtn.UseVisualStyleBackColor = true;
+            this.cheeseSandwichBtn.Click += new System.EventHandler(this.cheeseSandwichBtn_Click);
             // 
-            // button1
+            // eggSandwichBtn
             // 
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(9, 38);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(28, 29);
-            this.button1.TabIndex = 22;
-            this.button1.Text = "+";
-            this.button1.UseVisualStyleBackColor = true;
+            this.eggSandwichBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.eggSandwichBtn.FlatAppearance.BorderSize = 0;
+            this.eggSandwichBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.eggSandwichBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.eggSandwichBtn.ForeColor = System.Drawing.Color.White;
+            this.eggSandwichBtn.Location = new System.Drawing.Point(9, 38);
+            this.eggSandwichBtn.Name = "eggSandwichBtn";
+            this.eggSandwichBtn.Size = new System.Drawing.Size(28, 29);
+            this.eggSandwichBtn.TabIndex = 22;
+            this.eggSandwichBtn.Text = "+";
+            this.eggSandwichBtn.UseVisualStyleBackColor = true;
+            this.eggSandwichBtn.Click += new System.EventHandler(this.eggSandwichBtn_Click);
             // 
             // label2
             // 
@@ -1023,6 +1018,18 @@ namespace Final_Project__Cafeteria_Management_System
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(907, 48);
             this.panel1.TabIndex = 32;
+            // 
+            // cheeseSandwich
+            // 
+            this.cheeseSandwich.AutoSize = true;
+            this.cheeseSandwich.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cheeseSandwich.ForeColor = System.Drawing.Color.White;
+            this.cheeseSandwich.Location = new System.Drawing.Point(3, 67);
+            this.cheeseSandwich.Name = "cheeseSandwich";
+            this.cheeseSandwich.Size = new System.Drawing.Size(22, 24);
+            this.cheeseSandwich.TabIndex = 24;
+            this.cheeseSandwich.Text = "0";
+            this.cheeseSandwich.Visible = false;
             // 
             // MainControl
             // 
@@ -1103,13 +1110,12 @@ namespace Final_Project__Cafeteria_Management_System
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label chickenAndCheeseSandwich;
+        private System.Windows.Forms.Label vegAndCheeseSandwich;
+        private System.Windows.Forms.Label eggAndCheeseSandwich;
+        private System.Windows.Forms.Label vegSandwich;
+        private System.Windows.Forms.Label chickenSandwich;
+        private System.Windows.Forms.Label eggSandwich;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
@@ -1121,14 +1127,15 @@ namespace Final_Project__Cafeteria_Management_System
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button chickenAndCheeseSandwichBtn;
+        private System.Windows.Forms.Button vegAndCheeseSandwichBtn;
+        private System.Windows.Forms.Button eggAndCheeseSandwichBtn;
+        private System.Windows.Forms.Button vegSandwichBtn;
+        private System.Windows.Forms.Button chickenSandwichBtn;
+        private System.Windows.Forms.Button cheeseSandwichBtn;
+        private System.Windows.Forms.Button eggSandwichBtn;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label cheeseSandwich;
     }
 }

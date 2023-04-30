@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -24,9 +25,82 @@ namespace Final_Project__Cafeteria_Management_System
 
         private void registerbtn_Click(object sender, EventArgs e)
         {
-            Login login = new Login();
-            login.Show();
-            this.Hide();
+
+            bool result = CheckUSER(txt_username.Text);
+
+            if(result == false)
+            {
+                INSERTUSER();
+            }
+            else
+            {
+                MessageBox.Show("USER ALREADY EXIST!");
+            }
+        }
+
+        public void INSERTUSER()
+        {
+            try 
+            { 
+            string connetionString = null;
+            SqlConnection cnn;
+            connetionString = "Server=DESKTOP-MUA28CG;Initial Catalog=FinalProject_CafeteriaManagementSystem;Integrated Security=SSPI";
+            cnn = new SqlConnection(connetionString);
+            //try
+            //{
+            cnn.Open();
+            string query = @"INSERT INTO TBL_USERS  (USER_NAME,PASSWORD,DATE_REGISTERED) VALUES (@USERNAME,@PASSWORD,GETDATE())";
+            SqlCommand cmd = new SqlCommand(query, cnn);
+            cmd.Parameters.AddWithValue("@USERNAME", txt_username.Text);
+            cmd.Parameters.AddWithValue("@PASSWORD", txt_password.Text);
+
+
+            cmd.ExecuteNonQuery();
+
+            cnn.Close();
+                MessageBox.Show("USER SUCCESSFULLY REGISTERED!");
+
+                Login login = new Login();
+                login.Show();
+                this.Hide();
+            }
+            catch(Exception e)
+            {
+                MessageBox.Show(e.Message);
+            }
+        }
+
+        public bool CheckUSER(string USERID)
+        {
+            bool result = false;
+            int counter = 0;
+          
+            string connetionString = null;
+            SqlConnection cnn;
+            connetionString = "Server=DESKTOP-MUA28CG;Initial Catalog=FinalProject_CafeteriaManagementSystem;Integrated Security=SSPI";
+            cnn = new SqlConnection(connetionString);
+           
+            cnn.Open();
+            string query = @"SELECT COUNT(1) AS MYCOUNT FROM TBL_USERS WHERE USER_NAME = @USERNAME";
+            SqlCommand cmd = new SqlCommand(query, cnn);
+            cmd.Parameters.AddWithValue("@USERNAME", USERID);
+
+
+            using (SqlDataReader reader = cmd.ExecuteReader())
+            {
+                    while (reader.Read())
+                    {
+                        counter = Convert.ToInt32(reader["MYCOUNT"].ToString());
+                    }
+
+            }
+            cnn.Close();       
+            if (counter > 0)
+            {
+                result = true;
+            }
+
+            return result;
         }
        
 
