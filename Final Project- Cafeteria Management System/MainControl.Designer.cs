@@ -30,20 +30,32 @@ namespace Final_Project__Cafeteria_Management_System
         private void InitializeComponent()
         {
             this.mainPanel = new System.Windows.Forms.Panel();
+            this.panel14 = new System.Windows.Forms.Panel();
+            this.bulaloDecrementBtn = new System.Windows.Forms.Button();
+            this.laPazBatchoyDecrementBtn = new System.Windows.Forms.Button();
+            this.porkDecrementBtn = new System.Windows.Forms.Button();
+            this.beefDecrementBtn = new System.Windows.Forms.Button();
+            this.chickenDecrementBtn = new System.Windows.Forms.Button();
+            this.panel13 = new System.Windows.Forms.Panel();
+            this.TuronDecrementBtn = new System.Windows.Forms.Button();
+            this.BananacueDecrementBtn = new System.Windows.Forms.Button();
+            this.squidBallsDecrementBtn = new System.Windows.Forms.Button();
+            this.fishBallsDecrementBtn = new System.Windows.Forms.Button();
+            this.kwekkwekDecrementBtn = new System.Windows.Forms.Button();
             this.panel12 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
             this.panel11 = new System.Windows.Forms.Panel();
-            this.label34 = new System.Windows.Forms.Label();
-            this.label35 = new System.Windows.Forms.Label();
-            this.label41 = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
+            this.bulalo = new System.Windows.Forms.Label();
+            this.laPazBatchoy = new System.Windows.Forms.Label();
+            this.pork = new System.Windows.Forms.Label();
+            this.beef = new System.Windows.Forms.Label();
+            this.chicken = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
-            this.button21 = new System.Windows.Forms.Button();
+            this.bulaloBtn = new System.Windows.Forms.Button();
+            this.laPazBatchoyBtn = new System.Windows.Forms.Button();
+            this.porkBtn = new System.Windows.Forms.Button();
+            this.beefBtn = new System.Windows.Forms.Button();
+            this.chickenBtn = new System.Windows.Forms.Button();
             this.label22 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
@@ -54,17 +66,17 @@ namespace Final_Project__Cafeteria_Management_System
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.panel6 = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.label36 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
-            this.label39 = new System.Windows.Forms.Label();
-            this.label40 = new System.Windows.Forms.Label();
+            this.Turon = new System.Windows.Forms.Label();
+            this.Bananacue = new System.Windows.Forms.Label();
+            this.squidBalls = new System.Windows.Forms.Label();
+            this.fishBalls = new System.Windows.Forms.Label();
+            this.kwekkwek = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
+            this.TuronBtn = new System.Windows.Forms.Button();
+            this.BananacueBtn = new System.Windows.Forms.Button();
+            this.squidBallsBtn = new System.Windows.Forms.Button();
+            this.fishBallsBtn = new System.Windows.Forms.Button();
+            this.kwekkwekBtn = new System.Windows.Forms.Button();
             this.label13 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
@@ -74,14 +86,23 @@ namespace Final_Project__Cafeteria_Management_System
             this.label21 = new System.Windows.Forms.Label();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.chickenAndCheeseSandwichDecrementBtn = new System.Windows.Forms.Button();
+            this.vegAndCheeseSandwichDecrementBtn = new System.Windows.Forms.Button();
+            this.eggAndCheeseSandwichDecrementBtn = new System.Windows.Forms.Button();
+            this.vegSandwichDecrementBtn = new System.Windows.Forms.Button();
+            this.chickenSandwichDecrementBtn = new System.Windows.Forms.Button();
+            this.cheeseSandwichDecrementBtn = new System.Windows.Forms.Button();
+            this.eggSandwichDecrementBtn = new System.Windows.Forms.Button();
+            this.label12 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.cheeseSandwich = new System.Windows.Forms.Label();
             this.chickenAndCheeseSandwich = new System.Windows.Forms.Label();
             this.vegAndCheeseSandwich = new System.Windows.Forms.Label();
             this.eggAndCheeseSandwich = new System.Windows.Forms.Label();
             this.vegSandwich = new System.Windows.Forms.Label();
             this.chickenSandwich = new System.Windows.Forms.Label();
             this.eggSandwich = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
@@ -101,8 +122,9 @@ namespace Final_Project__Cafeteria_Management_System
             this.eggSandwichBtn = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.cheeseSandwich = new System.Windows.Forms.Label();
             this.mainPanel.SuspendLayout();
+            this.panel14.SuspendLayout();
+            this.panel13.SuspendLayout();
             this.panel8.SuspendLayout();
             this.panel11.SuspendLayout();
             this.panel9.SuspendLayout();
@@ -112,6 +134,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.panel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.panel4.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.panel5.SuspendLayout();
@@ -120,6 +143,8 @@ namespace Final_Project__Cafeteria_Management_System
             // mainPanel
             // 
             this.mainPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.mainPanel.Controls.Add(this.panel14);
+            this.mainPanel.Controls.Add(this.panel13);
             this.mainPanel.Controls.Add(this.panel12);
             this.mainPanel.Controls.Add(this.panel8);
             this.mainPanel.Controls.Add(this.panel6);
@@ -131,6 +156,180 @@ namespace Final_Project__Cafeteria_Management_System
             this.mainPanel.Name = "mainPanel";
             this.mainPanel.Size = new System.Drawing.Size(907, 625);
             this.mainPanel.TabIndex = 15;
+            // 
+            // panel14
+            // 
+            this.panel14.Controls.Add(this.bulaloDecrementBtn);
+            this.panel14.Controls.Add(this.laPazBatchoyDecrementBtn);
+            this.panel14.Controls.Add(this.porkDecrementBtn);
+            this.panel14.Controls.Add(this.beefDecrementBtn);
+            this.panel14.Controls.Add(this.chickenDecrementBtn);
+            this.panel14.Location = new System.Drawing.Point(809, 288);
+            this.panel14.Name = "panel14";
+            this.panel14.Size = new System.Drawing.Size(32, 179);
+            this.panel14.TabIndex = 31;
+            // 
+            // bulaloDecrementBtn
+            // 
+            this.bulaloDecrementBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bulaloDecrementBtn.FlatAppearance.BorderSize = 0;
+            this.bulaloDecrementBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bulaloDecrementBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bulaloDecrementBtn.ForeColor = System.Drawing.Color.White;
+            this.bulaloDecrementBtn.Location = new System.Drawing.Point(9, 140);
+            this.bulaloDecrementBtn.Name = "bulaloDecrementBtn";
+            this.bulaloDecrementBtn.Size = new System.Drawing.Size(28, 29);
+            this.bulaloDecrementBtn.TabIndex = 26;
+            this.bulaloDecrementBtn.Text = "-";
+            this.bulaloDecrementBtn.UseVisualStyleBackColor = true;
+            this.bulaloDecrementBtn.Click += new System.EventHandler(this.bulaloDecrementBtn_Click_1);
+            // 
+            // laPazBatchoyDecrementBtn
+            // 
+            this.laPazBatchoyDecrementBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.laPazBatchoyDecrementBtn.FlatAppearance.BorderSize = 0;
+            this.laPazBatchoyDecrementBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.laPazBatchoyDecrementBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.laPazBatchoyDecrementBtn.ForeColor = System.Drawing.Color.White;
+            this.laPazBatchoyDecrementBtn.Location = new System.Drawing.Point(9, 116);
+            this.laPazBatchoyDecrementBtn.Name = "laPazBatchoyDecrementBtn";
+            this.laPazBatchoyDecrementBtn.Size = new System.Drawing.Size(28, 29);
+            this.laPazBatchoyDecrementBtn.TabIndex = 25;
+            this.laPazBatchoyDecrementBtn.Text = "-";
+            this.laPazBatchoyDecrementBtn.UseVisualStyleBackColor = true;
+            this.laPazBatchoyDecrementBtn.Click += new System.EventHandler(this.laPazBatchoyDecrementBtn_Click);
+            // 
+            // porkDecrementBtn
+            // 
+            this.porkDecrementBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.porkDecrementBtn.FlatAppearance.BorderSize = 0;
+            this.porkDecrementBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.porkDecrementBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.porkDecrementBtn.ForeColor = System.Drawing.Color.White;
+            this.porkDecrementBtn.Location = new System.Drawing.Point(9, 90);
+            this.porkDecrementBtn.Name = "porkDecrementBtn";
+            this.porkDecrementBtn.Size = new System.Drawing.Size(28, 29);
+            this.porkDecrementBtn.TabIndex = 24;
+            this.porkDecrementBtn.Text = "-";
+            this.porkDecrementBtn.UseVisualStyleBackColor = true;
+            this.porkDecrementBtn.Click += new System.EventHandler(this.porkDecrementBtn_Click);
+            // 
+            // beefDecrementBtn
+            // 
+            this.beefDecrementBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.beefDecrementBtn.FlatAppearance.BorderSize = 0;
+            this.beefDecrementBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.beefDecrementBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.beefDecrementBtn.ForeColor = System.Drawing.Color.White;
+            this.beefDecrementBtn.Location = new System.Drawing.Point(9, 67);
+            this.beefDecrementBtn.Name = "beefDecrementBtn";
+            this.beefDecrementBtn.Size = new System.Drawing.Size(28, 31);
+            this.beefDecrementBtn.TabIndex = 23;
+            this.beefDecrementBtn.Text = "-";
+            this.beefDecrementBtn.UseVisualStyleBackColor = true;
+            this.beefDecrementBtn.Click += new System.EventHandler(this.beefDecrementBtn_Click);
+            // 
+            // chickenDecrementBtn
+            // 
+            this.chickenDecrementBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chickenDecrementBtn.FlatAppearance.BorderSize = 0;
+            this.chickenDecrementBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.chickenDecrementBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chickenDecrementBtn.ForeColor = System.Drawing.Color.White;
+            this.chickenDecrementBtn.Location = new System.Drawing.Point(9, 38);
+            this.chickenDecrementBtn.Name = "chickenDecrementBtn";
+            this.chickenDecrementBtn.Size = new System.Drawing.Size(28, 29);
+            this.chickenDecrementBtn.TabIndex = 22;
+            this.chickenDecrementBtn.Text = "-";
+            this.chickenDecrementBtn.UseVisualStyleBackColor = true;
+            this.chickenDecrementBtn.Click += new System.EventHandler(this.chickenDecrementBtn_Click);
+            // 
+            // panel13
+            // 
+            this.panel13.Controls.Add(this.TuronDecrementBtn);
+            this.panel13.Controls.Add(this.BananacueDecrementBtn);
+            this.panel13.Controls.Add(this.squidBallsDecrementBtn);
+            this.panel13.Controls.Add(this.fishBallsDecrementBtn);
+            this.panel13.Controls.Add(this.kwekkwekDecrementBtn);
+            this.panel13.Location = new System.Drawing.Point(386, 386);
+            this.panel13.Name = "panel13";
+            this.panel13.Size = new System.Drawing.Size(32, 179);
+            this.panel13.TabIndex = 30;
+            // 
+            // TuronDecrementBtn
+            // 
+            this.TuronDecrementBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.TuronDecrementBtn.FlatAppearance.BorderSize = 0;
+            this.TuronDecrementBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.TuronDecrementBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TuronDecrementBtn.ForeColor = System.Drawing.Color.White;
+            this.TuronDecrementBtn.Location = new System.Drawing.Point(9, 140);
+            this.TuronDecrementBtn.Name = "TuronDecrementBtn";
+            this.TuronDecrementBtn.Size = new System.Drawing.Size(28, 29);
+            this.TuronDecrementBtn.TabIndex = 26;
+            this.TuronDecrementBtn.Text = "-";
+            this.TuronDecrementBtn.UseVisualStyleBackColor = true;
+            this.TuronDecrementBtn.Click += new System.EventHandler(this.TuronDecrementBtn_Click);
+            // 
+            // BananacueDecrementBtn
+            // 
+            this.BananacueDecrementBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BananacueDecrementBtn.FlatAppearance.BorderSize = 0;
+            this.BananacueDecrementBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BananacueDecrementBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BananacueDecrementBtn.ForeColor = System.Drawing.Color.White;
+            this.BananacueDecrementBtn.Location = new System.Drawing.Point(9, 116);
+            this.BananacueDecrementBtn.Name = "BananacueDecrementBtn";
+            this.BananacueDecrementBtn.Size = new System.Drawing.Size(28, 29);
+            this.BananacueDecrementBtn.TabIndex = 25;
+            this.BananacueDecrementBtn.Text = "-";
+            this.BananacueDecrementBtn.UseVisualStyleBackColor = true;
+            this.BananacueDecrementBtn.Click += new System.EventHandler(this.BananacueDecrementBtn_Click);
+            // 
+            // squidBallsDecrementBtn
+            // 
+            this.squidBallsDecrementBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.squidBallsDecrementBtn.FlatAppearance.BorderSize = 0;
+            this.squidBallsDecrementBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.squidBallsDecrementBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.squidBallsDecrementBtn.ForeColor = System.Drawing.Color.White;
+            this.squidBallsDecrementBtn.Location = new System.Drawing.Point(9, 90);
+            this.squidBallsDecrementBtn.Name = "squidBallsDecrementBtn";
+            this.squidBallsDecrementBtn.Size = new System.Drawing.Size(28, 29);
+            this.squidBallsDecrementBtn.TabIndex = 24;
+            this.squidBallsDecrementBtn.Text = "-";
+            this.squidBallsDecrementBtn.UseVisualStyleBackColor = true;
+            this.squidBallsDecrementBtn.Click += new System.EventHandler(this.squidBallsDecrementBtn_Click);
+            // 
+            // fishBallsDecrementBtn
+            // 
+            this.fishBallsDecrementBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.fishBallsDecrementBtn.FlatAppearance.BorderSize = 0;
+            this.fishBallsDecrementBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.fishBallsDecrementBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fishBallsDecrementBtn.ForeColor = System.Drawing.Color.White;
+            this.fishBallsDecrementBtn.Location = new System.Drawing.Point(9, 67);
+            this.fishBallsDecrementBtn.Name = "fishBallsDecrementBtn";
+            this.fishBallsDecrementBtn.Size = new System.Drawing.Size(28, 31);
+            this.fishBallsDecrementBtn.TabIndex = 23;
+            this.fishBallsDecrementBtn.Text = "-";
+            this.fishBallsDecrementBtn.UseVisualStyleBackColor = true;
+            this.fishBallsDecrementBtn.Click += new System.EventHandler(this.fishBallsDecrementBtn_Click);
+            // 
+            // kwekkwekDecrementBtn
+            // 
+            this.kwekkwekDecrementBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.kwekkwekDecrementBtn.FlatAppearance.BorderSize = 0;
+            this.kwekkwekDecrementBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.kwekkwekDecrementBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.kwekkwekDecrementBtn.ForeColor = System.Drawing.Color.White;
+            this.kwekkwekDecrementBtn.Location = new System.Drawing.Point(9, 38);
+            this.kwekkwekDecrementBtn.Name = "kwekkwekDecrementBtn";
+            this.kwekkwekDecrementBtn.Size = new System.Drawing.Size(28, 29);
+            this.kwekkwekDecrementBtn.TabIndex = 22;
+            this.kwekkwekDecrementBtn.Text = "-";
+            this.kwekkwekDecrementBtn.UseVisualStyleBackColor = true;
+            this.kwekkwekDecrementBtn.Click += new System.EventHandler(this.kwekkwekDecrementBtn_Click);
             // 
             // panel12
             // 
@@ -160,165 +359,170 @@ namespace Final_Project__Cafeteria_Management_System
             // 
             // panel11
             // 
-            this.panel11.Controls.Add(this.label34);
-            this.panel11.Controls.Add(this.label35);
-            this.panel11.Controls.Add(this.label41);
-            this.panel11.Controls.Add(this.label42);
-            this.panel11.Controls.Add(this.label43);
+            this.panel11.Controls.Add(this.bulalo);
+            this.panel11.Controls.Add(this.laPazBatchoy);
+            this.panel11.Controls.Add(this.pork);
+            this.panel11.Controls.Add(this.beef);
+            this.panel11.Controls.Add(this.chicken);
             this.panel11.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel11.Location = new System.Drawing.Point(382, 0);
+            this.panel11.Location = new System.Drawing.Point(397, 0);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(44, 207);
+            this.panel11.Size = new System.Drawing.Size(29, 207);
             this.panel11.TabIndex = 25;
             // 
-            // label34
+            // bulalo
             // 
-            this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.ForeColor = System.Drawing.Color.White;
-            this.label34.Location = new System.Drawing.Point(3, 145);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(22, 24);
-            this.label34.TabIndex = 9;
-            this.label34.Text = "0";
-            this.label34.Visible = false;
+            this.bulalo.AutoSize = true;
+            this.bulalo.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bulalo.ForeColor = System.Drawing.Color.White;
+            this.bulalo.Location = new System.Drawing.Point(3, 145);
+            this.bulalo.Name = "bulalo";
+            this.bulalo.Size = new System.Drawing.Size(22, 24);
+            this.bulalo.TabIndex = 9;
+            this.bulalo.Text = "0";
+            this.bulalo.Visible = false;
             // 
-            // label35
+            // laPazBatchoy
             // 
-            this.label35.AutoSize = true;
-            this.label35.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.ForeColor = System.Drawing.Color.White;
-            this.label35.Location = new System.Drawing.Point(3, 121);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(22, 24);
-            this.label35.TabIndex = 8;
-            this.label35.Text = "0";
-            this.label35.Visible = false;
+            this.laPazBatchoy.AutoSize = true;
+            this.laPazBatchoy.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.laPazBatchoy.ForeColor = System.Drawing.Color.White;
+            this.laPazBatchoy.Location = new System.Drawing.Point(3, 121);
+            this.laPazBatchoy.Name = "laPazBatchoy";
+            this.laPazBatchoy.Size = new System.Drawing.Size(22, 24);
+            this.laPazBatchoy.TabIndex = 8;
+            this.laPazBatchoy.Text = "0";
+            this.laPazBatchoy.Visible = false;
             // 
-            // label41
+            // pork
             // 
-            this.label41.AutoSize = true;
-            this.label41.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label41.ForeColor = System.Drawing.Color.White;
-            this.label41.Location = new System.Drawing.Point(3, 95);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(22, 24);
-            this.label41.TabIndex = 7;
-            this.label41.Text = "0";
-            this.label41.Visible = false;
+            this.pork.AutoSize = true;
+            this.pork.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pork.ForeColor = System.Drawing.Color.White;
+            this.pork.Location = new System.Drawing.Point(3, 95);
+            this.pork.Name = "pork";
+            this.pork.Size = new System.Drawing.Size(22, 24);
+            this.pork.TabIndex = 7;
+            this.pork.Text = "0";
+            this.pork.Visible = false;
             // 
-            // label42
+            // beef
             // 
-            this.label42.AutoSize = true;
-            this.label42.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label42.ForeColor = System.Drawing.Color.White;
-            this.label42.Location = new System.Drawing.Point(3, 69);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(22, 24);
-            this.label42.TabIndex = 6;
-            this.label42.Text = "0";
-            this.label42.Visible = false;
+            this.beef.AutoSize = true;
+            this.beef.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.beef.ForeColor = System.Drawing.Color.White;
+            this.beef.Location = new System.Drawing.Point(3, 69);
+            this.beef.Name = "beef";
+            this.beef.Size = new System.Drawing.Size(22, 24);
+            this.beef.TabIndex = 6;
+            this.beef.Text = "0";
+            this.beef.Visible = false;
             // 
-            // label43
+            // chicken
             // 
-            this.label43.AutoSize = true;
-            this.label43.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label43.ForeColor = System.Drawing.Color.White;
-            this.label43.Location = new System.Drawing.Point(3, 43);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(22, 24);
-            this.label43.TabIndex = 5;
-            this.label43.Text = "0";
-            this.label43.Visible = false;
+            this.chicken.AutoSize = true;
+            this.chicken.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chicken.ForeColor = System.Drawing.Color.White;
+            this.chicken.Location = new System.Drawing.Point(3, 43);
+            this.chicken.Name = "chicken";
+            this.chicken.Size = new System.Drawing.Size(22, 24);
+            this.chicken.TabIndex = 5;
+            this.chicken.Text = "0";
+            this.chicken.Visible = false;
             // 
             // panel9
             // 
-            this.panel9.Controls.Add(this.button17);
-            this.panel9.Controls.Add(this.button18);
-            this.panel9.Controls.Add(this.button19);
-            this.panel9.Controls.Add(this.button20);
-            this.panel9.Controls.Add(this.button21);
-            this.panel9.Location = new System.Drawing.Point(347, 0);
+            this.panel9.Controls.Add(this.bulaloBtn);
+            this.panel9.Controls.Add(this.laPazBatchoyBtn);
+            this.panel9.Controls.Add(this.porkBtn);
+            this.panel9.Controls.Add(this.beefBtn);
+            this.panel9.Controls.Add(this.chickenBtn);
+            this.panel9.Location = new System.Drawing.Point(364, 0);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(44, 207);
+            this.panel9.Size = new System.Drawing.Size(30, 207);
             this.panel9.TabIndex = 19;
             // 
-            // button17
+            // bulaloBtn
             // 
-            this.button17.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button17.FlatAppearance.BorderSize = 0;
-            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button17.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button17.ForeColor = System.Drawing.Color.White;
-            this.button17.Location = new System.Drawing.Point(9, 142);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(28, 29);
-            this.button17.TabIndex = 26;
-            this.button17.Text = "+";
-            this.button17.UseVisualStyleBackColor = true;
+            this.bulaloBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bulaloBtn.FlatAppearance.BorderSize = 0;
+            this.bulaloBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bulaloBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bulaloBtn.ForeColor = System.Drawing.Color.White;
+            this.bulaloBtn.Location = new System.Drawing.Point(9, 142);
+            this.bulaloBtn.Name = "bulaloBtn";
+            this.bulaloBtn.Size = new System.Drawing.Size(28, 29);
+            this.bulaloBtn.TabIndex = 26;
+            this.bulaloBtn.Text = "+";
+            this.bulaloBtn.UseVisualStyleBackColor = true;
+            this.bulaloBtn.Click += new System.EventHandler(this.bulaloBtn_Click);
             // 
-            // button18
+            // laPazBatchoyBtn
             // 
-            this.button18.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button18.FlatAppearance.BorderSize = 0;
-            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button18.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button18.ForeColor = System.Drawing.Color.White;
-            this.button18.Location = new System.Drawing.Point(9, 116);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(28, 29);
-            this.button18.TabIndex = 25;
-            this.button18.Text = "+";
-            this.button18.UseVisualStyleBackColor = true;
+            this.laPazBatchoyBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.laPazBatchoyBtn.FlatAppearance.BorderSize = 0;
+            this.laPazBatchoyBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.laPazBatchoyBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.laPazBatchoyBtn.ForeColor = System.Drawing.Color.White;
+            this.laPazBatchoyBtn.Location = new System.Drawing.Point(9, 116);
+            this.laPazBatchoyBtn.Name = "laPazBatchoyBtn";
+            this.laPazBatchoyBtn.Size = new System.Drawing.Size(28, 29);
+            this.laPazBatchoyBtn.TabIndex = 25;
+            this.laPazBatchoyBtn.Text = "+";
+            this.laPazBatchoyBtn.UseVisualStyleBackColor = true;
+            this.laPazBatchoyBtn.Click += new System.EventHandler(this.laPazBatchoyBtn_Click);
             // 
-            // button19
+            // porkBtn
             // 
-            this.button19.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button19.FlatAppearance.BorderSize = 0;
-            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button19.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button19.ForeColor = System.Drawing.Color.White;
-            this.button19.Location = new System.Drawing.Point(9, 90);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(28, 29);
-            this.button19.TabIndex = 24;
-            this.button19.Text = "+";
-            this.button19.UseVisualStyleBackColor = true;
+            this.porkBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.porkBtn.FlatAppearance.BorderSize = 0;
+            this.porkBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.porkBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.porkBtn.ForeColor = System.Drawing.Color.White;
+            this.porkBtn.Location = new System.Drawing.Point(9, 90);
+            this.porkBtn.Name = "porkBtn";
+            this.porkBtn.Size = new System.Drawing.Size(28, 29);
+            this.porkBtn.TabIndex = 24;
+            this.porkBtn.Text = "+";
+            this.porkBtn.UseVisualStyleBackColor = true;
+            this.porkBtn.Click += new System.EventHandler(this.porkBtn_Click);
             // 
-            // button20
+            // beefBtn
             // 
-            this.button20.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button20.FlatAppearance.BorderSize = 0;
-            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button20.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button20.ForeColor = System.Drawing.Color.White;
-            this.button20.Location = new System.Drawing.Point(9, 64);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(28, 29);
-            this.button20.TabIndex = 23;
-            this.button20.Text = "+";
-            this.button20.UseVisualStyleBackColor = true;
+            this.beefBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.beefBtn.FlatAppearance.BorderSize = 0;
+            this.beefBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.beefBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.beefBtn.ForeColor = System.Drawing.Color.White;
+            this.beefBtn.Location = new System.Drawing.Point(9, 64);
+            this.beefBtn.Name = "beefBtn";
+            this.beefBtn.Size = new System.Drawing.Size(28, 29);
+            this.beefBtn.TabIndex = 23;
+            this.beefBtn.Text = "+";
+            this.beefBtn.UseVisualStyleBackColor = true;
+            this.beefBtn.Click += new System.EventHandler(this.beefBtn_Click);
             // 
-            // button21
+            // chickenBtn
             // 
-            this.button21.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button21.FlatAppearance.BorderSize = 0;
-            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button21.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button21.ForeColor = System.Drawing.Color.White;
-            this.button21.Location = new System.Drawing.Point(9, 38);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(28, 29);
-            this.button21.TabIndex = 22;
-            this.button21.Text = "+";
-            this.button21.UseVisualStyleBackColor = true;
+            this.chickenBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chickenBtn.FlatAppearance.BorderSize = 0;
+            this.chickenBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.chickenBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chickenBtn.ForeColor = System.Drawing.Color.White;
+            this.chickenBtn.Location = new System.Drawing.Point(9, 38);
+            this.chickenBtn.Name = "chickenBtn";
+            this.chickenBtn.Size = new System.Drawing.Size(28, 29);
+            this.chickenBtn.TabIndex = 22;
+            this.chickenBtn.Text = "+";
+            this.chickenBtn.UseVisualStyleBackColor = true;
+            this.chickenBtn.Click += new System.EventHandler(this.chickenBtn_Click);
             // 
             // label22
             // 
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Bradley Hand ITC", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.ForeColor = System.Drawing.Color.White;
-            this.label22.Location = new System.Drawing.Point(295, 41);
+            this.label22.Location = new System.Drawing.Point(283, 41);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(52, 156);
             this.label22.TabIndex = 18;
@@ -421,165 +625,170 @@ namespace Final_Project__Cafeteria_Management_System
             // 
             // panel10
             // 
-            this.panel10.Controls.Add(this.label36);
-            this.panel10.Controls.Add(this.label37);
-            this.panel10.Controls.Add(this.label38);
-            this.panel10.Controls.Add(this.label39);
-            this.panel10.Controls.Add(this.label40);
+            this.panel10.Controls.Add(this.Turon);
+            this.panel10.Controls.Add(this.Bananacue);
+            this.panel10.Controls.Add(this.squidBalls);
+            this.panel10.Controls.Add(this.fishBalls);
+            this.panel10.Controls.Add(this.kwekkwek);
             this.panel10.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel10.Location = new System.Drawing.Point(427, 0);
+            this.panel10.Location = new System.Drawing.Point(443, 0);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(44, 177);
+            this.panel10.Size = new System.Drawing.Size(28, 177);
             this.panel10.TabIndex = 24;
             // 
-            // label36
+            // Turon
             // 
-            this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.ForeColor = System.Drawing.Color.White;
-            this.label36.Location = new System.Drawing.Point(3, 145);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(22, 24);
-            this.label36.TabIndex = 9;
-            this.label36.Text = "0";
-            this.label36.Visible = false;
+            this.Turon.AutoSize = true;
+            this.Turon.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Turon.ForeColor = System.Drawing.Color.White;
+            this.Turon.Location = new System.Drawing.Point(3, 145);
+            this.Turon.Name = "Turon";
+            this.Turon.Size = new System.Drawing.Size(22, 24);
+            this.Turon.TabIndex = 9;
+            this.Turon.Text = "0";
+            this.Turon.Visible = false;
             // 
-            // label37
+            // Bananacue
             // 
-            this.label37.AutoSize = true;
-            this.label37.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label37.ForeColor = System.Drawing.Color.White;
-            this.label37.Location = new System.Drawing.Point(3, 121);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(22, 24);
-            this.label37.TabIndex = 8;
-            this.label37.Text = "0";
-            this.label37.Visible = false;
+            this.Bananacue.AutoSize = true;
+            this.Bananacue.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Bananacue.ForeColor = System.Drawing.Color.White;
+            this.Bananacue.Location = new System.Drawing.Point(3, 121);
+            this.Bananacue.Name = "Bananacue";
+            this.Bananacue.Size = new System.Drawing.Size(22, 24);
+            this.Bananacue.TabIndex = 8;
+            this.Bananacue.Text = "0";
+            this.Bananacue.Visible = false;
             // 
-            // label38
+            // squidBalls
             // 
-            this.label38.AutoSize = true;
-            this.label38.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label38.ForeColor = System.Drawing.Color.White;
-            this.label38.Location = new System.Drawing.Point(3, 95);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(22, 24);
-            this.label38.TabIndex = 7;
-            this.label38.Text = "0";
-            this.label38.Visible = false;
+            this.squidBalls.AutoSize = true;
+            this.squidBalls.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.squidBalls.ForeColor = System.Drawing.Color.White;
+            this.squidBalls.Location = new System.Drawing.Point(3, 95);
+            this.squidBalls.Name = "squidBalls";
+            this.squidBalls.Size = new System.Drawing.Size(22, 24);
+            this.squidBalls.TabIndex = 7;
+            this.squidBalls.Text = "0";
+            this.squidBalls.Visible = false;
             // 
-            // label39
+            // fishBalls
             // 
-            this.label39.AutoSize = true;
-            this.label39.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label39.ForeColor = System.Drawing.Color.White;
-            this.label39.Location = new System.Drawing.Point(3, 69);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(22, 24);
-            this.label39.TabIndex = 6;
-            this.label39.Text = "0";
-            this.label39.Visible = false;
+            this.fishBalls.AutoSize = true;
+            this.fishBalls.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fishBalls.ForeColor = System.Drawing.Color.White;
+            this.fishBalls.Location = new System.Drawing.Point(3, 69);
+            this.fishBalls.Name = "fishBalls";
+            this.fishBalls.Size = new System.Drawing.Size(22, 24);
+            this.fishBalls.TabIndex = 6;
+            this.fishBalls.Text = "0";
+            this.fishBalls.Visible = false;
             // 
-            // label40
+            // kwekkwek
             // 
-            this.label40.AutoSize = true;
-            this.label40.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label40.ForeColor = System.Drawing.Color.White;
-            this.label40.Location = new System.Drawing.Point(3, 43);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(22, 24);
-            this.label40.TabIndex = 5;
-            this.label40.Text = "0";
-            this.label40.Visible = false;
+            this.kwekkwek.AutoSize = true;
+            this.kwekkwek.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.kwekkwek.ForeColor = System.Drawing.Color.White;
+            this.kwekkwek.Location = new System.Drawing.Point(3, 43);
+            this.kwekkwek.Name = "kwekkwek";
+            this.kwekkwek.Size = new System.Drawing.Size(22, 24);
+            this.kwekkwek.TabIndex = 5;
+            this.kwekkwek.Text = "0";
+            this.kwekkwek.Visible = false;
             // 
             // panel7
             // 
-            this.panel7.Controls.Add(this.button10);
-            this.panel7.Controls.Add(this.button11);
-            this.panel7.Controls.Add(this.button12);
-            this.panel7.Controls.Add(this.button13);
-            this.panel7.Controls.Add(this.button14);
-            this.panel7.Location = new System.Drawing.Point(393, 0);
+            this.panel7.Controls.Add(this.TuronBtn);
+            this.panel7.Controls.Add(this.BananacueBtn);
+            this.panel7.Controls.Add(this.squidBallsBtn);
+            this.panel7.Controls.Add(this.fishBallsBtn);
+            this.panel7.Controls.Add(this.kwekkwekBtn);
+            this.panel7.Location = new System.Drawing.Point(412, 0);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(44, 177);
+            this.panel7.Size = new System.Drawing.Size(35, 177);
             this.panel7.TabIndex = 19;
             // 
-            // button10
+            // TuronBtn
             // 
-            this.button10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button10.FlatAppearance.BorderSize = 0;
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.ForeColor = System.Drawing.Color.White;
-            this.button10.Location = new System.Drawing.Point(9, 142);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(28, 29);
-            this.button10.TabIndex = 26;
-            this.button10.Text = "+";
-            this.button10.UseVisualStyleBackColor = true;
+            this.TuronBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.TuronBtn.FlatAppearance.BorderSize = 0;
+            this.TuronBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.TuronBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TuronBtn.ForeColor = System.Drawing.Color.White;
+            this.TuronBtn.Location = new System.Drawing.Point(9, 142);
+            this.TuronBtn.Name = "TuronBtn";
+            this.TuronBtn.Size = new System.Drawing.Size(28, 29);
+            this.TuronBtn.TabIndex = 26;
+            this.TuronBtn.Text = "+";
+            this.TuronBtn.UseVisualStyleBackColor = true;
+            this.TuronBtn.Click += new System.EventHandler(this.TuronBtn_Click);
             // 
-            // button11
+            // BananacueBtn
             // 
-            this.button11.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button11.FlatAppearance.BorderSize = 0;
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.ForeColor = System.Drawing.Color.White;
-            this.button11.Location = new System.Drawing.Point(9, 116);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(28, 29);
-            this.button11.TabIndex = 25;
-            this.button11.Text = "+";
-            this.button11.UseVisualStyleBackColor = true;
+            this.BananacueBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BananacueBtn.FlatAppearance.BorderSize = 0;
+            this.BananacueBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BananacueBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BananacueBtn.ForeColor = System.Drawing.Color.White;
+            this.BananacueBtn.Location = new System.Drawing.Point(9, 116);
+            this.BananacueBtn.Name = "BananacueBtn";
+            this.BananacueBtn.Size = new System.Drawing.Size(28, 29);
+            this.BananacueBtn.TabIndex = 25;
+            this.BananacueBtn.Text = "+";
+            this.BananacueBtn.UseVisualStyleBackColor = true;
+            this.BananacueBtn.Click += new System.EventHandler(this.BananacueBtn_Click);
             // 
-            // button12
+            // squidBallsBtn
             // 
-            this.button12.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button12.FlatAppearance.BorderSize = 0;
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button12.ForeColor = System.Drawing.Color.White;
-            this.button12.Location = new System.Drawing.Point(9, 90);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(28, 29);
-            this.button12.TabIndex = 24;
-            this.button12.Text = "+";
-            this.button12.UseVisualStyleBackColor = true;
+            this.squidBallsBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.squidBallsBtn.FlatAppearance.BorderSize = 0;
+            this.squidBallsBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.squidBallsBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.squidBallsBtn.ForeColor = System.Drawing.Color.White;
+            this.squidBallsBtn.Location = new System.Drawing.Point(9, 90);
+            this.squidBallsBtn.Name = "squidBallsBtn";
+            this.squidBallsBtn.Size = new System.Drawing.Size(28, 29);
+            this.squidBallsBtn.TabIndex = 24;
+            this.squidBallsBtn.Text = "+";
+            this.squidBallsBtn.UseVisualStyleBackColor = true;
+            this.squidBallsBtn.Click += new System.EventHandler(this.squidBallsBtn_Click);
             // 
-            // button13
+            // fishBallsBtn
             // 
-            this.button13.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button13.FlatAppearance.BorderSize = 0;
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button13.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button13.ForeColor = System.Drawing.Color.White;
-            this.button13.Location = new System.Drawing.Point(9, 64);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(28, 29);
-            this.button13.TabIndex = 23;
-            this.button13.Text = "+";
-            this.button13.UseVisualStyleBackColor = true;
+            this.fishBallsBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.fishBallsBtn.FlatAppearance.BorderSize = 0;
+            this.fishBallsBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.fishBallsBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fishBallsBtn.ForeColor = System.Drawing.Color.White;
+            this.fishBallsBtn.Location = new System.Drawing.Point(9, 64);
+            this.fishBallsBtn.Name = "fishBallsBtn";
+            this.fishBallsBtn.Size = new System.Drawing.Size(28, 29);
+            this.fishBallsBtn.TabIndex = 23;
+            this.fishBallsBtn.Text = "+";
+            this.fishBallsBtn.UseVisualStyleBackColor = true;
+            this.fishBallsBtn.Click += new System.EventHandler(this.fishBallsBtn_Click);
             // 
-            // button14
+            // kwekkwekBtn
             // 
-            this.button14.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button14.FlatAppearance.BorderSize = 0;
-            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button14.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button14.ForeColor = System.Drawing.Color.White;
-            this.button14.Location = new System.Drawing.Point(9, 38);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(28, 29);
-            this.button14.TabIndex = 22;
-            this.button14.Text = "+";
-            this.button14.UseVisualStyleBackColor = true;
+            this.kwekkwekBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.kwekkwekBtn.FlatAppearance.BorderSize = 0;
+            this.kwekkwekBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.kwekkwekBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.kwekkwekBtn.ForeColor = System.Drawing.Color.White;
+            this.kwekkwekBtn.Location = new System.Drawing.Point(9, 38);
+            this.kwekkwekBtn.Name = "kwekkwekBtn";
+            this.kwekkwekBtn.Size = new System.Drawing.Size(28, 29);
+            this.kwekkwekBtn.TabIndex = 22;
+            this.kwekkwekBtn.Text = "+";
+            this.kwekkwekBtn.UseVisualStyleBackColor = true;
+            this.kwekkwekBtn.Click += new System.EventHandler(this.kwekkwekBtn_Click);
             // 
             // label13
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Bradley Hand ITC", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(342, 42);
+            this.label13.Location = new System.Drawing.Point(337, 43);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(52, 130);
             this.label13.TabIndex = 18;
@@ -665,8 +874,9 @@ namespace Final_Project__Cafeteria_Management_System
             // 
             // panel4
             // 
-            this.panel4.Controls.Add(this.panel2);
+            this.panel4.Controls.Add(this.panel3);
             this.panel4.Controls.Add(this.label12);
+            this.panel4.Controls.Add(this.panel2);
             this.panel4.Controls.Add(this.label11);
             this.panel4.Controls.Add(this.label10);
             this.panel4.Controls.Add(this.label9);
@@ -682,6 +892,136 @@ namespace Final_Project__Cafeteria_Management_System
             this.panel4.Size = new System.Drawing.Size(471, 224);
             this.panel4.TabIndex = 10;
             // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.chickenAndCheeseSandwichDecrementBtn);
+            this.panel3.Controls.Add(this.vegAndCheeseSandwichDecrementBtn);
+            this.panel3.Controls.Add(this.eggAndCheeseSandwichDecrementBtn);
+            this.panel3.Controls.Add(this.vegSandwichDecrementBtn);
+            this.panel3.Controls.Add(this.chickenSandwichDecrementBtn);
+            this.panel3.Controls.Add(this.cheeseSandwichDecrementBtn);
+            this.panel3.Controls.Add(this.eggSandwichDecrementBtn);
+            this.panel3.Location = new System.Drawing.Point(383, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(32, 224);
+            this.panel3.TabIndex = 29;
+            // 
+            // chickenAndCheeseSandwichDecrementBtn
+            // 
+            this.chickenAndCheeseSandwichDecrementBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chickenAndCheeseSandwichDecrementBtn.FlatAppearance.BorderSize = 0;
+            this.chickenAndCheeseSandwichDecrementBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.chickenAndCheeseSandwichDecrementBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chickenAndCheeseSandwichDecrementBtn.ForeColor = System.Drawing.Color.White;
+            this.chickenAndCheeseSandwichDecrementBtn.Location = new System.Drawing.Point(9, 192);
+            this.chickenAndCheeseSandwichDecrementBtn.Name = "chickenAndCheeseSandwichDecrementBtn";
+            this.chickenAndCheeseSandwichDecrementBtn.Size = new System.Drawing.Size(28, 29);
+            this.chickenAndCheeseSandwichDecrementBtn.TabIndex = 28;
+            this.chickenAndCheeseSandwichDecrementBtn.Text = "-";
+            this.chickenAndCheeseSandwichDecrementBtn.UseVisualStyleBackColor = true;
+            this.chickenAndCheeseSandwichDecrementBtn.Click += new System.EventHandler(this.chickenAndCheeseSandwichDecrementBtn_Click);
+            // 
+            // vegAndCheeseSandwichDecrementBtn
+            // 
+            this.vegAndCheeseSandwichDecrementBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.vegAndCheeseSandwichDecrementBtn.FlatAppearance.BorderSize = 0;
+            this.vegAndCheeseSandwichDecrementBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.vegAndCheeseSandwichDecrementBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.vegAndCheeseSandwichDecrementBtn.ForeColor = System.Drawing.Color.White;
+            this.vegAndCheeseSandwichDecrementBtn.Location = new System.Drawing.Point(9, 167);
+            this.vegAndCheeseSandwichDecrementBtn.Name = "vegAndCheeseSandwichDecrementBtn";
+            this.vegAndCheeseSandwichDecrementBtn.Size = new System.Drawing.Size(28, 29);
+            this.vegAndCheeseSandwichDecrementBtn.TabIndex = 27;
+            this.vegAndCheeseSandwichDecrementBtn.Text = "-";
+            this.vegAndCheeseSandwichDecrementBtn.UseVisualStyleBackColor = true;
+            this.vegAndCheeseSandwichDecrementBtn.Click += new System.EventHandler(this.vegAndCheeseSandwichDecrementBtn_Click);
+            // 
+            // eggAndCheeseSandwichDecrementBtn
+            // 
+            this.eggAndCheeseSandwichDecrementBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.eggAndCheeseSandwichDecrementBtn.FlatAppearance.BorderSize = 0;
+            this.eggAndCheeseSandwichDecrementBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.eggAndCheeseSandwichDecrementBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.eggAndCheeseSandwichDecrementBtn.ForeColor = System.Drawing.Color.White;
+            this.eggAndCheeseSandwichDecrementBtn.Location = new System.Drawing.Point(9, 140);
+            this.eggAndCheeseSandwichDecrementBtn.Name = "eggAndCheeseSandwichDecrementBtn";
+            this.eggAndCheeseSandwichDecrementBtn.Size = new System.Drawing.Size(28, 29);
+            this.eggAndCheeseSandwichDecrementBtn.TabIndex = 26;
+            this.eggAndCheeseSandwichDecrementBtn.Text = "-";
+            this.eggAndCheeseSandwichDecrementBtn.UseVisualStyleBackColor = true;
+            this.eggAndCheeseSandwichDecrementBtn.Click += new System.EventHandler(this.eggAndCheeseSandwichDecrementBtn_Click);
+            // 
+            // vegSandwichDecrementBtn
+            // 
+            this.vegSandwichDecrementBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.vegSandwichDecrementBtn.FlatAppearance.BorderSize = 0;
+            this.vegSandwichDecrementBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.vegSandwichDecrementBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.vegSandwichDecrementBtn.ForeColor = System.Drawing.Color.White;
+            this.vegSandwichDecrementBtn.Location = new System.Drawing.Point(9, 116);
+            this.vegSandwichDecrementBtn.Name = "vegSandwichDecrementBtn";
+            this.vegSandwichDecrementBtn.Size = new System.Drawing.Size(28, 29);
+            this.vegSandwichDecrementBtn.TabIndex = 25;
+            this.vegSandwichDecrementBtn.Text = "-";
+            this.vegSandwichDecrementBtn.UseVisualStyleBackColor = true;
+            this.vegSandwichDecrementBtn.Click += new System.EventHandler(this.vegSandwichDecrementBtn_Click);
+            // 
+            // chickenSandwichDecrementBtn
+            // 
+            this.chickenSandwichDecrementBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chickenSandwichDecrementBtn.FlatAppearance.BorderSize = 0;
+            this.chickenSandwichDecrementBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.chickenSandwichDecrementBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chickenSandwichDecrementBtn.ForeColor = System.Drawing.Color.White;
+            this.chickenSandwichDecrementBtn.Location = new System.Drawing.Point(9, 90);
+            this.chickenSandwichDecrementBtn.Name = "chickenSandwichDecrementBtn";
+            this.chickenSandwichDecrementBtn.Size = new System.Drawing.Size(28, 29);
+            this.chickenSandwichDecrementBtn.TabIndex = 24;
+            this.chickenSandwichDecrementBtn.Text = "-";
+            this.chickenSandwichDecrementBtn.UseVisualStyleBackColor = true;
+            this.chickenSandwichDecrementBtn.Click += new System.EventHandler(this.chickenSandwichDecrementBtn_Click);
+            // 
+            // cheeseSandwichDecrementBtn
+            // 
+            this.cheeseSandwichDecrementBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cheeseSandwichDecrementBtn.FlatAppearance.BorderSize = 0;
+            this.cheeseSandwichDecrementBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cheeseSandwichDecrementBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cheeseSandwichDecrementBtn.ForeColor = System.Drawing.Color.White;
+            this.cheeseSandwichDecrementBtn.Location = new System.Drawing.Point(9, 67);
+            this.cheeseSandwichDecrementBtn.Name = "cheeseSandwichDecrementBtn";
+            this.cheeseSandwichDecrementBtn.Size = new System.Drawing.Size(28, 31);
+            this.cheeseSandwichDecrementBtn.TabIndex = 23;
+            this.cheeseSandwichDecrementBtn.Text = "-";
+            this.cheeseSandwichDecrementBtn.UseVisualStyleBackColor = true;
+            this.cheeseSandwichDecrementBtn.Click += new System.EventHandler(this.cheeseSandwichDecrementBtn_Click);
+            // 
+            // eggSandwichDecrementBtn
+            // 
+            this.eggSandwichDecrementBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.eggSandwichDecrementBtn.FlatAppearance.BorderSize = 0;
+            this.eggSandwichDecrementBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.eggSandwichDecrementBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.eggSandwichDecrementBtn.ForeColor = System.Drawing.Color.White;
+            this.eggSandwichDecrementBtn.Location = new System.Drawing.Point(9, 38);
+            this.eggSandwichDecrementBtn.Name = "eggSandwichDecrementBtn";
+            this.eggSandwichDecrementBtn.Size = new System.Drawing.Size(28, 29);
+            this.eggSandwichDecrementBtn.TabIndex = 22;
+            this.eggSandwichDecrementBtn.Text = "-";
+            this.eggSandwichDecrementBtn.UseVisualStyleBackColor = true;
+            this.eggSandwichDecrementBtn.Click += new System.EventHandler(this.eggSandwichDecrementBtn_Click);
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Bradley Hand ITC", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.White;
+            this.label12.Location = new System.Drawing.Point(337, 40);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(52, 182);
+            this.label12.TabIndex = 18;
+            this.label12.Text = "₱25\r\n₱20\r\n₱30\r\n₱25\r\n₱30\r\n₱30\r\n₱35";
+            // 
             // panel2
             // 
             this.panel2.Controls.Add(this.cheeseSandwich);
@@ -692,10 +1032,22 @@ namespace Final_Project__Cafeteria_Management_System
             this.panel2.Controls.Add(this.chickenSandwich);
             this.panel2.Controls.Add(this.eggSandwich);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel2.Location = new System.Drawing.Point(427, 0);
+            this.panel2.Location = new System.Drawing.Point(443, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(44, 224);
+            this.panel2.Size = new System.Drawing.Size(28, 224);
             this.panel2.TabIndex = 20;
+            // 
+            // cheeseSandwich
+            // 
+            this.cheeseSandwich.AutoSize = true;
+            this.cheeseSandwich.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cheeseSandwich.ForeColor = System.Drawing.Color.White;
+            this.cheeseSandwich.Location = new System.Drawing.Point(3, 67);
+            this.cheeseSandwich.Name = "cheeseSandwich";
+            this.cheeseSandwich.Size = new System.Drawing.Size(22, 24);
+            this.cheeseSandwich.TabIndex = 24;
+            this.cheeseSandwich.Text = "0";
+            this.cheeseSandwich.Visible = false;
             // 
             // chickenAndCheeseSandwich
             // 
@@ -768,17 +1120,6 @@ namespace Final_Project__Cafeteria_Management_System
             this.eggSandwich.TabIndex = 5;
             this.eggSandwich.Text = "0";
             this.eggSandwich.Visible = false;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Bradley Hand ITC", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(335, 42);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(52, 182);
-            this.label12.TabIndex = 18;
-            this.label12.Text = "₱25\r\n₱20\r\n₱30\r\n₱25\r\n₱30\r\n₱30\r\n₱35";
             // 
             // label11
             // 
@@ -889,9 +1230,9 @@ namespace Final_Project__Cafeteria_Management_System
             this.panel5.Controls.Add(this.chickenSandwichBtn);
             this.panel5.Controls.Add(this.cheeseSandwichBtn);
             this.panel5.Controls.Add(this.eggSandwichBtn);
-            this.panel5.Location = new System.Drawing.Point(393, 0);
+            this.panel5.Location = new System.Drawing.Point(412, 0);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(44, 224);
+            this.panel5.Size = new System.Drawing.Size(35, 224);
             this.panel5.TabIndex = 19;
             // 
             // chickenAndCheeseSandwichBtn
@@ -901,7 +1242,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.chickenAndCheeseSandwichBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.chickenAndCheeseSandwichBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chickenAndCheeseSandwichBtn.ForeColor = System.Drawing.Color.White;
-            this.chickenAndCheeseSandwichBtn.Location = new System.Drawing.Point(9, 195);
+            this.chickenAndCheeseSandwichBtn.Location = new System.Drawing.Point(9, 192);
             this.chickenAndCheeseSandwichBtn.Name = "chickenAndCheeseSandwichBtn";
             this.chickenAndCheeseSandwichBtn.Size = new System.Drawing.Size(28, 29);
             this.chickenAndCheeseSandwichBtn.TabIndex = 28;
@@ -916,7 +1257,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.vegAndCheeseSandwichBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.vegAndCheeseSandwichBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vegAndCheeseSandwichBtn.ForeColor = System.Drawing.Color.White;
-            this.vegAndCheeseSandwichBtn.Location = new System.Drawing.Point(9, 169);
+            this.vegAndCheeseSandwichBtn.Location = new System.Drawing.Point(9, 167);
             this.vegAndCheeseSandwichBtn.Name = "vegAndCheeseSandwichBtn";
             this.vegAndCheeseSandwichBtn.Size = new System.Drawing.Size(28, 29);
             this.vegAndCheeseSandwichBtn.TabIndex = 27;
@@ -931,7 +1272,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.eggAndCheeseSandwichBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.eggAndCheeseSandwichBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.eggAndCheeseSandwichBtn.ForeColor = System.Drawing.Color.White;
-            this.eggAndCheeseSandwichBtn.Location = new System.Drawing.Point(9, 142);
+            this.eggAndCheeseSandwichBtn.Location = new System.Drawing.Point(9, 140);
             this.eggAndCheeseSandwichBtn.Name = "eggAndCheeseSandwichBtn";
             this.eggAndCheeseSandwichBtn.Size = new System.Drawing.Size(28, 29);
             this.eggAndCheeseSandwichBtn.TabIndex = 26;
@@ -976,9 +1317,9 @@ namespace Final_Project__Cafeteria_Management_System
             this.cheeseSandwichBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cheeseSandwichBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cheeseSandwichBtn.ForeColor = System.Drawing.Color.White;
-            this.cheeseSandwichBtn.Location = new System.Drawing.Point(9, 64);
+            this.cheeseSandwichBtn.Location = new System.Drawing.Point(9, 67);
             this.cheeseSandwichBtn.Name = "cheeseSandwichBtn";
-            this.cheeseSandwichBtn.Size = new System.Drawing.Size(28, 29);
+            this.cheeseSandwichBtn.Size = new System.Drawing.Size(28, 31);
             this.cheeseSandwichBtn.TabIndex = 23;
             this.cheeseSandwichBtn.Text = "+";
             this.cheeseSandwichBtn.UseVisualStyleBackColor = true;
@@ -1019,18 +1360,6 @@ namespace Final_Project__Cafeteria_Management_System
             this.panel1.Size = new System.Drawing.Size(907, 48);
             this.panel1.TabIndex = 32;
             // 
-            // cheeseSandwich
-            // 
-            this.cheeseSandwich.AutoSize = true;
-            this.cheeseSandwich.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cheeseSandwich.ForeColor = System.Drawing.Color.White;
-            this.cheeseSandwich.Location = new System.Drawing.Point(3, 67);
-            this.cheeseSandwich.Name = "cheeseSandwich";
-            this.cheeseSandwich.Size = new System.Drawing.Size(22, 24);
-            this.cheeseSandwich.TabIndex = 24;
-            this.cheeseSandwich.Text = "0";
-            this.cheeseSandwich.Visible = false;
-            // 
             // MainControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1040,6 +1369,8 @@ namespace Final_Project__Cafeteria_Management_System
             this.Size = new System.Drawing.Size(907, 625);
             this.mainPanel.ResumeLayout(false);
             this.mainPanel.PerformLayout();
+            this.panel14.ResumeLayout(false);
+            this.panel13.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
             this.panel11.ResumeLayout(false);
@@ -1054,6 +1385,7 @@ namespace Final_Project__Cafeteria_Management_System
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
+            this.panel3.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
@@ -1068,17 +1400,17 @@ namespace Final_Project__Cafeteria_Management_System
         private System.Windows.Forms.Panel panel12;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Panel panel11;
-        private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.Label label41;
-        private System.Windows.Forms.Label label42;
-        private System.Windows.Forms.Label label43;
+        private System.Windows.Forms.Label bulalo;
+        private System.Windows.Forms.Label laPazBatchoy;
+        private System.Windows.Forms.Label pork;
+        private System.Windows.Forms.Label beef;
+        private System.Windows.Forms.Label chicken;
         private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.Button button19;
-        private System.Windows.Forms.Button button20;
-        private System.Windows.Forms.Button button21;
+        private System.Windows.Forms.Button bulaloBtn;
+        private System.Windows.Forms.Button laPazBatchoyBtn;
+        private System.Windows.Forms.Button porkBtn;
+        private System.Windows.Forms.Button beefBtn;
+        private System.Windows.Forms.Button chickenBtn;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label26;
@@ -1089,17 +1421,17 @@ namespace Final_Project__Cafeteria_Management_System
         private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.Label label36;
-        private System.Windows.Forms.Label label37;
-        private System.Windows.Forms.Label label38;
-        private System.Windows.Forms.Label label39;
-        private System.Windows.Forms.Label label40;
+        private System.Windows.Forms.Label Turon;
+        private System.Windows.Forms.Label Bananacue;
+        private System.Windows.Forms.Label squidBalls;
+        private System.Windows.Forms.Label fishBalls;
+        private System.Windows.Forms.Label kwekkwek;
         private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.Button TuronBtn;
+        private System.Windows.Forms.Button BananacueBtn;
+        private System.Windows.Forms.Button squidBallsBtn;
+        private System.Windows.Forms.Button fishBallsBtn;
+        private System.Windows.Forms.Button kwekkwekBtn;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
@@ -1137,5 +1469,25 @@ namespace Final_Project__Cafeteria_Management_System
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label cheeseSandwich;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Button chickenAndCheeseSandwichDecrementBtn;
+        private System.Windows.Forms.Button vegAndCheeseSandwichDecrementBtn;
+        private System.Windows.Forms.Button eggAndCheeseSandwichDecrementBtn;
+        private System.Windows.Forms.Button vegSandwichDecrementBtn;
+        private System.Windows.Forms.Button chickenSandwichDecrementBtn;
+        private System.Windows.Forms.Button cheeseSandwichDecrementBtn;
+        private System.Windows.Forms.Button eggSandwichDecrementBtn;
+        private System.Windows.Forms.Panel panel13;
+        private System.Windows.Forms.Button TuronDecrementBtn;
+        private System.Windows.Forms.Button BananacueDecrementBtn;
+        private System.Windows.Forms.Button squidBallsDecrementBtn;
+        private System.Windows.Forms.Button fishBallsDecrementBtn;
+        private System.Windows.Forms.Button kwekkwekDecrementBtn;
+        private System.Windows.Forms.Panel panel14;
+        private System.Windows.Forms.Button bulaloDecrementBtn;
+        private System.Windows.Forms.Button laPazBatchoyDecrementBtn;
+        private System.Windows.Forms.Button porkDecrementBtn;
+        private System.Windows.Forms.Button beefDecrementBtn;
+        private System.Windows.Forms.Button chickenDecrementBtn;
     }
 }
