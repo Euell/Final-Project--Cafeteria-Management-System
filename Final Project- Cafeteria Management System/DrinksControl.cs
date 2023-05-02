@@ -12,12 +12,13 @@ namespace Final_Project__Cafeteria_Management_System
 {
     public partial class DrinksControl : UserControl
     {
+
         public DrinksControl()
         {
             InitializeComponent();
         }
         private int[] productTotalCosts = new int[9]; // Array to store the total cost
-        private int overallTotalCost = 0; //Add up the total cost of all products in the productTotalCosts array
+        public int overallTotalCost = 0; //Add up the total cost of all products in the productTotalCosts array
 
 
 

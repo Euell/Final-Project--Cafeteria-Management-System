@@ -39,11 +39,9 @@ namespace Final_Project__Cafeteria_Management_System
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
             this.loginbtn = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.txt_username = new System.Windows.Forms.TextBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.txt_password = new System.Windows.Forms.TextBox();
@@ -51,6 +49,8 @@ namespace Final_Project__Cafeteria_Management_System
             this.hidepassbtn = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.signupbtn = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
+            this.txt_username = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel4.SuspendLayout();
@@ -164,8 +164,8 @@ namespace Final_Project__Cafeteria_Management_System
             // 
             this.panel4.BackColor = System.Drawing.Color.White;
             this.panel4.BackgroundImage = global::Final_Project__Cafeteria_Management_System.Properties.Resources._411dd3d08336a70457a3d8ef578f66b9;
-            this.panel4.Controls.Add(this.label8);
             this.panel4.Controls.Add(this.label7);
+            this.panel4.Controls.Add(this.label8);
             this.panel4.Controls.Add(this.loginbtn);
             this.panel4.Controls.Add(this.label6);
             this.panel4.Controls.Add(this.panel2);
@@ -187,18 +187,6 @@ namespace Final_Project__Cafeteria_Management_System
             this.label8.Size = new System.Drawing.Size(120, 21);
             this.label8.TabIndex = 18;
             this.label8.Text = "      Password";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Teal;
-            this.label7.Font = new System.Drawing.Font("Century Gothic", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(-4, 158);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(128, 21);
-            this.label7.TabIndex = 17;
-            this.label7.Text = "      Username";
             // 
             // loginbtn
             // 
@@ -238,17 +226,6 @@ namespace Final_Project__Cafeteria_Management_System
             this.panel2.Size = new System.Drawing.Size(450, 45);
             this.panel2.TabIndex = 9;
             // 
-            // txt_username
-            // 
-            this.txt_username.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txt_username.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_username.ForeColor = System.Drawing.Color.Teal;
-            this.txt_username.Location = new System.Drawing.Point(55, 14);
-            this.txt_username.Name = "txt_username";
-            this.txt_username.Size = new System.Drawing.Size(370, 20);
-            this.txt_username.TabIndex = 10;
-            this.txt_username.TextChanged += new System.EventHandler(this.txt_username_TextChanged);
-            // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.Screenshot_2023_04_20_085240_removebg_preview;
@@ -276,7 +253,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.txt_password.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_password.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_password.ForeColor = System.Drawing.Color.Teal;
-            this.txt_password.Location = new System.Drawing.Point(40, 12);
+            this.txt_password.Location = new System.Drawing.Point(40, 13);
             this.txt_password.Name = "txt_password";
             this.txt_password.Size = new System.Drawing.Size(370, 20);
             this.txt_password.TabIndex = 24;
@@ -340,6 +317,28 @@ namespace Final_Project__Cafeteria_Management_System
             this.signupbtn.UseVisualStyleBackColor = false;
             this.signupbtn.Click += new System.EventHandler(this.signupbtn_Click_1);
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Teal;
+            this.label7.Font = new System.Drawing.Font("Century Gothic", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Location = new System.Drawing.Point(-9, 158);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(128, 21);
+            this.label7.TabIndex = 19;
+            this.label7.Text = "      Username";
+            // 
+            // txt_username
+            // 
+            this.txt_username.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_username.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_username.ForeColor = System.Drawing.Color.Teal;
+            this.txt_username.Location = new System.Drawing.Point(40, 13);
+            this.txt_username.Name = "txt_username";
+            this.txt_username.Size = new System.Drawing.Size(370, 20);
+            this.txt_username.TabIndex = 11;
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -386,13 +385,13 @@ namespace Final_Project__Cafeteria_Management_System
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Button loginbtn;
         private System.Windows.Forms.Button signupbtn;
-        private System.Windows.Forms.TextBox txt_username;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button showpassbtn;
         private System.Windows.Forms.Button hidepassbtn;
         private System.Windows.Forms.TextBox txt_password;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox txt_username;
     }
 }
 

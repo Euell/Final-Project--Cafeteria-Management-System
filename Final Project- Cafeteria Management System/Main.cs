@@ -12,6 +12,16 @@ namespace Final_Project__Cafeteria_Management_System
 {
     public partial class Main : Form
     {
+        //private decimal CalculateOverallTotalCost()
+        //{
+        //    decimal overallTotalCost = 0;
+        //    overallTotalCost += drinksControl1.overallTotalCost;
+        //    overallTotalCost += product2.GetTotalCost();
+        //    // ...
+
+        //    return overallTotalCost;
+        //}
+
         public Main()
         {
             InitializeComponent();

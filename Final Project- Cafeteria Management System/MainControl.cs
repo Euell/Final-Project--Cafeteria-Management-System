@@ -17,6 +17,7 @@ namespace Final_Project__Cafeteria_Management_System
         public MainControl()
         {
             InitializeComponent();
+            
         }
 
         //incrementing of Sandwiches
