@@ -30,72 +30,76 @@ namespace Final_Project__Cafeteria_Management_System
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel11 = new System.Windows.Forms.Panel();
-            this.panel10 = new System.Windows.Forms.Panel();
+            this.amount = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.label11 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
+            this.rootBeer = new System.Windows.Forms.Label();
+            this.rootBeerBtn = new System.Windows.Forms.Button();
             this.label12 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.label8 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
+            this.summit = new System.Windows.Forms.Label();
+            this.summitBtn = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.label16 = new System.Windows.Forms.Label();
-            this.button6 = new System.Windows.Forms.Button();
+            this.sprite = new System.Windows.Forms.Label();
+            this.spriteBtn = new System.Windows.Forms.Button();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
+            this.evian = new System.Windows.Forms.Label();
+            this.evianBtn = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.label19 = new System.Windows.Forms.Label();
-            this.button7 = new System.Windows.Forms.Button();
+            this.royal = new System.Windows.Forms.Label();
+            this.royalBtn = new System.Windows.Forms.Button();
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.label22 = new System.Windows.Forms.Label();
-            this.button8 = new System.Windows.Forms.Button();
+            this.coke = new System.Windows.Forms.Label();
+            this.cokeBtn = new System.Windows.Forms.Button();
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.absolute = new System.Windows.Forms.Label();
+            this.absoluteBtn = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label14 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.leMinirale = new System.Windows.Forms.Label();
+            this.leMiniraleBtn = new System.Windows.Forms.Button();
             this.label13 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.clearBtn = new System.Windows.Forms.Button();
+            this.checkPriceBtn = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.panel9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel2.SuspendLayout();
+            this.panel10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -118,29 +122,21 @@ namespace Final_Project__Cafeteria_Management_System
             this.panel1.Size = new System.Drawing.Size(907, 625);
             this.panel1.TabIndex = 0;
             // 
-            // panel11
+            // amount
             // 
-            this.panel11.BackgroundImage = global::Final_Project__Cafeteria_Management_System.Properties.Resources._411dd3d08336a70457a3d8ef578f66b9;
-            this.panel11.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel11.Location = new System.Drawing.Point(0, 0);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(907, 48);
-            this.panel11.TabIndex = 31;
-            // 
-            // panel10
-            // 
-            this.panel10.BackgroundImage = global::Final_Project__Cafeteria_Management_System.Properties.Resources._411dd3d08336a70457a3d8ef578f66b9;
-            this.panel10.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel10.Location = new System.Drawing.Point(0, 577);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(907, 48);
-            this.panel10.TabIndex = 30;
+            this.amount.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.amount.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.amount.ForeColor = System.Drawing.Color.White;
+            this.amount.Location = new System.Drawing.Point(710, 14);
+            this.amount.Name = "amount";
+            this.amount.Size = new System.Drawing.Size(178, 24);
+            this.amount.TabIndex = 33;
             // 
             // panel6
             // 
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel6.Controls.Add(this.label11);
-            this.panel6.Controls.Add(this.button5);
+            this.panel6.Controls.Add(this.rootBeer);
+            this.panel6.Controls.Add(this.rootBeerBtn);
             this.panel6.Controls.Add(this.label12);
             this.panel6.Controls.Add(this.label15);
             this.panel6.Controls.Add(this.pictureBox5);
@@ -149,31 +145,32 @@ namespace Final_Project__Cafeteria_Management_System
             this.panel6.Size = new System.Drawing.Size(182, 221);
             this.panel6.TabIndex = 27;
             // 
-            // label11
+            // rootBeer
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(154, 193);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(22, 24);
-            this.label11.TabIndex = 24;
-            this.label11.Text = "0";
-            this.label11.Visible = false;
+            this.rootBeer.AutoSize = true;
+            this.rootBeer.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rootBeer.ForeColor = System.Drawing.Color.White;
+            this.rootBeer.Location = new System.Drawing.Point(144, 186);
+            this.rootBeer.Name = "rootBeer";
+            this.rootBeer.Size = new System.Drawing.Size(22, 24);
+            this.rootBeer.TabIndex = 24;
+            this.rootBeer.Text = "0";
+            this.rootBeer.Visible = false;
             // 
-            // button5
+            // rootBeerBtn
             // 
-            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(148, 11);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(28, 29);
-            this.button5.TabIndex = 23;
-            this.button5.Text = "+";
-            this.button5.UseVisualStyleBackColor = true;
+            this.rootBeerBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.rootBeerBtn.FlatAppearance.BorderSize = 0;
+            this.rootBeerBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rootBeerBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rootBeerBtn.ForeColor = System.Drawing.Color.White;
+            this.rootBeerBtn.Location = new System.Drawing.Point(148, 11);
+            this.rootBeerBtn.Name = "rootBeerBtn";
+            this.rootBeerBtn.Size = new System.Drawing.Size(28, 29);
+            this.rootBeerBtn.TabIndex = 23;
+            this.rootBeerBtn.Text = "+";
+            this.rootBeerBtn.UseVisualStyleBackColor = true;
+            this.rootBeerBtn.Click += new System.EventHandler(this.rootBeerBtn_Click);
             // 
             // label12
             // 
@@ -198,22 +195,11 @@ namespace Final_Project__Cafeteria_Management_System
             this.label15.TabIndex = 10;
             this.label15.Text = "Root Beer";
             // 
-            // pictureBox5
-            // 
-            this.pictureBox5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox5.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.Root_Beer;
-            this.pictureBox5.Location = new System.Drawing.Point(12, 11);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(101, 161);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 0;
-            this.pictureBox5.TabStop = false;
-            // 
             // panel5
             // 
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel5.Controls.Add(this.label8);
-            this.panel5.Controls.Add(this.button4);
+            this.panel5.Controls.Add(this.summit);
+            this.panel5.Controls.Add(this.summitBtn);
             this.panel5.Controls.Add(this.label9);
             this.panel5.Controls.Add(this.label10);
             this.panel5.Controls.Add(this.pictureBox4);
@@ -222,31 +208,32 @@ namespace Final_Project__Cafeteria_Management_System
             this.panel5.Size = new System.Drawing.Size(182, 221);
             this.panel5.TabIndex = 25;
             // 
-            // label8
+            // summit
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(154, 193);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(22, 24);
-            this.label8.TabIndex = 24;
-            this.label8.Text = "0";
-            this.label8.Visible = false;
+            this.summit.AutoSize = true;
+            this.summit.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.summit.ForeColor = System.Drawing.Color.White;
+            this.summit.Location = new System.Drawing.Point(144, 186);
+            this.summit.Name = "summit";
+            this.summit.Size = new System.Drawing.Size(22, 24);
+            this.summit.TabIndex = 24;
+            this.summit.Text = "0";
+            this.summit.Visible = false;
             // 
-            // button4
+            // summitBtn
             // 
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(148, 11);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(28, 29);
-            this.button4.TabIndex = 23;
-            this.button4.Text = "+";
-            this.button4.UseVisualStyleBackColor = true;
+            this.summitBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.summitBtn.FlatAppearance.BorderSize = 0;
+            this.summitBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.summitBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.summitBtn.ForeColor = System.Drawing.Color.White;
+            this.summitBtn.Location = new System.Drawing.Point(148, 11);
+            this.summitBtn.Name = "summitBtn";
+            this.summitBtn.Size = new System.Drawing.Size(28, 29);
+            this.summitBtn.TabIndex = 23;
+            this.summitBtn.Text = "+";
+            this.summitBtn.UseVisualStyleBackColor = true;
+            this.summitBtn.Click += new System.EventHandler(this.summitBtn_Click);
             // 
             // label9
             // 
@@ -271,22 +258,11 @@ namespace Final_Project__Cafeteria_Management_System
             this.label10.TabIndex = 10;
             this.label10.Text = "Summit";
             // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox4.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.Summit;
-            this.pictureBox4.Location = new System.Drawing.Point(12, 11);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(101, 161);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 0;
-            this.pictureBox4.TabStop = false;
-            // 
             // panel7
             // 
             this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel7.Controls.Add(this.label16);
-            this.panel7.Controls.Add(this.button6);
+            this.panel7.Controls.Add(this.sprite);
+            this.panel7.Controls.Add(this.spriteBtn);
             this.panel7.Controls.Add(this.label17);
             this.panel7.Controls.Add(this.label18);
             this.panel7.Controls.Add(this.pictureBox6);
@@ -295,31 +271,32 @@ namespace Final_Project__Cafeteria_Management_System
             this.panel7.Size = new System.Drawing.Size(182, 221);
             this.panel7.TabIndex = 28;
             // 
-            // label16
+            // sprite
             // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.Color.White;
-            this.label16.Location = new System.Drawing.Point(154, 193);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(22, 24);
-            this.label16.TabIndex = 24;
-            this.label16.Text = "0";
-            this.label16.Visible = false;
+            this.sprite.AutoSize = true;
+            this.sprite.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sprite.ForeColor = System.Drawing.Color.White;
+            this.sprite.Location = new System.Drawing.Point(144, 186);
+            this.sprite.Name = "sprite";
+            this.sprite.Size = new System.Drawing.Size(22, 24);
+            this.sprite.TabIndex = 24;
+            this.sprite.Text = "0";
+            this.sprite.Visible = false;
             // 
-            // button6
+            // spriteBtn
             // 
-            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(148, 11);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(28, 29);
-            this.button6.TabIndex = 23;
-            this.button6.Text = "+";
-            this.button6.UseVisualStyleBackColor = true;
+            this.spriteBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.spriteBtn.FlatAppearance.BorderSize = 0;
+            this.spriteBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.spriteBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spriteBtn.ForeColor = System.Drawing.Color.White;
+            this.spriteBtn.Location = new System.Drawing.Point(148, 11);
+            this.spriteBtn.Name = "spriteBtn";
+            this.spriteBtn.Size = new System.Drawing.Size(28, 29);
+            this.spriteBtn.TabIndex = 23;
+            this.spriteBtn.Text = "+";
+            this.spriteBtn.UseVisualStyleBackColor = true;
+            this.spriteBtn.Click += new System.EventHandler(this.spriteBtn_Click);
             // 
             // label17
             // 
@@ -344,22 +321,11 @@ namespace Final_Project__Cafeteria_Management_System
             this.label18.TabIndex = 10;
             this.label18.Text = "Sprite";
             // 
-            // pictureBox6
-            // 
-            this.pictureBox6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox6.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.Sprite;
-            this.pictureBox6.Location = new System.Drawing.Point(12, 11);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(101, 161);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 0;
-            this.pictureBox6.TabStop = false;
-            // 
             // panel4
             // 
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel4.Controls.Add(this.label5);
-            this.panel4.Controls.Add(this.button3);
+            this.panel4.Controls.Add(this.evian);
+            this.panel4.Controls.Add(this.evianBtn);
             this.panel4.Controls.Add(this.label6);
             this.panel4.Controls.Add(this.label7);
             this.panel4.Controls.Add(this.pictureBox3);
@@ -368,31 +334,32 @@ namespace Final_Project__Cafeteria_Management_System
             this.panel4.Size = new System.Drawing.Size(182, 221);
             this.panel4.TabIndex = 25;
             // 
-            // label5
+            // evian
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(154, 193);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(22, 24);
-            this.label5.TabIndex = 24;
-            this.label5.Text = "0";
-            this.label5.Visible = false;
+            this.evian.AutoSize = true;
+            this.evian.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.evian.ForeColor = System.Drawing.Color.White;
+            this.evian.Location = new System.Drawing.Point(144, 186);
+            this.evian.Name = "evian";
+            this.evian.Size = new System.Drawing.Size(22, 24);
+            this.evian.TabIndex = 24;
+            this.evian.Text = "0";
+            this.evian.Visible = false;
             // 
-            // button3
+            // evianBtn
             // 
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(148, 11);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(28, 29);
-            this.button3.TabIndex = 23;
-            this.button3.Text = "+";
-            this.button3.UseVisualStyleBackColor = true;
+            this.evianBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.evianBtn.FlatAppearance.BorderSize = 0;
+            this.evianBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.evianBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.evianBtn.ForeColor = System.Drawing.Color.White;
+            this.evianBtn.Location = new System.Drawing.Point(148, 11);
+            this.evianBtn.Name = "evianBtn";
+            this.evianBtn.Size = new System.Drawing.Size(28, 29);
+            this.evianBtn.TabIndex = 23;
+            this.evianBtn.Text = "+";
+            this.evianBtn.UseVisualStyleBackColor = true;
+            this.evianBtn.Click += new System.EventHandler(this.evianBtn_Click);
             // 
             // label6
             // 
@@ -417,22 +384,11 @@ namespace Final_Project__Cafeteria_Management_System
             this.label7.TabIndex = 10;
             this.label7.Text = "Evian";
             // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox3.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.Evian;
-            this.pictureBox3.Location = new System.Drawing.Point(12, 11);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(101, 161);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 0;
-            this.pictureBox3.TabStop = false;
-            // 
             // panel8
             // 
             this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel8.Controls.Add(this.label19);
-            this.panel8.Controls.Add(this.button7);
+            this.panel8.Controls.Add(this.royal);
+            this.panel8.Controls.Add(this.royalBtn);
             this.panel8.Controls.Add(this.label20);
             this.panel8.Controls.Add(this.label21);
             this.panel8.Controls.Add(this.pictureBox7);
@@ -441,31 +397,32 @@ namespace Final_Project__Cafeteria_Management_System
             this.panel8.Size = new System.Drawing.Size(182, 221);
             this.panel8.TabIndex = 29;
             // 
-            // label19
+            // royal
             // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.ForeColor = System.Drawing.Color.White;
-            this.label19.Location = new System.Drawing.Point(154, 193);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(22, 24);
-            this.label19.TabIndex = 24;
-            this.label19.Text = "0";
-            this.label19.Visible = false;
+            this.royal.AutoSize = true;
+            this.royal.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.royal.ForeColor = System.Drawing.Color.White;
+            this.royal.Location = new System.Drawing.Point(144, 186);
+            this.royal.Name = "royal";
+            this.royal.Size = new System.Drawing.Size(22, 24);
+            this.royal.TabIndex = 24;
+            this.royal.Text = "0";
+            this.royal.Visible = false;
             // 
-            // button7
+            // royalBtn
             // 
-            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(148, 11);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(28, 29);
-            this.button7.TabIndex = 23;
-            this.button7.Text = "+";
-            this.button7.UseVisualStyleBackColor = true;
+            this.royalBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.royalBtn.FlatAppearance.BorderSize = 0;
+            this.royalBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.royalBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.royalBtn.ForeColor = System.Drawing.Color.White;
+            this.royalBtn.Location = new System.Drawing.Point(148, 11);
+            this.royalBtn.Name = "royalBtn";
+            this.royalBtn.Size = new System.Drawing.Size(28, 29);
+            this.royalBtn.TabIndex = 23;
+            this.royalBtn.Text = "+";
+            this.royalBtn.UseVisualStyleBackColor = true;
+            this.royalBtn.Click += new System.EventHandler(this.royalBtn_Click);
             // 
             // label20
             // 
@@ -490,22 +447,11 @@ namespace Final_Project__Cafeteria_Management_System
             this.label21.TabIndex = 10;
             this.label21.Text = "Royal";
             // 
-            // pictureBox7
-            // 
-            this.pictureBox7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox7.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.Royal;
-            this.pictureBox7.Location = new System.Drawing.Point(12, 11);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(101, 161);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 0;
-            this.pictureBox7.TabStop = false;
-            // 
             // panel9
             // 
             this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel9.Controls.Add(this.label22);
-            this.panel9.Controls.Add(this.button8);
+            this.panel9.Controls.Add(this.coke);
+            this.panel9.Controls.Add(this.cokeBtn);
             this.panel9.Controls.Add(this.label23);
             this.panel9.Controls.Add(this.label24);
             this.panel9.Controls.Add(this.pictureBox8);
@@ -514,31 +460,32 @@ namespace Final_Project__Cafeteria_Management_System
             this.panel9.Size = new System.Drawing.Size(182, 221);
             this.panel9.TabIndex = 26;
             // 
-            // label22
+            // coke
             // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.ForeColor = System.Drawing.Color.White;
-            this.label22.Location = new System.Drawing.Point(154, 193);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(22, 24);
-            this.label22.TabIndex = 24;
-            this.label22.Text = "0";
-            this.label22.Visible = false;
+            this.coke.AutoSize = true;
+            this.coke.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.coke.ForeColor = System.Drawing.Color.White;
+            this.coke.Location = new System.Drawing.Point(144, 186);
+            this.coke.Name = "coke";
+            this.coke.Size = new System.Drawing.Size(22, 24);
+            this.coke.TabIndex = 24;
+            this.coke.Text = "0";
+            this.coke.Visible = false;
             // 
-            // button8
+            // cokeBtn
             // 
-            this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button8.FlatAppearance.BorderSize = 0;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.ForeColor = System.Drawing.Color.White;
-            this.button8.Location = new System.Drawing.Point(148, 11);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(28, 29);
-            this.button8.TabIndex = 23;
-            this.button8.Text = "+";
-            this.button8.UseVisualStyleBackColor = true;
+            this.cokeBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cokeBtn.FlatAppearance.BorderSize = 0;
+            this.cokeBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cokeBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cokeBtn.ForeColor = System.Drawing.Color.White;
+            this.cokeBtn.Location = new System.Drawing.Point(148, 11);
+            this.cokeBtn.Name = "cokeBtn";
+            this.cokeBtn.Size = new System.Drawing.Size(28, 29);
+            this.cokeBtn.TabIndex = 23;
+            this.cokeBtn.Text = "+";
+            this.cokeBtn.UseVisualStyleBackColor = true;
+            this.cokeBtn.Click += new System.EventHandler(this.cokeBtn_Click);
             // 
             // label23
             // 
@@ -563,22 +510,11 @@ namespace Final_Project__Cafeteria_Management_System
             this.label24.TabIndex = 10;
             this.label24.Text = "Coca-Cola";
             // 
-            // pictureBox8
-            // 
-            this.pictureBox8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox8.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.Coke;
-            this.pictureBox8.Location = new System.Drawing.Point(12, 11);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(101, 161);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 0;
-            this.pictureBox8.TabStop = false;
-            // 
             // panel3
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Controls.Add(this.label1);
-            this.panel3.Controls.Add(this.button2);
+            this.panel3.Controls.Add(this.absolute);
+            this.panel3.Controls.Add(this.absoluteBtn);
             this.panel3.Controls.Add(this.label2);
             this.panel3.Controls.Add(this.label3);
             this.panel3.Controls.Add(this.pictureBox2);
@@ -587,31 +523,32 @@ namespace Final_Project__Cafeteria_Management_System
             this.panel3.Size = new System.Drawing.Size(182, 221);
             this.panel3.TabIndex = 25;
             // 
-            // label1
+            // absolute
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(154, 193);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(22, 24);
-            this.label1.TabIndex = 24;
-            this.label1.Text = "0";
-            this.label1.Visible = false;
+            this.absolute.AutoSize = true;
+            this.absolute.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.absolute.ForeColor = System.Drawing.Color.White;
+            this.absolute.Location = new System.Drawing.Point(144, 186);
+            this.absolute.Name = "absolute";
+            this.absolute.Size = new System.Drawing.Size(22, 24);
+            this.absolute.TabIndex = 24;
+            this.absolute.Text = "0";
+            this.absolute.Visible = false;
             // 
-            // button2
+            // absoluteBtn
             // 
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(148, 11);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(28, 29);
-            this.button2.TabIndex = 23;
-            this.button2.Text = "+";
-            this.button2.UseVisualStyleBackColor = true;
+            this.absoluteBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.absoluteBtn.FlatAppearance.BorderSize = 0;
+            this.absoluteBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.absoluteBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.absoluteBtn.ForeColor = System.Drawing.Color.White;
+            this.absoluteBtn.Location = new System.Drawing.Point(148, 11);
+            this.absoluteBtn.Name = "absoluteBtn";
+            this.absoluteBtn.Size = new System.Drawing.Size(28, 29);
+            this.absoluteBtn.TabIndex = 23;
+            this.absoluteBtn.Text = "+";
+            this.absoluteBtn.UseVisualStyleBackColor = true;
+            this.absoluteBtn.Click += new System.EventHandler(this.absoluteBtn_Click);
             // 
             // label2
             // 
@@ -636,22 +573,11 @@ namespace Final_Project__Cafeteria_Management_System
             this.label3.TabIndex = 10;
             this.label3.Text = "Absolute";
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox2.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.Absolute;
-            this.pictureBox2.Location = new System.Drawing.Point(12, 11);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(101, 161);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            // 
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.label14);
-            this.panel2.Controls.Add(this.button1);
+            this.panel2.Controls.Add(this.leMinirale);
+            this.panel2.Controls.Add(this.leMiniraleBtn);
             this.panel2.Controls.Add(this.label13);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.pictureBox1);
@@ -660,31 +586,32 @@ namespace Final_Project__Cafeteria_Management_System
             this.panel2.Size = new System.Drawing.Size(182, 221);
             this.panel2.TabIndex = 0;
             // 
-            // label14
+            // leMinirale
             // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.Color.White;
-            this.label14.Location = new System.Drawing.Point(154, 193);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(22, 24);
-            this.label14.TabIndex = 24;
-            this.label14.Text = "0";
-            this.label14.Visible = false;
+            this.leMinirale.AutoSize = true;
+            this.leMinirale.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.leMinirale.ForeColor = System.Drawing.Color.White;
+            this.leMinirale.Location = new System.Drawing.Point(144, 186);
+            this.leMinirale.Name = "leMinirale";
+            this.leMinirale.Size = new System.Drawing.Size(22, 24);
+            this.leMinirale.TabIndex = 24;
+            this.leMinirale.Text = "0";
+            this.leMinirale.Visible = false;
             // 
-            // button1
+            // leMiniraleBtn
             // 
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(148, 11);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(28, 29);
-            this.button1.TabIndex = 23;
-            this.button1.Text = "+";
-            this.button1.UseVisualStyleBackColor = true;
+            this.leMiniraleBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.leMiniraleBtn.FlatAppearance.BorderSize = 0;
+            this.leMiniraleBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.leMiniraleBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.leMiniraleBtn.ForeColor = System.Drawing.Color.White;
+            this.leMiniraleBtn.Location = new System.Drawing.Point(148, 11);
+            this.leMiniraleBtn.Name = "leMiniraleBtn";
+            this.leMiniraleBtn.Size = new System.Drawing.Size(28, 29);
+            this.leMiniraleBtn.TabIndex = 23;
+            this.leMiniraleBtn.Text = "+";
+            this.leMiniraleBtn.UseVisualStyleBackColor = true;
+            this.leMiniraleBtn.Click += new System.EventHandler(this.leMiniraleBtn_Click);
             // 
             // label13
             // 
@@ -709,6 +636,104 @@ namespace Final_Project__Cafeteria_Management_System
             this.label4.TabIndex = 10;
             this.label4.Text = "Le Minirale";
             // 
+            // panel11
+            // 
+            this.panel11.BackgroundImage = global::Final_Project__Cafeteria_Management_System.Properties.Resources._411dd3d08336a70457a3d8ef578f66b9;
+            this.panel11.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel11.Location = new System.Drawing.Point(0, 0);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(907, 48);
+            this.panel11.TabIndex = 31;
+            // 
+            // panel10
+            // 
+            this.panel10.BackgroundImage = global::Final_Project__Cafeteria_Management_System.Properties.Resources._411dd3d08336a70457a3d8ef578f66b9;
+            this.panel10.Controls.Add(this.checkPriceBtn);
+            this.panel10.Controls.Add(this.clearBtn);
+            this.panel10.Controls.Add(this.amount);
+            this.panel10.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel10.Location = new System.Drawing.Point(0, 577);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(907, 48);
+            this.panel10.TabIndex = 30;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox5.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.Root_Beer;
+            this.pictureBox5.Location = new System.Drawing.Point(12, 11);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(101, 161);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 0;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox4.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.Summit;
+            this.pictureBox4.Location = new System.Drawing.Point(12, 11);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(101, 161);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 0;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox6.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.Sprite;
+            this.pictureBox6.Location = new System.Drawing.Point(12, 11);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(101, 161);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 0;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox3.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.Evian;
+            this.pictureBox3.Location = new System.Drawing.Point(12, 11);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(101, 161);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 0;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox7.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.Royal;
+            this.pictureBox7.Location = new System.Drawing.Point(12, 11);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(101, 161);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 0;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox8.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.Coke;
+            this.pictureBox8.Location = new System.Drawing.Point(12, 11);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(101, 161);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox8.TabIndex = 0;
+            this.pictureBox8.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox2.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.Absolute;
+            this.pictureBox2.Location = new System.Drawing.Point(12, 11);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(101, 161);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            // 
             // pictureBox1
             // 
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -720,6 +745,40 @@ namespace Final_Project__Cafeteria_Management_System
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // clearBtn
+            // 
+            this.clearBtn.BackColor = System.Drawing.Color.Teal;
+            this.clearBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.clearBtn.FlatAppearance.BorderSize = 0;
+            this.clearBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.clearBtn.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.clearBtn.ForeColor = System.Drawing.Color.White;
+            this.clearBtn.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.clear;
+            this.clearBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.clearBtn.Location = new System.Drawing.Point(510, 8);
+            this.clearBtn.Name = "clearBtn";
+            this.clearBtn.Size = new System.Drawing.Size(94, 35);
+            this.clearBtn.TabIndex = 34;
+            this.clearBtn.Text = "Clear";
+            this.clearBtn.UseVisualStyleBackColor = false;
+            this.clearBtn.Click += new System.EventHandler(this.clearBtn_Click);
+            // 
+            // checkPriceBtn
+            // 
+            this.checkPriceBtn.BackColor = System.Drawing.Color.Teal;
+            this.checkPriceBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.checkPriceBtn.FlatAppearance.BorderSize = 0;
+            this.checkPriceBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkPriceBtn.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkPriceBtn.ForeColor = System.Drawing.Color.White;
+            this.checkPriceBtn.Location = new System.Drawing.Point(610, 8);
+            this.checkPriceBtn.Name = "checkPriceBtn";
+            this.checkPriceBtn.Size = new System.Drawing.Size(94, 35);
+            this.checkPriceBtn.TabIndex = 35;
+            this.checkPriceBtn.Text = "Check Price";
+            this.checkPriceBtn.UseVisualStyleBackColor = false;
+            this.checkPriceBtn.Click += new System.EventHandler(this.checkPriceBtn_Click);
+            // 
             // DrinksControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -730,27 +789,28 @@ namespace Final_Project__Cafeteria_Management_System
             this.panel1.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.panel9.ResumeLayout(false);
             this.panel9.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.panel10.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -763,51 +823,54 @@ namespace Final_Project__Cafeteria_Management_System
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button leMiniraleBtn;
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Label rootBeer;
+        private System.Windows.Forms.Button rootBeerBtn;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Label summit;
+        private System.Windows.Forms.Button summitBtn;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Label sprite;
+        private System.Windows.Forms.Button spriteBtn;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label evian;
+        private System.Windows.Forms.Button evianBtn;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Label royal;
+        private System.Windows.Forms.Button royalBtn;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Label coke;
+        private System.Windows.Forms.Button cokeBtn;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label absolute;
+        private System.Windows.Forms.Button absoluteBtn;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label leMinirale;
+        private System.Windows.Forms.Label amount;
+        private System.Windows.Forms.Button clearBtn;
+        private System.Windows.Forms.Button checkPriceBtn;
     }
 }

@@ -51,8 +51,8 @@ namespace Final_Project__Cafeteria_Management_System
             this.candiesbtn = new System.Windows.Forms.Button();
             this.homebtn = new System.Windows.Forms.Button();
             this.drinksbtn = new System.Windows.Forms.Button();
-            this.drinksControl1 = new Final_Project__Cafeteria_Management_System.DrinksControl();
             this.mainControl1 = new Final_Project__Cafeteria_Management_System.MainControl();
+            this.drinksControl1 = new Final_Project__Cafeteria_Management_System.DrinksControl();
             this.sidebar.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -343,6 +343,13 @@ namespace Final_Project__Cafeteria_Management_System
             this.drinksbtn.UseVisualStyleBackColor = true;
             this.drinksbtn.Click += new System.EventHandler(this.drinksbtn_Click);
             // 
+            // mainControl1
+            // 
+            this.mainControl1.Location = new System.Drawing.Point(218, 0);
+            this.mainControl1.Name = "mainControl1";
+            this.mainControl1.Size = new System.Drawing.Size(907, 625);
+            this.mainControl1.TabIndex = 25;
+            // 
             // drinksControl1
             // 
             this.drinksControl1.Location = new System.Drawing.Point(218, 0);
@@ -350,21 +357,14 @@ namespace Final_Project__Cafeteria_Management_System
             this.drinksControl1.Size = new System.Drawing.Size(907, 625);
             this.drinksControl1.TabIndex = 22;
             // 
-            // mainControl1
-            // 
-            this.mainControl1.Location = new System.Drawing.Point(218, 0);
-            this.mainControl1.Name = "mainControl1";
-            this.mainControl1.Size = new System.Drawing.Size(907, 625);
-            this.mainControl1.TabIndex = 23;
-            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.ClientSize = new System.Drawing.Size(1125, 625);
-            this.Controls.Add(this.sidebar);
             this.Controls.Add(this.mainControl1);
+            this.Controls.Add(this.sidebar);
             this.Controls.Add(this.drinksControl1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Main";
