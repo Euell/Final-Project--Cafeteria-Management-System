@@ -26,6 +26,7 @@ namespace Final_Project__Cafeteria_Management_System
 
         private void registerbtn_Click(object sender, EventArgs e)
         {
+
             string filePath = "credentials.txt";
             
             if (txt_password.Text != txt_confirmPassword.Text || txt_username.Text == "" || txt_password.Text == "" || txt_confirmPassword.Text == "")

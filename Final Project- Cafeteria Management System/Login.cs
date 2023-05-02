@@ -28,26 +28,38 @@ namespace Final_Project__Cafeteria_Management_System
     
         private void loginbtn_Click(object sender, EventArgs e)
         {
-            string filePath = "credentials.txt";
-  
-            StreamReader reader = new StreamReader(filePath);
+            Main main = new Main();
+            main.Show(); // Allow the user to access the system
+            this.Hide();
+            //    string filePath = "credentials.txt";
+            //    bool isCredentialsMatched = false;
+            //    using (StreamReader reader = new StreamReader(filePath))
+            //    {
+            //        string line;
+            //        while ((line = reader.ReadLine()) != null)
+            //        {
+            //            string[] credentials = line.Split(':');
+            //            if (credentials[0] == txt_username.Text && credentials[1] == txt_password.Text)
+            //            {
+            //                isCredentialsMatched = true;
+            //                break;
+            //            }
+            //        }
+            //    }
 
-            string line;
-            while ((line = reader.ReadLine()) != null)
-            {
-                string[] credentials = line.Split(':');
-                if (credentials[0] == txt_username.Text && credentials[1] == txt_password.Text)
-                {
-                    MessageBox.Show("USER SUCCESSFULLY LOGGED IN!");
-                    Main main = new Main();
-                    main.Show();
-                    this.Hide();
-                }
-                else if (credentials[0] != txt_username.Text || credentials[1] != txt_password.Text || txt_username.Text == " " || txt_password.Text == " ")
-                {
-                    MessageBox.Show("INVALID USERNAME OR PASSWORD");
-                }
-            }
+            //    if (isCredentialsMatched)
+            //    {
+            //        MessageBox.Show("USER SUCCESSFULLY LOGGED IN!");
+            //        Main main = new Main();
+            //        main.Show(); // Allow the user to access the system
+            //        this.Hide();
+            //    }
+            //    else
+            //    {
+            //        MessageBox.Show("INVALID USERNAME OR PASSWORD"); // Display an error message
+
+            //    }
+
         }
 
         private void signupbtn_Click_1(object sender, EventArgs e)

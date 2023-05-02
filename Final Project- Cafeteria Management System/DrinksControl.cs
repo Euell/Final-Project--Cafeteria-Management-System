@@ -36,7 +36,7 @@ namespace Final_Project__Cafeteria_Management_System
             productTotalCosts[1] = productCost; // putting the product cost to the first index of the array 
 
             overallTotalCost = 0; // calling a global variable to hold the total value of all the products
-            for (int i = 0; i < 8; i++)
+            for (int i = 0; i < 9; i++)
             {
                 overallTotalCost += productTotalCosts[i]; // created a for loop to sum up the total cost
             }
@@ -53,7 +53,7 @@ namespace Final_Project__Cafeteria_Management_System
             int productCost = quantity * 20;
             productTotalCosts[2] = productCost;
             overallTotalCost = 0;
-            for (int i = 0; i < 8; i++)
+            for (int i = 0; i < 9; i++)
             {
                 overallTotalCost += productTotalCosts[i];
             }
@@ -69,7 +69,7 @@ namespace Final_Project__Cafeteria_Management_System
             int productCost = quantity * 25;
             productTotalCosts[3] = productCost;
             overallTotalCost = 0;
-            for (int i = 0; i < 8; i++)
+            for (int i = 0; i < 9; i++)
             {
                 overallTotalCost += productTotalCosts[i];
             }
@@ -85,7 +85,7 @@ namespace Final_Project__Cafeteria_Management_System
             int productCost = quantity * 20;
             productTotalCosts[4] = productCost;
             overallTotalCost = 0;
-            for (int i = 0; i < 8; i++)
+            for (int i = 0; i < 9; i++)
             {
                 overallTotalCost += productTotalCosts[i];
             }
@@ -101,7 +101,7 @@ namespace Final_Project__Cafeteria_Management_System
             int productCost = quantity * 30;
             productTotalCosts[5] = productCost;
             overallTotalCost = 0;
-            for (int i = 0; i < 8; i++)
+            for (int i = 0; i < 9; i++)
             {
                 overallTotalCost += productTotalCosts[i];
             }
@@ -117,7 +117,7 @@ namespace Final_Project__Cafeteria_Management_System
             int productCost = quantity * 30;
             productTotalCosts[6] = productCost;
             overallTotalCost = 0;
-            for (int i = 0; i < 8; i++)
+            for (int i = 0; i < 9; i++)
             {
                 overallTotalCost += productTotalCosts[i];
             }
@@ -133,7 +133,7 @@ namespace Final_Project__Cafeteria_Management_System
             int productCost = quantity * 30;
             productTotalCosts[7] = productCost;
             overallTotalCost = 0;
-            for (int i = 0; i < 8; i++)
+            for (int i = 0; i < 9; i++)
             {
                 overallTotalCost += productTotalCosts[i];
             }
