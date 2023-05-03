@@ -31,34 +31,34 @@ namespace Final_Project__Cafeteria_Management_System
             Main main = new Main();
             main.Show(); // Allow the user to access the system
             this.Hide();
-            //    string filePath = "credentials.txt";
-            //    bool isCredentialsMatched = false;
-            //    using (StreamReader reader = new StreamReader(filePath))
+            //string filePath = "credentials.txt";
+            //bool isCredentialsMatched = false;
+            //using (StreamReader reader = new StreamReader(filePath))
+            //{
+            //    string line;
+            //    while ((line = reader.ReadLine()) != null)
             //    {
-            //        string line;
-            //        while ((line = reader.ReadLine()) != null)
+            //        string[] credentials = line.Split(':');
+            //        if (credentials[0] == txt_username.Text && credentials[1] == txt_password.Text)
             //        {
-            //            string[] credentials = line.Split(':');
-            //            if (credentials[0] == txt_username.Text && credentials[1] == txt_password.Text)
-            //            {
-            //                isCredentialsMatched = true;
-            //                break;
-            //            }
+            //            isCredentialsMatched = true;
+            //            break;
             //        }
             //    }
+            //}
 
-            //    if (isCredentialsMatched)
-            //    {
-            //        MessageBox.Show("USER SUCCESSFULLY LOGGED IN!");
-            //        Main main = new Main();
-            //        main.Show(); // Allow the user to access the system
-            //        this.Hide();
-            //    }
-            //    else
-            //    {
-            //        MessageBox.Show("INVALID USERNAME OR PASSWORD"); // Display an error message
+            //if (isCredentialsMatched)
+            //{
+            //    MessageBox.Show("USER SUCCESSFULLY LOGGED IN!");
+            //    Main main = new Main();
+            //    main.Show(); // Allow the user to access the system
+            //    this.Hide();
+            //}
+            //else
+            //{
+            //    MessageBox.Show("INVALID USERNAME OR PASSWORD"); // Display an error message
 
-            //    }
+            //}
 
         }
 
