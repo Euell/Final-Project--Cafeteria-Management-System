@@ -18,14 +18,14 @@ namespace Final_Project__Cafeteria_Management_System
             InitializeComponent();
         }
         private int[] productTotalCosts = new int[9]; // Array to store the total cost
-        public int overallTotalCost = 0; //Add up the total cost of all products in the productTotalCosts array
+        public int drinksOverallTotalCost = 0; //Add up the total cost of all products in the productTotalCosts array
 
 
 
         //IncremenetButton
         //IncremenetButton
         //IncremenetButton
-        private void leMiniraleBtn_Click(object sender, EventArgs e)
+        private void leMiniraleBtn_Click_1(object sender, EventArgs e)
         {
             leMinirale.Visible = true; // the label that holds the quantity of the drink will be visible
             int quantity = int.Parse(leMinirale.Text); // converts the label that holds the quantity of the drink to an integer 
@@ -35,12 +35,11 @@ namespace Final_Project__Cafeteria_Management_System
             int productCost = quantity * 15; // A variable that holds the cost of the drink
             productTotalCosts[1] = productCost; // putting the product cost to the first index of the array 
 
-            overallTotalCost = 0; // calling a global variable to hold the total value of all the products
+            drinksOverallTotalCost = 0; // calling a global variable to hold the total value of all the products
             for (int i = 0; i < 9; i++)
             {
-                overallTotalCost += productTotalCosts[i]; // created a for loop to sum up the total cost
+                drinksOverallTotalCost += productTotalCosts[i]; // created a for loop to sum up the total cost and returning it to the global variable
             }
-
         }
 
         private void absoluteBtn_Click(object sender, EventArgs e)
@@ -52,10 +51,10 @@ namespace Final_Project__Cafeteria_Management_System
 
             int productCost = quantity * 20;
             productTotalCosts[2] = productCost;
-            overallTotalCost = 0;
+            drinksOverallTotalCost = 0;
             for (int i = 0; i < 9; i++)
             {
-                overallTotalCost += productTotalCosts[i];
+                drinksOverallTotalCost += productTotalCosts[i];
             }
         }
 
@@ -68,10 +67,10 @@ namespace Final_Project__Cafeteria_Management_System
 
             int productCost = quantity * 25;
             productTotalCosts[3] = productCost;
-            overallTotalCost = 0;
+            drinksOverallTotalCost = 0;
             for (int i = 0; i < 9; i++)
             {
-                overallTotalCost += productTotalCosts[i];
+                drinksOverallTotalCost += productTotalCosts[i];
             }
         }
 
@@ -84,10 +83,10 @@ namespace Final_Project__Cafeteria_Management_System
 
             int productCost = quantity * 20;
             productTotalCosts[4] = productCost;
-            overallTotalCost = 0;
+            drinksOverallTotalCost = 0;
             for (int i = 0; i < 9; i++)
             {
-                overallTotalCost += productTotalCosts[i];
+                drinksOverallTotalCost += productTotalCosts[i];
             }
         }
 
@@ -100,10 +99,10 @@ namespace Final_Project__Cafeteria_Management_System
 
             int productCost = quantity * 30;
             productTotalCosts[5] = productCost;
-            overallTotalCost = 0;
+            drinksOverallTotalCost = 0;
             for (int i = 0; i < 9; i++)
             {
-                overallTotalCost += productTotalCosts[i];
+                drinksOverallTotalCost += productTotalCosts[i];
             }
         }
 
@@ -116,10 +115,10 @@ namespace Final_Project__Cafeteria_Management_System
 
             int productCost = quantity * 30;
             productTotalCosts[6] = productCost;
-            overallTotalCost = 0;
+            drinksOverallTotalCost = 0;
             for (int i = 0; i < 9; i++)
             {
-                overallTotalCost += productTotalCosts[i];
+                drinksOverallTotalCost += productTotalCosts[i];
             }
         }
 
@@ -132,10 +131,10 @@ namespace Final_Project__Cafeteria_Management_System
 
             int productCost = quantity * 30;
             productTotalCosts[7] = productCost;
-            overallTotalCost = 0;
+            drinksOverallTotalCost = 0;
             for (int i = 0; i < 9; i++)
             {
-                overallTotalCost += productTotalCosts[i];
+                drinksOverallTotalCost += productTotalCosts[i];
             }
         }
 
@@ -148,22 +147,22 @@ namespace Final_Project__Cafeteria_Management_System
 
             int productCost = quantity * 30;
             productTotalCosts[8] = productCost;
-            overallTotalCost = 0;
+            drinksOverallTotalCost = 0;
             for (int i = 0; i < 9; i++)
             {
-                overallTotalCost += productTotalCosts[i];
+                drinksOverallTotalCost += productTotalCosts[i];
             }
         }
 
         private void checkPriceBtn_Click(object sender, EventArgs e)
         {
-            amount.Text = "₱" + overallTotalCost.ToString(); // display the total cost of the product
+            amount.Text = "₱" + drinksOverallTotalCost.ToString(); // display the total cost of the product
         }
 
         //buttons for checking price
         private void clearBtn_Click(object sender, EventArgs e) // reset all the quantity and the total cost
         {
-            overallTotalCost = 0; // the total cost of the products will be 0
+            drinksOverallTotalCost = 0; // the total cost of the products will be 0
 
             productTotalCosts[1] = 0; // to clear the total cost of the product so there will be no bugs.
             productTotalCosts[2] = 0;
@@ -193,6 +192,8 @@ namespace Final_Project__Cafeteria_Management_System
             rootBeer.Text = "0";
 
             amount.Text = "";  
-        }     
+        }
+
+        
     }
 }

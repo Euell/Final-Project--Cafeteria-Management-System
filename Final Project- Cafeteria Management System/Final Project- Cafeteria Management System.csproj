@@ -52,6 +52,12 @@
     <Compile Include="DrinksControl.Designer.cs">
       <DependentUpon>DrinksControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="CandiesControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CandiesControl1.Designer.cs">
+      <DependentUpon>CandiesControl1.cs</DependentUpon>
+    </Compile>
     <Compile Include="HomeControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -86,6 +92,9 @@
     </Compile>
     <EmbeddedResource Include="DrinksControl.resx">
       <DependentUpon>DrinksControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CandiesControl1.resx">
+      <DependentUpon>CandiesControl1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HomeControl.resx">
       <DependentUpon>HomeControl.cs</DependentUpon>
@@ -244,6 +253,63 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\clear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Frutos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Maxx.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lush.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hany.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\v Fresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nips.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Choc nut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Goya.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Goya2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Snickers.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reeses.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hershey%27s.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Maxx1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lush1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nips1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Twix.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Crunch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_2023-05-03_093033-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kopiko-removebg-preview.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

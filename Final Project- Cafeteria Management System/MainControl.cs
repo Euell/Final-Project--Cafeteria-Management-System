@@ -13,7 +13,7 @@ namespace Final_Project__Cafeteria_Management_System
     public partial class MainControl : UserControl
     {
         private int[] productTotalCosts = new int[18]; // Array to store the total cost
-        public int overallTotalCost = 0; //Add up the total cost of all products in the productTotalCosts array
+        public int mainOverallTotalCost = 0; //Add up the total cost of all products in the productTotalCosts array
        
         public MainControl()
         {
@@ -28,16 +28,16 @@ namespace Final_Project__Cafeteria_Management_System
         {
             eggSandwich.Visible = true; // the label that holds the quantity of the sandwich will be visible
             int quantity = int.Parse(eggSandwich.Text); // converts the label that holds the quantity of the sandwich to an integer 
-            quantity++; // incrementing the quantity of the drink
+            quantity++; // incrementing the quantity of the sandwich
             eggSandwich.Text = quantity.ToString(); // converts the converted quantity to string so it can be displayed as "text"
 
-            int productCost = quantity * 25; // A variable that holds the cost of the drink
+            int productCost = quantity * 25; // A variable that holds the cost of the sandwich
             productTotalCosts[1] = productCost; // putting the product cost to the first index of the array 
 
-            overallTotalCost = 0; // calling a global variable to hold the total value of all the products
+            mainOverallTotalCost = 0; // calling a global variable to hold the total value of all the products
             for (int i = 0; i < 18; i++)
             {
-                overallTotalCost += productTotalCosts[i]; // created a for loop to sum up the total cost
+                mainOverallTotalCost += productTotalCosts[i]; // created a for loop to sum up the total cost and returning it to the global variable
             }
 
         }
@@ -51,10 +51,10 @@ namespace Final_Project__Cafeteria_Management_System
 
             int productCost = quantity * 20;
             productTotalCosts[2] = productCost;
-            overallTotalCost = 0;
+            mainOverallTotalCost = 0;
             for (int i = 0; i < 18; i++)
             {
-                overallTotalCost += productTotalCosts[i];
+                mainOverallTotalCost += productTotalCosts[i];
             }
         }
 
@@ -67,10 +67,10 @@ namespace Final_Project__Cafeteria_Management_System
 
             int productCost = quantity * 30;
             productTotalCosts[3] = productCost;
-            overallTotalCost = 0;
+            mainOverallTotalCost = 0;
             for (int i = 0; i < 18; i++)
             {
-                overallTotalCost += productTotalCosts[i];
+                mainOverallTotalCost += productTotalCosts[i];
             }
         }
 
@@ -83,10 +83,10 @@ namespace Final_Project__Cafeteria_Management_System
 
             int productCost = quantity * 25;
             productTotalCosts[4] = productCost;
-            overallTotalCost = 0;
+            mainOverallTotalCost = 0;
             for (int i = 0; i < 18; i++)
             {
-                overallTotalCost += productTotalCosts[i];
+                mainOverallTotalCost += productTotalCosts[i];
             }
         }
 
@@ -99,10 +99,10 @@ namespace Final_Project__Cafeteria_Management_System
 
             int productCost = quantity * 30;
             productTotalCosts[5] = productCost;
-            overallTotalCost = 0;
+            mainOverallTotalCost = 0;
             for (int i = 0; i < 18; i++)
             {
-                overallTotalCost += productTotalCosts[i];
+                mainOverallTotalCost += productTotalCosts[i];
             }
         }
 
@@ -115,10 +115,10 @@ namespace Final_Project__Cafeteria_Management_System
 
             int productCost = quantity * 30;
             productTotalCosts[6] = productCost;
-            overallTotalCost = 0;
+            mainOverallTotalCost = 0;
             for (int i = 0; i < 18; i++)
             {
-                overallTotalCost += productTotalCosts[i];
+                mainOverallTotalCost += productTotalCosts[i];
             }
         }
 
@@ -131,10 +131,10 @@ namespace Final_Project__Cafeteria_Management_System
 
             int productCost = quantity * 35;
             productTotalCosts[7] = productCost;
-            overallTotalCost = 0;
+            mainOverallTotalCost = 0;
             for (int i = 0; i < 18; i++)
             {
-                overallTotalCost += productTotalCosts[i];
+                mainOverallTotalCost += productTotalCosts[i];
             }
         }
 
@@ -150,10 +150,10 @@ namespace Final_Project__Cafeteria_Management_System
 
             int productCost = quantity * 20;
             productTotalCosts[8] = productCost;
-            overallTotalCost = 0;
+            mainOverallTotalCost = 0;
             for (int i = 0; i < 18; i++)
             {
-                overallTotalCost += productTotalCosts[i];
+                mainOverallTotalCost += productTotalCosts[i];
             }
         }
 
@@ -166,10 +166,10 @@ namespace Final_Project__Cafeteria_Management_System
 
             int productCost = quantity * 20;
             productTotalCosts[9] = productCost;
-            overallTotalCost = 0;
+            mainOverallTotalCost = 0;
             for (int i = 0; i < 18; i++)
             {
-                overallTotalCost += productTotalCosts[i];
+                mainOverallTotalCost += productTotalCosts[i];
             }
 
         }
@@ -183,10 +183,10 @@ namespace Final_Project__Cafeteria_Management_System
 
             int productCost = quantity * 20;
             productTotalCosts[10] = productCost;
-            overallTotalCost = 0;
+            mainOverallTotalCost = 0;
             for (int i = 0; i < 18; i++)
             {
-                overallTotalCost += productTotalCosts[i];
+                mainOverallTotalCost += productTotalCosts[i];
             }
         }
 
@@ -199,10 +199,10 @@ namespace Final_Project__Cafeteria_Management_System
 
             int productCost = quantity * 25;
             productTotalCosts[11] = productCost;
-            overallTotalCost = 0;
+            mainOverallTotalCost = 0;
             for (int i = 0; i < 18; i++)
             {
-                overallTotalCost += productTotalCosts[i];
+                mainOverallTotalCost += productTotalCosts[i];
             }
         }
 
@@ -215,10 +215,10 @@ namespace Final_Project__Cafeteria_Management_System
 
             int productCost = quantity * 25;
             productTotalCosts[12] = productCost;
-            overallTotalCost = 0;
+            mainOverallTotalCost = 0;
             for (int i = 0; i < 18; i++)
             {
-                overallTotalCost += productTotalCosts[i];
+                mainOverallTotalCost += productTotalCosts[i];
             }
         }
 
@@ -237,10 +237,10 @@ namespace Final_Project__Cafeteria_Management_System
 
             int productCost = quantity * 25;
             productTotalCosts[13] = productCost;
-            overallTotalCost = 0;
+            mainOverallTotalCost = 0;
             for (int i = 0; i < 18; i++)
             {
-                overallTotalCost += productTotalCosts[i];
+                mainOverallTotalCost += productTotalCosts[i];
             }
         }
 
@@ -253,10 +253,10 @@ namespace Final_Project__Cafeteria_Management_System
 
             int productCost = quantity * 25;
             productTotalCosts[14] = productCost;
-            overallTotalCost = 0;
+            mainOverallTotalCost = 0;
             for (int i = 0; i < 18; i++)
             {
-                overallTotalCost += productTotalCosts[i];
+                mainOverallTotalCost += productTotalCosts[i];
             }
         }
 
@@ -269,10 +269,10 @@ namespace Final_Project__Cafeteria_Management_System
 
             int productCost = quantity * 25;
             productTotalCosts[15] = productCost;
-            overallTotalCost = 0;
+            mainOverallTotalCost = 0;
             for (int i = 0; i < 18; i++)
             {
-                overallTotalCost += productTotalCosts[i];
+                mainOverallTotalCost += productTotalCosts[i];
             }
         }
 
@@ -285,10 +285,10 @@ namespace Final_Project__Cafeteria_Management_System
 
             int productCost = quantity * 25;
             productTotalCosts[16] = productCost;
-            overallTotalCost = 0;
+            mainOverallTotalCost = 0;
             for (int i = 0; i < 18; i++)
             {
-                overallTotalCost += productTotalCosts[i];
+                mainOverallTotalCost += productTotalCosts[i];
             }
         }
 
@@ -301,21 +301,21 @@ namespace Final_Project__Cafeteria_Management_System
 
             int productCost = quantity * 25;
             productTotalCosts[17] = productCost;
-            overallTotalCost = 0;
+            mainOverallTotalCost = 0;
             for (int i = 0; i < 18; i++)
             {
-                overallTotalCost += productTotalCosts[i];
+                mainOverallTotalCost += productTotalCosts[i];
             }
         }
 
         private void checkPriceBtn_Click(object sender, EventArgs e)
         {
-            amount.Text = "₱" + overallTotalCost.ToString(); // display the total cost of the product
+            amount.Text = "₱" + mainOverallTotalCost.ToString(); // display the total cost of the product
         }
 
         private void clearBtn_Click(object sender, EventArgs e)
         {
-            overallTotalCost = 0; // the total cost of the products will be 0
+            mainOverallTotalCost = 0; // the total cost of the products will be 0
 
             productTotalCosts[1] = 0; // to clear the total cost of the product so there will be no bugs.
             productTotalCosts[2] = 0;
