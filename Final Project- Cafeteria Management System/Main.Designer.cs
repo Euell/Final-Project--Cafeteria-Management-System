@@ -55,6 +55,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.drinksControl1 = new Final_Project__Cafeteria_Management_System.DrinksControl();
             this.candiesControl11 = new Final_Project__Cafeteria_Management_System.CandiesControl1();
             this.snacksControl11 = new Final_Project__Cafeteria_Management_System.SnacksControl1();
+            this.breadControl1 = new Final_Project__Cafeteria_Management_System.BreadControl();
             this.sidebar.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -373,6 +374,13 @@ namespace Final_Project__Cafeteria_Management_System
             this.snacksControl11.Size = new System.Drawing.Size(907, 625);
             this.snacksControl11.TabIndex = 27;
             // 
+            // breadControl1
+            // 
+            this.breadControl1.Location = new System.Drawing.Point(218, 0);
+            this.breadControl1.Name = "breadControl1";
+            this.breadControl1.Size = new System.Drawing.Size(907, 625);
+            this.breadControl1.TabIndex = 28;
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -384,6 +392,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.Controls.Add(this.drinksControl1);
             this.Controls.Add(this.candiesControl11);
             this.Controls.Add(this.snacksControl11);
+            this.Controls.Add(this.breadControl1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -430,5 +439,6 @@ namespace Final_Project__Cafeteria_Management_System
         private MainControl mainControl1;
         private CandiesControl1 candiesControl11;
         private SnacksControl1 snacksControl11;
+        private BreadControl breadControl1;
     }
 }

@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BreadControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BreadControl.Designer.cs">
+      <DependentUpon>BreadControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="DrinksControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -96,6 +102,9 @@
     <Compile Include="SnacksControl1.Designer.cs">
       <DependentUpon>SnacksControl1.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="BreadControl.resx">
+      <DependentUpon>BreadControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DrinksControl.resx">
       <DependentUpon>DrinksControl.cs</DependentUpon>
     </EmbeddedResource>
@@ -355,6 +364,45 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Patata.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Petits.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Crroisant.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pistolet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ficelles.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Batard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Muffin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pretzel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sliced Bread.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cappuccino.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Macchiato.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Americano.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cortado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Café au Lait.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
