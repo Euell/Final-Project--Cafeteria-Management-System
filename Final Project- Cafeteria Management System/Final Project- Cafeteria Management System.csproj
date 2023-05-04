@@ -90,6 +90,12 @@
     <Compile Include="Signup.Designer.cs">
       <DependentUpon>Signup.cs</DependentUpon>
     </Compile>
+    <Compile Include="SnacksControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SnacksControl1.Designer.cs">
+      <DependentUpon>SnacksControl1.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="DrinksControl.resx">
       <DependentUpon>DrinksControl.cs</DependentUpon>
     </EmbeddedResource>
@@ -120,6 +126,9 @@
     </Compile>
     <EmbeddedResource Include="Signup.resx">
       <DependentUpon>Signup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SnacksControl1.resx">
+      <DependentUpon>SnacksControl1.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -310,6 +319,42 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Kopiko-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vcut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cracklings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mang Juan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Piattos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Clover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pillows.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DingDong.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lays.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cheetos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PhotatoChips.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PhotatFries.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Patata.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

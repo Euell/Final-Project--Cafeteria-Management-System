@@ -124,7 +124,8 @@ namespace Final_Project__Cafeteria_Management_System
             // 
             // panel2
             // 
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.BackColor = System.Drawing.Color.DimGray;
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel2.Controls.Add(this.leMinirale);
             this.panel2.Controls.Add(this.leMiniraleBtn);
             this.panel2.Controls.Add(this.label13);
@@ -187,6 +188,7 @@ namespace Final_Project__Cafeteria_Management_System
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackColor = System.Drawing.Color.DarkGray;
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox1.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.Le_Minirale;
             this.pictureBox1.Location = new System.Drawing.Point(12, 11);
@@ -263,7 +265,8 @@ namespace Final_Project__Cafeteria_Management_System
             // 
             // panel6
             // 
-            this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel6.BackColor = System.Drawing.Color.DimGray;
+            this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel6.Controls.Add(this.rootBeer);
             this.panel6.Controls.Add(this.rootBeerBtn);
             this.panel6.Controls.Add(this.label12);
@@ -326,6 +329,7 @@ namespace Final_Project__Cafeteria_Management_System
             // 
             // pictureBox5
             // 
+            this.pictureBox5.BackColor = System.Drawing.Color.DarkGray;
             this.pictureBox5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox5.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.Root_Beer;
             this.pictureBox5.Location = new System.Drawing.Point(12, 11);
@@ -337,7 +341,8 @@ namespace Final_Project__Cafeteria_Management_System
             // 
             // panel5
             // 
-            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel5.BackColor = System.Drawing.Color.DimGray;
+            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel5.Controls.Add(this.summit);
             this.panel5.Controls.Add(this.summitBtn);
             this.panel5.Controls.Add(this.label9);
@@ -400,6 +405,7 @@ namespace Final_Project__Cafeteria_Management_System
             // 
             // pictureBox4
             // 
+            this.pictureBox4.BackColor = System.Drawing.Color.DarkGray;
             this.pictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox4.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.Summit;
             this.pictureBox4.Location = new System.Drawing.Point(12, 11);
@@ -411,7 +417,8 @@ namespace Final_Project__Cafeteria_Management_System
             // 
             // panel7
             // 
-            this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel7.BackColor = System.Drawing.Color.DimGray;
+            this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel7.Controls.Add(this.sprite);
             this.panel7.Controls.Add(this.spriteBtn);
             this.panel7.Controls.Add(this.label17);
@@ -474,6 +481,7 @@ namespace Final_Project__Cafeteria_Management_System
             // 
             // pictureBox6
             // 
+            this.pictureBox6.BackColor = System.Drawing.Color.DarkGray;
             this.pictureBox6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox6.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.Sprite;
             this.pictureBox6.Location = new System.Drawing.Point(12, 11);
@@ -485,7 +493,8 @@ namespace Final_Project__Cafeteria_Management_System
             // 
             // panel4
             // 
-            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel4.BackColor = System.Drawing.Color.DimGray;
+            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel4.Controls.Add(this.evian);
             this.panel4.Controls.Add(this.evianBtn);
             this.panel4.Controls.Add(this.label6);
@@ -548,6 +557,7 @@ namespace Final_Project__Cafeteria_Management_System
             // 
             // pictureBox3
             // 
+            this.pictureBox3.BackColor = System.Drawing.Color.DarkGray;
             this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox3.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.Evian;
             this.pictureBox3.Location = new System.Drawing.Point(12, 11);
@@ -559,7 +569,8 @@ namespace Final_Project__Cafeteria_Management_System
             // 
             // panel8
             // 
-            this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel8.BackColor = System.Drawing.Color.DimGray;
+            this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel8.Controls.Add(this.royal);
             this.panel8.Controls.Add(this.royalBtn);
             this.panel8.Controls.Add(this.label20);
@@ -622,6 +633,7 @@ namespace Final_Project__Cafeteria_Management_System
             // 
             // pictureBox7
             // 
+            this.pictureBox7.BackColor = System.Drawing.Color.DarkGray;
             this.pictureBox7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox7.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.Royal;
             this.pictureBox7.Location = new System.Drawing.Point(12, 11);
@@ -633,7 +645,8 @@ namespace Final_Project__Cafeteria_Management_System
             // 
             // panel9
             // 
-            this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel9.BackColor = System.Drawing.Color.DimGray;
+            this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel9.Controls.Add(this.coke);
             this.panel9.Controls.Add(this.cokeBtn);
             this.panel9.Controls.Add(this.label23);
@@ -696,6 +709,7 @@ namespace Final_Project__Cafeteria_Management_System
             // 
             // pictureBox8
             // 
+            this.pictureBox8.BackColor = System.Drawing.Color.DarkGray;
             this.pictureBox8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox8.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.Coke;
             this.pictureBox8.Location = new System.Drawing.Point(12, 11);
@@ -707,7 +721,8 @@ namespace Final_Project__Cafeteria_Management_System
             // 
             // panel3
             // 
-            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.BackColor = System.Drawing.Color.DimGray;
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel3.Controls.Add(this.absolute);
             this.panel3.Controls.Add(this.absoluteBtn);
             this.panel3.Controls.Add(this.label2);
@@ -770,6 +785,7 @@ namespace Final_Project__Cafeteria_Management_System
             // 
             // pictureBox2
             // 
+            this.pictureBox2.BackColor = System.Drawing.Color.DarkGray;
             this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox2.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.Absolute;
             this.pictureBox2.Location = new System.Drawing.Point(12, 11);

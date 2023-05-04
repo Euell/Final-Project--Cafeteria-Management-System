@@ -54,6 +54,7 @@ namespace Final_Project__Cafeteria_Management_System
             mainControl1.BringToFront();
             drinksControl1.SendToBack();
             candiesControl11.SendToBack();
+            snacksControl11.SendToBack();
         }
 
         private void drinksbtn_Click(object sender, EventArgs e)
@@ -67,6 +68,7 @@ namespace Final_Project__Cafeteria_Management_System
             drinksControl1.BringToFront();
             mainControl1.SendToBack();
             candiesControl11.SendToBack();
+            snacksControl11.SendToBack();
         }
 
         private void candiesbtn_Click(object sender, EventArgs e)
@@ -80,6 +82,7 @@ namespace Final_Project__Cafeteria_Management_System
             candiesControl11.BringToFront();
             drinksControl1.SendToBack();
             mainControl1.SendToBack();
+            snacksControl11.SendToBack();
         }
 
         private void snacksbtn_Click(object sender, EventArgs e)
@@ -88,7 +91,12 @@ namespace Final_Project__Cafeteria_Management_System
             drinksPanel.Visible = false;
             candiesPanel.Visible = false;
             snacksPanel.Visible = true;
-            breadsPanel.Visible = false; 
+            breadsPanel.Visible = false;
+
+            snacksControl11.BringToFront();
+            candiesControl11.SendToBack();
+            drinksControl1.SendToBack();
+            mainControl1.SendToBack();
         }
 
         private void breadsbtn_Click(object sender, EventArgs e)

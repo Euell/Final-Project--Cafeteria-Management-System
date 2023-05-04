@@ -74,5 +74,12 @@ namespace Final_Project__Cafeteria_Management_System
             hidepassbtn2.Visible = false;
             showpassbtn2.Visible = true;
         }
+
+        private void backbtn_Click(object sender, EventArgs e)
+        {
+            Login login = new Login();
+            login.Show();
+            this.Hide();
+        }
     }
 }

@@ -38,6 +38,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.closebtn = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.label7 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
@@ -55,7 +56,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.hidepassbtn1 = new System.Windows.Forms.Button();
             this.txt_password = new System.Windows.Forms.TextBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.label7 = new System.Windows.Forms.Label();
+            this.backbtn = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel4.SuspendLayout();
@@ -70,6 +71,7 @@ namespace Final_Project__Cafeteria_Management_System
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Teal;
+            this.panel1.Controls.Add(this.backbtn);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.label1);
@@ -149,7 +151,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.closebtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.closebtn.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.closebtn.ForeColor = System.Drawing.Color.White;
-            this.closebtn.Location = new System.Drawing.Point(0, 0);
+            this.closebtn.Location = new System.Drawing.Point(260, 0);
             this.closebtn.Name = "closebtn";
             this.closebtn.Size = new System.Drawing.Size(40, 40);
             this.closebtn.TabIndex = 1;
@@ -184,6 +186,18 @@ namespace Final_Project__Cafeteria_Management_System
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(450, 530);
             this.panel4.TabIndex = 14;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Teal;
+            this.label7.Font = new System.Drawing.Font("Century Gothic", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Location = new System.Drawing.Point(-10, 158);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(195, 21);
+            this.label7.TabIndex = 19;
+            this.label7.Text = "      Create username";
             // 
             // label9
             // 
@@ -397,17 +411,23 @@ namespace Final_Project__Cafeteria_Management_System
             this.pictureBox3.TabIndex = 9;
             this.pictureBox3.TabStop = false;
             // 
-            // label7
+            // backbtn
             // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Teal;
-            this.label7.Font = new System.Drawing.Font("Century Gothic", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(-10, 158);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(195, 21);
-            this.label7.TabIndex = 19;
-            this.label7.Text = "      Create username";
+            this.backbtn.BackColor = System.Drawing.Color.Transparent;
+            this.backbtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.backbtn.FlatAppearance.BorderSize = 0;
+            this.backbtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.backbtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.backbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.backbtn.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.backbtn.ForeColor = System.Drawing.Color.White;
+            this.backbtn.Location = new System.Drawing.Point(0, 0);
+            this.backbtn.Name = "backbtn";
+            this.backbtn.Size = new System.Drawing.Size(33, 33);
+            this.backbtn.TabIndex = 20;
+            this.backbtn.Text = "<";
+            this.backbtn.UseVisualStyleBackColor = false;
+            this.backbtn.Click += new System.EventHandler(this.backbtn_Click);
             // 
             // Signup
             // 
@@ -470,5 +490,6 @@ namespace Final_Project__Cafeteria_Management_System
         private System.Windows.Forms.Button hidepassbtn2;
         private System.Windows.Forms.TextBox txt_confirmPassword;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button backbtn;
     }
 }
