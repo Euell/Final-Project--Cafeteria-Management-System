@@ -118,12 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Kopiko-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Kopiko-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Maxx1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Maxx1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Menu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -154,6 +148,9 @@
   <data name="Screenshot_2023-04-20_085620-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Screenshot_2023-04-20_085620-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Pistolet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pistolet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="v Fresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\v Fresh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -169,8 +166,17 @@
   <data name="Cracklings" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cracklings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Café au Lait" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Café au Lait.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Screenshot_2023-04-20_091200-removebg-preview1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Screenshot_2023-04-20_091200-removebg-preview1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Maxx" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Maxx.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hany" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hany.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Cheetos" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cheetos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -190,8 +196,8 @@
   <data name="Goya2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Goya2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="home (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\home (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="expand button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\expand button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Coke" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Coke.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -202,6 +208,9 @@
   <data name="Clover" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Clover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Pretzel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pretzel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Piattos" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Piattos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -210,9 +219,6 @@
   </data>
   <data name="Evian" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Evian.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Goya" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Goya.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Screenshot_2023-04-20_091200-removebg-preview2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Screenshot_2023-04-20_091200-removebg-preview2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -241,20 +247,23 @@
   <data name="Cortado" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cortado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="home (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Sprite" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sprite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Street food" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Street food1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Americano" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Americano.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Batard" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Batard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="candy (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\candy (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="expand button" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\expand button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Sandwich" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sandwich.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -270,9 +279,6 @@
   </data>
   <data name="PhotatFries" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PhotatFries.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PhotatoChips" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PhotatoChips.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Screenshot_2023-04-20_091200-removebg-preview3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Screenshot_2023-04-20_091200-removebg-preview3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -291,9 +297,6 @@
   </data>
   <data name="Lays" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Lays.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="back-teal" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\back-teal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Muffin" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Muffin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -331,23 +334,23 @@
   <data name="snacks" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\snacks.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Pistolet" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Pistolet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Goya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Goya.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Hany" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Hany.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="back-teal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back-teal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Crroisant" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Crroisant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Pretzel" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Pretzel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Kopiko-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kopiko-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Cappuccino" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cappuccino.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Americano" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Americano.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="PhotatoChips" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PhotatoChips.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Pillows" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Pillows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -355,8 +358,8 @@
   <data name="Screenshot_2023-04-20_114322-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Screenshot_2023-04-20_114322-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Maxx" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Maxx.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Maxx1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Maxx1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Petits" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Petits.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -367,7 +370,7 @@
   <data name="imageedit_41_76782970791" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\imageedit_41_76782970791.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Café au Lait" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Café au Lait.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Chocolate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Chocolate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

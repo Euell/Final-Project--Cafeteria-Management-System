@@ -30,30 +30,36 @@ namespace Final_Project__Cafeteria_Management_System
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel14 = new System.Windows.Forms.Panel();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.petitPain = new System.Windows.Forms.Label();
-            this.petitPainBtn = new System.Windows.Forms.Button();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.croissant = new System.Windows.Forms.Label();
-            this.croissantBtn = new System.Windows.Forms.Button();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.pistolet = new System.Windows.Forms.Label();
-            this.pistoletBtn = new System.Windows.Forms.Button();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.cafeAuLait = new System.Windows.Forms.Label();
+            this.cafeAuLaitBtn = new System.Windows.Forms.Button();
+            this.panel12 = new System.Windows.Forms.Panel();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.americano = new System.Windows.Forms.Label();
+            this.americanoBtn = new System.Windows.Forms.Button();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.slicedBread = new System.Windows.Forms.Label();
+            this.slicedBreadBtn = new System.Windows.Forms.Button();
+            this.panel13 = new System.Windows.Forms.Panel();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.cortado = new System.Windows.Forms.Label();
+            this.cortadoBtn = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.batard = new System.Windows.Forms.Label();
             this.batardBtn = new System.Windows.Forms.Button();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.label10 = new System.Windows.Forms.Label();
-            this.slicedBread = new System.Windows.Forms.Label();
-            this.slicedBreadBtn = new System.Windows.Forms.Button();
+            this.panel15 = new System.Windows.Forms.Panel();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.cappuccino = new System.Windows.Forms.Label();
+            this.cappuccinoBtn = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
@@ -64,31 +70,32 @@ namespace Final_Project__Cafeteria_Management_System
             this.label17 = new System.Windows.Forms.Label();
             this.muffin = new System.Windows.Forms.Label();
             this.muffinBtn = new System.Windows.Forms.Button();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.pistolet = new System.Windows.Forms.Label();
+            this.pistoletBtn = new System.Windows.Forms.Button();
             this.panel8 = new System.Windows.Forms.Panel();
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.ficelles = new System.Windows.Forms.Label();
             this.ficellesBtn = new System.Windows.Forms.Button();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.label22 = new System.Windows.Forms.Label();
-            this.cafeAuLait = new System.Windows.Forms.Label();
-            this.cafeAuLaitBtn = new System.Windows.Forms.Button();
-            this.panel12 = new System.Windows.Forms.Panel();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.americano = new System.Windows.Forms.Label();
-            this.americanoBtn = new System.Windows.Forms.Button();
-            this.panel13 = new System.Windows.Forms.Panel();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.cortado = new System.Windows.Forms.Label();
-            this.cortadoBtn = new System.Windows.Forms.Button();
-            this.panel15 = new System.Windows.Forms.Panel();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.cappuccino = new System.Windows.Forms.Label();
-            this.cappuccinoBtn = new System.Windows.Forms.Button();
-            this.label11 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.croissant = new System.Windows.Forms.Label();
+            this.croissantBtn = new System.Windows.Forms.Button();
+            this.panel14 = new System.Windows.Forms.Panel();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.petitPain = new System.Windows.Forms.Label();
+            this.petitPainBtn = new System.Windows.Forms.Button();
+            this.panel16 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.chocolate = new System.Windows.Forms.Label();
+            this.chocolateBtn = new System.Windows.Forms.Button();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
@@ -106,20 +113,21 @@ namespace Final_Project__Cafeteria_Management_System
             this.checkPriceBtn = new System.Windows.Forms.Button();
             this.clearBtn = new System.Windows.Forms.Button();
             this.amount = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
-            this.panel14.SuspendLayout();
-            this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.panel4.SuspendLayout();
-            this.panel5.SuspendLayout();
-            this.panel6.SuspendLayout();
-            this.panel7.SuspendLayout();
-            this.panel8.SuspendLayout();
             this.panel9.SuspendLayout();
             this.panel12.SuspendLayout();
+            this.panel5.SuspendLayout();
             this.panel13.SuspendLayout();
+            this.panel4.SuspendLayout();
             this.panel15.SuspendLayout();
+            this.panel6.SuspendLayout();
+            this.panel7.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.panel8.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.panel14.SuspendLayout();
+            this.panel16.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -138,6 +146,7 @@ namespace Final_Project__Cafeteria_Management_System
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.panel1.Controls.Add(this.panel16);
             this.panel1.Controls.Add(this.panel9);
             this.panel1.Controls.Add(this.panel12);
             this.panel1.Controls.Add(this.panel5);
@@ -158,194 +167,258 @@ namespace Final_Project__Cafeteria_Management_System
             this.panel1.Size = new System.Drawing.Size(907, 625);
             this.panel1.TabIndex = 3;
             // 
-            // panel14
+            // panel9
             // 
-            this.panel14.BackColor = System.Drawing.Color.DimGray;
-            this.panel14.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel14.Controls.Add(this.label30);
-            this.panel14.Controls.Add(this.label29);
-            this.panel14.Controls.Add(this.pictureBox15);
-            this.panel14.Controls.Add(this.petitPain);
-            this.panel14.Controls.Add(this.petitPainBtn);
-            this.panel14.Location = new System.Drawing.Point(13, 60);
-            this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(215, 188);
-            this.panel14.TabIndex = 27;
+            this.panel9.BackColor = System.Drawing.Color.DimGray;
+            this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel9.Controls.Add(this.label23);
+            this.panel9.Controls.Add(this.label22);
+            this.panel9.Controls.Add(this.pictureBox8);
+            this.panel9.Controls.Add(this.cafeAuLait);
+            this.panel9.Controls.Add(this.cafeAuLaitBtn);
+            this.panel9.Location = new System.Drawing.Point(544, 448);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(170, 123);
+            this.panel9.TabIndex = 54;
             // 
-            // label30
+            // label23
             // 
-            this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Bradley Hand ITC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.ForeColor = System.Drawing.Color.White;
-            this.label30.Location = new System.Drawing.Point(152, 78);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(56, 30);
-            this.label30.TabIndex = 47;
-            this.label30.Text = "₱12";
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Bradley Hand ITC", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.ForeColor = System.Drawing.Color.White;
+            this.label23.Location = new System.Drawing.Point(3, 82);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(131, 26);
+            this.label23.TabIndex = 48;
+            this.label23.Text = "Café au Lait";
             // 
-            // label29
+            // label22
             // 
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Bradley Hand ITC", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.ForeColor = System.Drawing.Color.White;
-            this.label29.Location = new System.Drawing.Point(11, 145);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(105, 26);
-            this.label29.TabIndex = 32;
-            this.label29.Text = "Petit pain";
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Bradley Hand ITC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.ForeColor = System.Drawing.Color.White;
+            this.label22.Location = new System.Drawing.Point(98, 49);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(57, 30);
+            this.label22.TabIndex = 47;
+            this.label22.Text = "₱30";
             // 
-            // petitPain
+            // cafeAuLait
             // 
-            this.petitPain.AutoSize = true;
-            this.petitPain.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.petitPain.ForeColor = System.Drawing.Color.White;
-            this.petitPain.Location = new System.Drawing.Point(186, 158);
-            this.petitPain.Name = "petitPain";
-            this.petitPain.Size = new System.Drawing.Size(22, 24);
-            this.petitPain.TabIndex = 24;
-            this.petitPain.Text = "0";
-            this.petitPain.Visible = false;
+            this.cafeAuLait.AutoSize = true;
+            this.cafeAuLait.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cafeAuLait.ForeColor = System.Drawing.Color.White;
+            this.cafeAuLait.Location = new System.Drawing.Point(134, 82);
+            this.cafeAuLait.Name = "cafeAuLait";
+            this.cafeAuLait.Size = new System.Drawing.Size(22, 24);
+            this.cafeAuLait.TabIndex = 24;
+            this.cafeAuLait.Text = "0";
+            this.cafeAuLait.Visible = false;
             // 
-            // petitPainBtn
+            // cafeAuLaitBtn
             // 
-            this.petitPainBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.petitPainBtn.FlatAppearance.BorderSize = 0;
-            this.petitPainBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.petitPainBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.petitPainBtn.ForeColor = System.Drawing.Color.White;
-            this.petitPainBtn.Location = new System.Drawing.Point(180, 3);
-            this.petitPainBtn.Name = "petitPainBtn";
-            this.petitPainBtn.Size = new System.Drawing.Size(28, 29);
-            this.petitPainBtn.TabIndex = 23;
-            this.petitPainBtn.Text = "+";
-            this.petitPainBtn.UseVisualStyleBackColor = true;
-            this.petitPainBtn.Click += new System.EventHandler(this.petitPainBtn_Click);
+            this.cafeAuLaitBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cafeAuLaitBtn.FlatAppearance.BorderSize = 0;
+            this.cafeAuLaitBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cafeAuLaitBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cafeAuLaitBtn.ForeColor = System.Drawing.Color.White;
+            this.cafeAuLaitBtn.Location = new System.Drawing.Point(135, 3);
+            this.cafeAuLaitBtn.Name = "cafeAuLaitBtn";
+            this.cafeAuLaitBtn.Size = new System.Drawing.Size(28, 29);
+            this.cafeAuLaitBtn.TabIndex = 23;
+            this.cafeAuLaitBtn.Text = "+";
+            this.cafeAuLaitBtn.UseVisualStyleBackColor = true;
+            this.cafeAuLaitBtn.Click += new System.EventHandler(this.cafeAuLaitBtn_Click);
             // 
-            // panel2
+            // panel12
             // 
-            this.panel2.BackColor = System.Drawing.Color.DimGray;
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel2.Controls.Add(this.label1);
-            this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.pictureBox1);
-            this.panel2.Controls.Add(this.croissant);
-            this.panel2.Controls.Add(this.croissantBtn);
-            this.panel2.Location = new System.Drawing.Point(234, 60);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(215, 188);
-            this.panel2.TabIndex = 48;
+            this.panel12.BackColor = System.Drawing.Color.DimGray;
+            this.panel12.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel12.Controls.Add(this.label25);
+            this.panel12.Controls.Add(this.label26);
+            this.panel12.Controls.Add(this.pictureBox9);
+            this.panel12.Controls.Add(this.americano);
+            this.panel12.Controls.Add(this.americanoBtn);
+            this.panel12.Location = new System.Drawing.Point(367, 448);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(170, 123);
+            this.panel12.TabIndex = 55;
             // 
-            // label1
+            // label25
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Bradley Hand ITC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(152, 78);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(56, 30);
-            this.label1.TabIndex = 47;
-            this.label1.Text = "₱15";
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Bradley Hand ITC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.ForeColor = System.Drawing.Color.White;
+            this.label25.Location = new System.Drawing.Point(98, 49);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(58, 30);
+            this.label25.TabIndex = 47;
+            this.label25.Text = "₱25";
             // 
-            // label2
+            // label26
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Bradley Hand ITC", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(11, 145);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(105, 26);
-            this.label2.TabIndex = 32;
-            this.label2.Text = "Croissant";
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Bradley Hand ITC", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.ForeColor = System.Drawing.Color.White;
+            this.label26.Location = new System.Drawing.Point(11, 82);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(117, 26);
+            this.label26.TabIndex = 32;
+            this.label26.Text = "Americano";
             // 
-            // croissant
+            // americano
             // 
-            this.croissant.AutoSize = true;
-            this.croissant.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.croissant.ForeColor = System.Drawing.Color.White;
-            this.croissant.Location = new System.Drawing.Point(186, 158);
-            this.croissant.Name = "croissant";
-            this.croissant.Size = new System.Drawing.Size(22, 24);
-            this.croissant.TabIndex = 24;
-            this.croissant.Text = "0";
-            this.croissant.Visible = false;
+            this.americano.AutoSize = true;
+            this.americano.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.americano.ForeColor = System.Drawing.Color.White;
+            this.americano.Location = new System.Drawing.Point(134, 82);
+            this.americano.Name = "americano";
+            this.americano.Size = new System.Drawing.Size(22, 24);
+            this.americano.TabIndex = 24;
+            this.americano.Text = "0";
+            this.americano.Visible = false;
             // 
-            // croissantBtn
+            // americanoBtn
             // 
-            this.croissantBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.croissantBtn.FlatAppearance.BorderSize = 0;
-            this.croissantBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.croissantBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.croissantBtn.ForeColor = System.Drawing.Color.White;
-            this.croissantBtn.Location = new System.Drawing.Point(180, 3);
-            this.croissantBtn.Name = "croissantBtn";
-            this.croissantBtn.Size = new System.Drawing.Size(28, 29);
-            this.croissantBtn.TabIndex = 23;
-            this.croissantBtn.Text = "+";
-            this.croissantBtn.UseVisualStyleBackColor = true;
-            this.croissantBtn.Click += new System.EventHandler(this.croissantBtn_Click);
+            this.americanoBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.americanoBtn.FlatAppearance.BorderSize = 0;
+            this.americanoBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.americanoBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.americanoBtn.ForeColor = System.Drawing.Color.White;
+            this.americanoBtn.Location = new System.Drawing.Point(135, 3);
+            this.americanoBtn.Name = "americanoBtn";
+            this.americanoBtn.Size = new System.Drawing.Size(28, 29);
+            this.americanoBtn.TabIndex = 23;
+            this.americanoBtn.Text = "+";
+            this.americanoBtn.UseVisualStyleBackColor = true;
+            this.americanoBtn.Click += new System.EventHandler(this.americanoBtn_Click);
             // 
-            // panel3
+            // panel5
             // 
-            this.panel3.BackColor = System.Drawing.Color.DimGray;
-            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel3.Controls.Add(this.label4);
-            this.panel3.Controls.Add(this.label5);
-            this.panel3.Controls.Add(this.pictureBox2);
-            this.panel3.Controls.Add(this.pistolet);
-            this.panel3.Controls.Add(this.pistoletBtn);
-            this.panel3.Location = new System.Drawing.Point(455, 60);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(215, 188);
-            this.panel3.TabIndex = 48;
+            this.panel5.BackColor = System.Drawing.Color.DimGray;
+            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel5.Controls.Add(this.label11);
+            this.panel5.Controls.Add(this.label10);
+            this.panel5.Controls.Add(this.pictureBox4);
+            this.panel5.Controls.Add(this.slicedBread);
+            this.panel5.Controls.Add(this.slicedBreadBtn);
+            this.panel5.Location = new System.Drawing.Point(676, 254);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(215, 188);
+            this.panel5.TabIndex = 50;
             // 
-            // label4
+            // label11
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Bradley Hand ITC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(152, 78);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(56, 30);
-            this.label4.TabIndex = 47;
-            this.label4.Text = "₱13";
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Bradley Hand ITC", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.White;
+            this.label11.Location = new System.Drawing.Point(11, 145);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(135, 26);
+            this.label11.TabIndex = 48;
+            this.label11.Text = "Sliced Bread";
             // 
-            // label5
+            // label10
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Bradley Hand ITC", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(11, 145);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(84, 26);
-            this.label5.TabIndex = 32;
-            this.label5.Text = "Pistolet";
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Bradley Hand ITC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.White;
+            this.label10.Location = new System.Drawing.Point(152, 78);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(55, 30);
+            this.label10.TabIndex = 47;
+            this.label10.Text = "₱10";
             // 
-            // pistolet
+            // slicedBread
             // 
-            this.pistolet.AutoSize = true;
-            this.pistolet.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pistolet.ForeColor = System.Drawing.Color.White;
-            this.pistolet.Location = new System.Drawing.Point(186, 158);
-            this.pistolet.Name = "pistolet";
-            this.pistolet.Size = new System.Drawing.Size(22, 24);
-            this.pistolet.TabIndex = 24;
-            this.pistolet.Text = "0";
-            this.pistolet.Visible = false;
+            this.slicedBread.AutoSize = true;
+            this.slicedBread.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.slicedBread.ForeColor = System.Drawing.Color.White;
+            this.slicedBread.Location = new System.Drawing.Point(186, 158);
+            this.slicedBread.Name = "slicedBread";
+            this.slicedBread.Size = new System.Drawing.Size(22, 24);
+            this.slicedBread.TabIndex = 24;
+            this.slicedBread.Text = "0";
+            this.slicedBread.Visible = false;
             // 
-            // pistoletBtn
+            // slicedBreadBtn
             // 
-            this.pistoletBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pistoletBtn.FlatAppearance.BorderSize = 0;
-            this.pistoletBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pistoletBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pistoletBtn.ForeColor = System.Drawing.Color.White;
-            this.pistoletBtn.Location = new System.Drawing.Point(180, 3);
-            this.pistoletBtn.Name = "pistoletBtn";
-            this.pistoletBtn.Size = new System.Drawing.Size(28, 29);
-            this.pistoletBtn.TabIndex = 23;
-            this.pistoletBtn.Text = "+";
-            this.pistoletBtn.UseVisualStyleBackColor = true;
-            this.pistoletBtn.Click += new System.EventHandler(this.pistoletBtn_Click);
+            this.slicedBreadBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.slicedBreadBtn.FlatAppearance.BorderSize = 0;
+            this.slicedBreadBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.slicedBreadBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.slicedBreadBtn.ForeColor = System.Drawing.Color.White;
+            this.slicedBreadBtn.Location = new System.Drawing.Point(180, 3);
+            this.slicedBreadBtn.Name = "slicedBreadBtn";
+            this.slicedBreadBtn.Size = new System.Drawing.Size(28, 29);
+            this.slicedBreadBtn.TabIndex = 23;
+            this.slicedBreadBtn.Text = "+";
+            this.slicedBreadBtn.UseVisualStyleBackColor = true;
+            this.slicedBreadBtn.Click += new System.EventHandler(this.slicedBreadBtn_Click);
+            // 
+            // panel13
+            // 
+            this.panel13.BackColor = System.Drawing.Color.DimGray;
+            this.panel13.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel13.Controls.Add(this.label28);
+            this.panel13.Controls.Add(this.label31);
+            this.panel13.Controls.Add(this.pictureBox10);
+            this.panel13.Controls.Add(this.cortado);
+            this.panel13.Controls.Add(this.cortadoBtn);
+            this.panel13.Location = new System.Drawing.Point(190, 448);
+            this.panel13.Name = "panel13";
+            this.panel13.Size = new System.Drawing.Size(170, 123);
+            this.panel13.TabIndex = 56;
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Bradley Hand ITC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.ForeColor = System.Drawing.Color.White;
+            this.label28.Location = new System.Drawing.Point(98, 49);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(57, 30);
+            this.label28.TabIndex = 47;
+            this.label28.Text = "₱30";
+            this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Font = new System.Drawing.Font("Bradley Hand ITC", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.ForeColor = System.Drawing.Color.White;
+            this.label31.Location = new System.Drawing.Point(3, 82);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(86, 26);
+            this.label31.TabIndex = 32;
+            this.label31.Text = "Cortado";
+            // 
+            // cortado
+            // 
+            this.cortado.AutoSize = true;
+            this.cortado.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cortado.ForeColor = System.Drawing.Color.White;
+            this.cortado.Location = new System.Drawing.Point(134, 82);
+            this.cortado.Name = "cortado";
+            this.cortado.Size = new System.Drawing.Size(22, 24);
+            this.cortado.TabIndex = 24;
+            this.cortado.Text = "0";
+            this.cortado.Visible = false;
+            // 
+            // cortadoBtn
+            // 
+            this.cortadoBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cortadoBtn.FlatAppearance.BorderSize = 0;
+            this.cortadoBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cortadoBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cortadoBtn.ForeColor = System.Drawing.Color.White;
+            this.cortadoBtn.Location = new System.Drawing.Point(135, 3);
+            this.cortadoBtn.Name = "cortadoBtn";
+            this.cortadoBtn.Size = new System.Drawing.Size(28, 29);
+            this.cortadoBtn.TabIndex = 23;
+            this.cortadoBtn.Text = "+";
+            this.cortadoBtn.UseVisualStyleBackColor = true;
+            this.cortadoBtn.Click += new System.EventHandler(this.cortadoBtn_Click);
             // 
             // panel4
             // 
@@ -410,57 +483,68 @@ namespace Final_Project__Cafeteria_Management_System
             this.batardBtn.UseVisualStyleBackColor = true;
             this.batardBtn.Click += new System.EventHandler(this.batardBtn_Click);
             // 
-            // panel5
+            // panel15
             // 
-            this.panel5.BackColor = System.Drawing.Color.DimGray;
-            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel5.Controls.Add(this.label11);
-            this.panel5.Controls.Add(this.label10);
-            this.panel5.Controls.Add(this.pictureBox4);
-            this.panel5.Controls.Add(this.slicedBread);
-            this.panel5.Controls.Add(this.slicedBreadBtn);
-            this.panel5.Location = new System.Drawing.Point(676, 254);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(215, 188);
-            this.panel5.TabIndex = 50;
+            this.panel15.BackColor = System.Drawing.Color.DimGray;
+            this.panel15.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel15.Controls.Add(this.label33);
+            this.panel15.Controls.Add(this.label34);
+            this.panel15.Controls.Add(this.pictureBox11);
+            this.panel15.Controls.Add(this.cappuccino);
+            this.panel15.Controls.Add(this.cappuccinoBtn);
+            this.panel15.Location = new System.Drawing.Point(13, 448);
+            this.panel15.Name = "panel15";
+            this.panel15.Size = new System.Drawing.Size(170, 123);
+            this.panel15.TabIndex = 53;
             // 
-            // label10
+            // label33
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Bradley Hand ITC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(152, 78);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(55, 30);
-            this.label10.TabIndex = 47;
-            this.label10.Text = "₱10";
+            this.label33.AutoSize = true;
+            this.label33.Font = new System.Drawing.Font("Bradley Hand ITC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.ForeColor = System.Drawing.Color.White;
+            this.label33.Location = new System.Drawing.Point(98, 49);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(57, 30);
+            this.label33.TabIndex = 47;
+            this.label33.Text = "₱30";
             // 
-            // slicedBread
+            // label34
             // 
-            this.slicedBread.AutoSize = true;
-            this.slicedBread.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.slicedBread.ForeColor = System.Drawing.Color.White;
-            this.slicedBread.Location = new System.Drawing.Point(186, 158);
-            this.slicedBread.Name = "slicedBread";
-            this.slicedBread.Size = new System.Drawing.Size(22, 24);
-            this.slicedBread.TabIndex = 24;
-            this.slicedBread.Text = "0";
-            this.slicedBread.Visible = false;
+            this.label34.AutoSize = true;
+            this.label34.Font = new System.Drawing.Font("Bradley Hand ITC", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label34.ForeColor = System.Drawing.Color.White;
+            this.label34.Location = new System.Drawing.Point(3, 82);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(121, 26);
+            this.label34.TabIndex = 32;
+            this.label34.Text = "Cappuccino";
             // 
-            // slicedBreadBtn
+            // cappuccino
             // 
-            this.slicedBreadBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.slicedBreadBtn.FlatAppearance.BorderSize = 0;
-            this.slicedBreadBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.slicedBreadBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.slicedBreadBtn.ForeColor = System.Drawing.Color.White;
-            this.slicedBreadBtn.Location = new System.Drawing.Point(180, 3);
-            this.slicedBreadBtn.Name = "slicedBreadBtn";
-            this.slicedBreadBtn.Size = new System.Drawing.Size(28, 29);
-            this.slicedBreadBtn.TabIndex = 23;
-            this.slicedBreadBtn.Text = "+";
-            this.slicedBreadBtn.UseVisualStyleBackColor = true;
-            this.slicedBreadBtn.Click += new System.EventHandler(this.slicedBreadBtn_Click);
+            this.cappuccino.AutoSize = true;
+            this.cappuccino.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cappuccino.ForeColor = System.Drawing.Color.White;
+            this.cappuccino.Location = new System.Drawing.Point(134, 82);
+            this.cappuccino.Name = "cappuccino";
+            this.cappuccino.Size = new System.Drawing.Size(22, 24);
+            this.cappuccino.TabIndex = 24;
+            this.cappuccino.Text = "0";
+            this.cappuccino.Visible = false;
+            // 
+            // cappuccinoBtn
+            // 
+            this.cappuccinoBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cappuccinoBtn.FlatAppearance.BorderSize = 0;
+            this.cappuccinoBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cappuccinoBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cappuccinoBtn.ForeColor = System.Drawing.Color.White;
+            this.cappuccinoBtn.Location = new System.Drawing.Point(135, 3);
+            this.cappuccinoBtn.Name = "cappuccinoBtn";
+            this.cappuccinoBtn.Size = new System.Drawing.Size(28, 29);
+            this.cappuccinoBtn.TabIndex = 23;
+            this.cappuccinoBtn.Text = "+";
+            this.cappuccinoBtn.UseVisualStyleBackColor = true;
+            this.cappuccinoBtn.Click += new System.EventHandler(this.cappuccinoBtn_Click);
             // 
             // panel6
             // 
@@ -588,6 +672,69 @@ namespace Final_Project__Cafeteria_Management_System
             this.muffinBtn.UseVisualStyleBackColor = true;
             this.muffinBtn.Click += new System.EventHandler(this.muffinBtn_Click);
             // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.DimGray;
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel3.Controls.Add(this.label4);
+            this.panel3.Controls.Add(this.label5);
+            this.panel3.Controls.Add(this.pictureBox2);
+            this.panel3.Controls.Add(this.pistolet);
+            this.panel3.Controls.Add(this.pistoletBtn);
+            this.panel3.Location = new System.Drawing.Point(455, 60);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(215, 188);
+            this.panel3.TabIndex = 48;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Bradley Hand ITC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(152, 78);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(56, 30);
+            this.label4.TabIndex = 47;
+            this.label4.Text = "₱13";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Bradley Hand ITC", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(11, 145);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(84, 26);
+            this.label5.TabIndex = 32;
+            this.label5.Text = "Pistolet";
+            // 
+            // pistolet
+            // 
+            this.pistolet.AutoSize = true;
+            this.pistolet.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pistolet.ForeColor = System.Drawing.Color.White;
+            this.pistolet.Location = new System.Drawing.Point(186, 158);
+            this.pistolet.Name = "pistolet";
+            this.pistolet.Size = new System.Drawing.Size(22, 24);
+            this.pistolet.TabIndex = 24;
+            this.pistolet.Text = "0";
+            this.pistolet.Visible = false;
+            // 
+            // pistoletBtn
+            // 
+            this.pistoletBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pistoletBtn.FlatAppearance.BorderSize = 0;
+            this.pistoletBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.pistoletBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pistoletBtn.ForeColor = System.Drawing.Color.White;
+            this.pistoletBtn.Location = new System.Drawing.Point(180, 3);
+            this.pistoletBtn.Name = "pistoletBtn";
+            this.pistoletBtn.Size = new System.Drawing.Size(28, 29);
+            this.pistoletBtn.TabIndex = 23;
+            this.pistoletBtn.Text = "+";
+            this.pistoletBtn.UseVisualStyleBackColor = true;
+            this.pistoletBtn.Click += new System.EventHandler(this.pistoletBtn_Click);
+            // 
             // panel8
             // 
             this.panel8.BackColor = System.Drawing.Color.DimGray;
@@ -651,258 +798,206 @@ namespace Final_Project__Cafeteria_Management_System
             this.ficellesBtn.UseVisualStyleBackColor = true;
             this.ficellesBtn.Click += new System.EventHandler(this.ficellesBtn_Click);
             // 
-            // panel9
+            // panel2
             // 
-            this.panel9.BackColor = System.Drawing.Color.DimGray;
-            this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel9.Controls.Add(this.label23);
-            this.panel9.Controls.Add(this.label22);
-            this.panel9.Controls.Add(this.pictureBox8);
-            this.panel9.Controls.Add(this.cafeAuLait);
-            this.panel9.Controls.Add(this.cafeAuLaitBtn);
-            this.panel9.Location = new System.Drawing.Point(676, 448);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(215, 123);
-            this.panel9.TabIndex = 54;
+            this.panel2.BackColor = System.Drawing.Color.DimGray;
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel2.Controls.Add(this.label1);
+            this.panel2.Controls.Add(this.label2);
+            this.panel2.Controls.Add(this.pictureBox1);
+            this.panel2.Controls.Add(this.croissant);
+            this.panel2.Controls.Add(this.croissantBtn);
+            this.panel2.Location = new System.Drawing.Point(234, 60);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(215, 188);
+            this.panel2.TabIndex = 48;
             // 
-            // label22
+            // label1
             // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Bradley Hand ITC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.ForeColor = System.Drawing.Color.White;
-            this.label22.Location = new System.Drawing.Point(99, 31);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(57, 30);
-            this.label22.TabIndex = 47;
-            this.label22.Text = "₱30";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Bradley Hand ITC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(152, 78);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(56, 30);
+            this.label1.TabIndex = 47;
+            this.label1.Text = "₱15";
             // 
-            // cafeAuLait
+            // label2
             // 
-            this.cafeAuLait.AutoSize = true;
-            this.cafeAuLait.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cafeAuLait.ForeColor = System.Drawing.Color.White;
-            this.cafeAuLait.Location = new System.Drawing.Point(186, 80);
-            this.cafeAuLait.Name = "cafeAuLait";
-            this.cafeAuLait.Size = new System.Drawing.Size(22, 24);
-            this.cafeAuLait.TabIndex = 24;
-            this.cafeAuLait.Text = "0";
-            this.cafeAuLait.Visible = false;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Bradley Hand ITC", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(11, 145);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(105, 26);
+            this.label2.TabIndex = 32;
+            this.label2.Text = "Croissant";
             // 
-            // cafeAuLaitBtn
+            // croissant
             // 
-            this.cafeAuLaitBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cafeAuLaitBtn.FlatAppearance.BorderSize = 0;
-            this.cafeAuLaitBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cafeAuLaitBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cafeAuLaitBtn.ForeColor = System.Drawing.Color.White;
-            this.cafeAuLaitBtn.Location = new System.Drawing.Point(180, 3);
-            this.cafeAuLaitBtn.Name = "cafeAuLaitBtn";
-            this.cafeAuLaitBtn.Size = new System.Drawing.Size(28, 29);
-            this.cafeAuLaitBtn.TabIndex = 23;
-            this.cafeAuLaitBtn.Text = "+";
-            this.cafeAuLaitBtn.UseVisualStyleBackColor = true;
-            this.cafeAuLaitBtn.Click += new System.EventHandler(this.cafeAuLaitBtn_Click);
+            this.croissant.AutoSize = true;
+            this.croissant.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.croissant.ForeColor = System.Drawing.Color.White;
+            this.croissant.Location = new System.Drawing.Point(186, 158);
+            this.croissant.Name = "croissant";
+            this.croissant.Size = new System.Drawing.Size(22, 24);
+            this.croissant.TabIndex = 24;
+            this.croissant.Text = "0";
+            this.croissant.Visible = false;
             // 
-            // panel12
+            // croissantBtn
             // 
-            this.panel12.BackColor = System.Drawing.Color.DimGray;
-            this.panel12.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel12.Controls.Add(this.label25);
-            this.panel12.Controls.Add(this.label26);
-            this.panel12.Controls.Add(this.pictureBox9);
-            this.panel12.Controls.Add(this.americano);
-            this.panel12.Controls.Add(this.americanoBtn);
-            this.panel12.Location = new System.Drawing.Point(455, 448);
-            this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(215, 123);
-            this.panel12.TabIndex = 55;
+            this.croissantBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.croissantBtn.FlatAppearance.BorderSize = 0;
+            this.croissantBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.croissantBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.croissantBtn.ForeColor = System.Drawing.Color.White;
+            this.croissantBtn.Location = new System.Drawing.Point(180, 3);
+            this.croissantBtn.Name = "croissantBtn";
+            this.croissantBtn.Size = new System.Drawing.Size(28, 29);
+            this.croissantBtn.TabIndex = 23;
+            this.croissantBtn.Text = "+";
+            this.croissantBtn.UseVisualStyleBackColor = true;
+            this.croissantBtn.Click += new System.EventHandler(this.croissantBtn_Click);
             // 
-            // label25
+            // panel14
             // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Bradley Hand ITC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.ForeColor = System.Drawing.Color.White;
-            this.label25.Location = new System.Drawing.Point(99, 31);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(58, 30);
-            this.label25.TabIndex = 47;
-            this.label25.Text = "₱25";
+            this.panel14.BackColor = System.Drawing.Color.DimGray;
+            this.panel14.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel14.Controls.Add(this.label30);
+            this.panel14.Controls.Add(this.label29);
+            this.panel14.Controls.Add(this.pictureBox15);
+            this.panel14.Controls.Add(this.petitPain);
+            this.panel14.Controls.Add(this.petitPainBtn);
+            this.panel14.Location = new System.Drawing.Point(13, 60);
+            this.panel14.Name = "panel14";
+            this.panel14.Size = new System.Drawing.Size(215, 188);
+            this.panel14.TabIndex = 27;
             // 
-            // label26
+            // label30
             // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Bradley Hand ITC", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.ForeColor = System.Drawing.Color.White;
-            this.label26.Location = new System.Drawing.Point(11, 82);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(117, 26);
-            this.label26.TabIndex = 32;
-            this.label26.Text = "Americano";
+            this.label30.AutoSize = true;
+            this.label30.Font = new System.Drawing.Font("Bradley Hand ITC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.ForeColor = System.Drawing.Color.White;
+            this.label30.Location = new System.Drawing.Point(152, 78);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(56, 30);
+            this.label30.TabIndex = 47;
+            this.label30.Text = "₱12";
             // 
-            // americano
+            // label29
             // 
-            this.americano.AutoSize = true;
-            this.americano.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.americano.ForeColor = System.Drawing.Color.White;
-            this.americano.Location = new System.Drawing.Point(186, 80);
-            this.americano.Name = "americano";
-            this.americano.Size = new System.Drawing.Size(22, 24);
-            this.americano.TabIndex = 24;
-            this.americano.Text = "0";
-            this.americano.Visible = false;
+            this.label29.AutoSize = true;
+            this.label29.Font = new System.Drawing.Font("Bradley Hand ITC", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.ForeColor = System.Drawing.Color.White;
+            this.label29.Location = new System.Drawing.Point(11, 145);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(105, 26);
+            this.label29.TabIndex = 32;
+            this.label29.Text = "Petit pain";
             // 
-            // americanoBtn
+            // petitPain
             // 
-            this.americanoBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.americanoBtn.FlatAppearance.BorderSize = 0;
-            this.americanoBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.americanoBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.americanoBtn.ForeColor = System.Drawing.Color.White;
-            this.americanoBtn.Location = new System.Drawing.Point(180, 3);
-            this.americanoBtn.Name = "americanoBtn";
-            this.americanoBtn.Size = new System.Drawing.Size(28, 29);
-            this.americanoBtn.TabIndex = 23;
-            this.americanoBtn.Text = "+";
-            this.americanoBtn.UseVisualStyleBackColor = true;
-            this.americanoBtn.Click += new System.EventHandler(this.americanoBtn_Click);
+            this.petitPain.AutoSize = true;
+            this.petitPain.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.petitPain.ForeColor = System.Drawing.Color.White;
+            this.petitPain.Location = new System.Drawing.Point(186, 158);
+            this.petitPain.Name = "petitPain";
+            this.petitPain.Size = new System.Drawing.Size(22, 24);
+            this.petitPain.TabIndex = 24;
+            this.petitPain.Text = "0";
+            this.petitPain.Visible = false;
             // 
-            // panel13
+            // petitPainBtn
             // 
-            this.panel13.BackColor = System.Drawing.Color.DimGray;
-            this.panel13.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel13.Controls.Add(this.label28);
-            this.panel13.Controls.Add(this.label31);
-            this.panel13.Controls.Add(this.pictureBox10);
-            this.panel13.Controls.Add(this.cortado);
-            this.panel13.Controls.Add(this.cortadoBtn);
-            this.panel13.Location = new System.Drawing.Point(234, 448);
-            this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(215, 123);
-            this.panel13.TabIndex = 56;
+            this.petitPainBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.petitPainBtn.FlatAppearance.BorderSize = 0;
+            this.petitPainBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.petitPainBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.petitPainBtn.ForeColor = System.Drawing.Color.White;
+            this.petitPainBtn.Location = new System.Drawing.Point(180, 3);
+            this.petitPainBtn.Name = "petitPainBtn";
+            this.petitPainBtn.Size = new System.Drawing.Size(28, 29);
+            this.petitPainBtn.TabIndex = 23;
+            this.petitPainBtn.Text = "+";
+            this.petitPainBtn.UseVisualStyleBackColor = true;
+            this.petitPainBtn.Click += new System.EventHandler(this.petitPainBtn_Click);
             // 
-            // label28
+            // panel16
             // 
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Bradley Hand ITC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.ForeColor = System.Drawing.Color.White;
-            this.label28.Location = new System.Drawing.Point(99, 31);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(57, 30);
-            this.label28.TabIndex = 47;
-            this.label28.Text = "₱30";
-            this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.panel16.BackColor = System.Drawing.Color.DimGray;
+            this.panel16.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel16.Controls.Add(this.label3);
+            this.panel16.Controls.Add(this.label6);
+            this.panel16.Controls.Add(this.pictureBox12);
+            this.panel16.Controls.Add(this.chocolate);
+            this.panel16.Controls.Add(this.chocolateBtn);
+            this.panel16.Location = new System.Drawing.Point(721, 448);
+            this.panel16.Name = "panel16";
+            this.panel16.Size = new System.Drawing.Size(170, 123);
+            this.panel16.TabIndex = 55;
             // 
-            // label31
+            // label3
             // 
-            this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Bradley Hand ITC", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.ForeColor = System.Drawing.Color.White;
-            this.label31.Location = new System.Drawing.Point(3, 82);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(86, 26);
-            this.label31.TabIndex = 32;
-            this.label31.Text = "Cortado";
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Bradley Hand ITC", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(3, 82);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(103, 26);
+            this.label3.TabIndex = 48;
+            this.label3.Text = "Chocolate";
             // 
-            // cortado
+            // label6
             // 
-            this.cortado.AutoSize = true;
-            this.cortado.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cortado.ForeColor = System.Drawing.Color.White;
-            this.cortado.Location = new System.Drawing.Point(186, 80);
-            this.cortado.Name = "cortado";
-            this.cortado.Size = new System.Drawing.Size(22, 24);
-            this.cortado.TabIndex = 24;
-            this.cortado.Text = "0";
-            this.cortado.Visible = false;
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Bradley Hand ITC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(98, 49);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(57, 30);
+            this.label6.TabIndex = 47;
+            this.label6.Text = "₱30";
             // 
-            // cortadoBtn
+            // chocolate
             // 
-            this.cortadoBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cortadoBtn.FlatAppearance.BorderSize = 0;
-            this.cortadoBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cortadoBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cortadoBtn.ForeColor = System.Drawing.Color.White;
-            this.cortadoBtn.Location = new System.Drawing.Point(180, 3);
-            this.cortadoBtn.Name = "cortadoBtn";
-            this.cortadoBtn.Size = new System.Drawing.Size(28, 29);
-            this.cortadoBtn.TabIndex = 23;
-            this.cortadoBtn.Text = "+";
-            this.cortadoBtn.UseVisualStyleBackColor = true;
-            this.cortadoBtn.Click += new System.EventHandler(this.cortadoBtn_Click);
+            this.chocolate.AutoSize = true;
+            this.chocolate.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chocolate.ForeColor = System.Drawing.Color.White;
+            this.chocolate.Location = new System.Drawing.Point(134, 82);
+            this.chocolate.Name = "chocolate";
+            this.chocolate.Size = new System.Drawing.Size(22, 24);
+            this.chocolate.TabIndex = 24;
+            this.chocolate.Text = "0";
+            this.chocolate.Visible = false;
             // 
-            // panel15
+            // chocolateBtn
             // 
-            this.panel15.BackColor = System.Drawing.Color.DimGray;
-            this.panel15.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel15.Controls.Add(this.label33);
-            this.panel15.Controls.Add(this.label34);
-            this.panel15.Controls.Add(this.pictureBox11);
-            this.panel15.Controls.Add(this.cappuccino);
-            this.panel15.Controls.Add(this.cappuccinoBtn);
-            this.panel15.Location = new System.Drawing.Point(13, 448);
-            this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(215, 123);
-            this.panel15.TabIndex = 53;
+            this.chocolateBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chocolateBtn.FlatAppearance.BorderSize = 0;
+            this.chocolateBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.chocolateBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chocolateBtn.ForeColor = System.Drawing.Color.White;
+            this.chocolateBtn.Location = new System.Drawing.Point(135, 3);
+            this.chocolateBtn.Name = "chocolateBtn";
+            this.chocolateBtn.Size = new System.Drawing.Size(28, 29);
+            this.chocolateBtn.TabIndex = 23;
+            this.chocolateBtn.Text = "+";
+            this.chocolateBtn.UseVisualStyleBackColor = true;
+            this.chocolateBtn.Click += new System.EventHandler(this.chocolateBtn_Click);
             // 
-            // label33
+            // pictureBox12
             // 
-            this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Bradley Hand ITC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.ForeColor = System.Drawing.Color.White;
-            this.label33.Location = new System.Drawing.Point(99, 31);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(57, 30);
-            this.label33.TabIndex = 47;
-            this.label33.Text = "₱30";
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("Bradley Hand ITC", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.ForeColor = System.Drawing.Color.White;
-            this.label34.Location = new System.Drawing.Point(3, 82);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(121, 26);
-            this.label34.TabIndex = 32;
-            this.label34.Text = "Cappuccino";
-            // 
-            // cappuccino
-            // 
-            this.cappuccino.AutoSize = true;
-            this.cappuccino.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cappuccino.ForeColor = System.Drawing.Color.White;
-            this.cappuccino.Location = new System.Drawing.Point(186, 80);
-            this.cappuccino.Name = "cappuccino";
-            this.cappuccino.Size = new System.Drawing.Size(22, 24);
-            this.cappuccino.TabIndex = 24;
-            this.cappuccino.Text = "0";
-            this.cappuccino.Visible = false;
-            // 
-            // cappuccinoBtn
-            // 
-            this.cappuccinoBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cappuccinoBtn.FlatAppearance.BorderSize = 0;
-            this.cappuccinoBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cappuccinoBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cappuccinoBtn.ForeColor = System.Drawing.Color.White;
-            this.cappuccinoBtn.Location = new System.Drawing.Point(180, 3);
-            this.cappuccinoBtn.Name = "cappuccinoBtn";
-            this.cappuccinoBtn.Size = new System.Drawing.Size(28, 29);
-            this.cappuccinoBtn.TabIndex = 23;
-            this.cappuccinoBtn.Text = "+";
-            this.cappuccinoBtn.UseVisualStyleBackColor = true;
-            this.cappuccinoBtn.Click += new System.EventHandler(this.cappuccinoBtn_Click);
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Bradley Hand ITC", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(11, 145);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(135, 26);
-            this.label11.TabIndex = 48;
-            this.label11.Text = "Sliced Bread";
+            this.pictureBox12.BackColor = System.Drawing.Color.DarkGray;
+            this.pictureBox12.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox12.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.Chocolate;
+            this.pictureBox12.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(90, 76);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox12.TabIndex = 32;
+            this.pictureBox12.TabStop = false;
             // 
             // pictureBox8
             // 
@@ -1114,17 +1209,6 @@ namespace Final_Project__Cafeteria_Management_System
             this.amount.Size = new System.Drawing.Size(178, 24);
             this.amount.TabIndex = 33;
             // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Bradley Hand ITC", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.ForeColor = System.Drawing.Color.White;
-            this.label23.Location = new System.Drawing.Point(3, 82);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(131, 26);
-            this.label23.TabIndex = 48;
-            this.label23.Text = "Café au Lait";
-            // 
             // BreadControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1133,30 +1217,33 @@ namespace Final_Project__Cafeteria_Management_System
             this.Name = "BreadControl";
             this.Size = new System.Drawing.Size(907, 625);
             this.panel1.ResumeLayout(false);
-            this.panel14.ResumeLayout(false);
-            this.panel14.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
-            this.panel8.ResumeLayout(false);
-            this.panel8.PerformLayout();
             this.panel9.ResumeLayout(false);
             this.panel9.PerformLayout();
             this.panel12.ResumeLayout(false);
             this.panel12.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
             this.panel13.ResumeLayout(false);
             this.panel13.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
             this.panel15.ResumeLayout(false);
             this.panel15.PerformLayout();
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            this.panel8.ResumeLayout(false);
+            this.panel8.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            this.panel14.ResumeLayout(false);
+            this.panel14.PerformLayout();
+            this.panel16.ResumeLayout(false);
+            this.panel16.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
@@ -1254,5 +1341,11 @@ namespace Final_Project__Cafeteria_Management_System
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Button pretzelBtn;
+        private System.Windows.Forms.Panel panel16;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.PictureBox pictureBox12;
+        private System.Windows.Forms.Label chocolate;
+        private System.Windows.Forms.Button chocolateBtn;
     }
 }

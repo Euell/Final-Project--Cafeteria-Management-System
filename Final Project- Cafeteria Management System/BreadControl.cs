@@ -16,7 +16,7 @@ namespace Final_Project__Cafeteria_Management_System
         {
             InitializeComponent();
         }
-        private int[] productTotalCosts = new int[13]; // Array to store the total cost
+        private int[] productTotalCosts = new int[14]; // Array to store the total cost
         public int breadOverallTotalCost = 0; //Add up the total cost of all products in the productTotalCosts array
 
 
@@ -31,7 +31,7 @@ namespace Final_Project__Cafeteria_Management_System
             productTotalCosts[1] = productCost; // putting the product cost/variable to the first index of the array 
 
             breadOverallTotalCost = 0; // calling a global variable to hold the total value of all the cost
-            for (int i = 0; i < 13; i++)
+            for (int i = 0; i < 14; i++)
             {
                 breadOverallTotalCost += productTotalCosts[i]; // created a for loop to sum up the total cost and returning it to the global variable
             }
@@ -48,7 +48,7 @@ namespace Final_Project__Cafeteria_Management_System
             int productCost = quantity * 15;
             productTotalCosts[2] = productCost;
             breadOverallTotalCost = 0;
-            for (int i = 0; i < 13; i++)
+            for (int i = 0; i < 14; i++)
             {
                 breadOverallTotalCost += productTotalCosts[i];
             }
@@ -64,7 +64,7 @@ namespace Final_Project__Cafeteria_Management_System
             int productCost = quantity * 13;
             productTotalCosts[3] = productCost;
             breadOverallTotalCost = 0;
-            for (int i = 0; i < 13; i++)
+            for (int i = 0; i < 14; i++)
             {
                 breadOverallTotalCost += productTotalCosts[i];
             }
@@ -80,7 +80,7 @@ namespace Final_Project__Cafeteria_Management_System
             int productCost = quantity * 15;
             productTotalCosts[4] = productCost;
             breadOverallTotalCost = 0;
-            for (int i = 0; i < 13; i++)
+            for (int i = 0; i < 14; i++)
             {
                 breadOverallTotalCost += productTotalCosts[i];
             }
@@ -96,7 +96,7 @@ namespace Final_Project__Cafeteria_Management_System
             int productCost = quantity * 25;
             productTotalCosts[5] = productCost;
             breadOverallTotalCost = 0;
-            for (int i = 0; i < 13; i++)
+            for (int i = 0; i < 14; i++)
             {
                 breadOverallTotalCost += productTotalCosts[i];
             }
@@ -112,7 +112,7 @@ namespace Final_Project__Cafeteria_Management_System
             int productCost = quantity * 15;
             productTotalCosts[6] = productCost;
             breadOverallTotalCost = 0;
-            for (int i = 0; i < 13; i++)
+            for (int i = 0; i < 14; i++)
             {
                 breadOverallTotalCost += productTotalCosts[i];
             }
@@ -128,7 +128,7 @@ namespace Final_Project__Cafeteria_Management_System
             int productCost = quantity * 15;
             productTotalCosts[7] = productCost;
             breadOverallTotalCost = 0;
-            for (int i = 0; i < 13; i++)
+            for (int i = 0; i < 14; i++)
             {
                 breadOverallTotalCost += productTotalCosts[i];
             }
@@ -144,7 +144,7 @@ namespace Final_Project__Cafeteria_Management_System
             int productCost = quantity * 10;
             productTotalCosts[8] = productCost;
             breadOverallTotalCost = 0;
-            for (int i = 0; i < 13; i++)
+            for (int i = 0; i < 14; i++)
             {
                 breadOverallTotalCost += productTotalCosts[i];
             }
@@ -160,7 +160,7 @@ namespace Final_Project__Cafeteria_Management_System
             int productCost = quantity * 30;
             productTotalCosts[9] = productCost;
             breadOverallTotalCost = 0;
-            for (int i = 0; i < 13; i++)
+            for (int i = 0; i < 14; i++)
             {
                 breadOverallTotalCost += productTotalCosts[i];
             }
@@ -176,7 +176,7 @@ namespace Final_Project__Cafeteria_Management_System
             int productCost = quantity * 30;
             productTotalCosts[10] = productCost;
             breadOverallTotalCost = 0;
-            for (int i = 0; i < 13; i++)
+            for (int i = 0; i < 14; i++)
             {
                 breadOverallTotalCost += productTotalCosts[i];
             }
@@ -192,7 +192,7 @@ namespace Final_Project__Cafeteria_Management_System
             int productCost = quantity * 25;
             productTotalCosts[11] = productCost;
             breadOverallTotalCost = 0;
-            for (int i = 0; i < 13; i++)
+            for (int i = 0; i < 14; i++)
             {
                 breadOverallTotalCost += productTotalCosts[i];
             }
@@ -208,7 +208,22 @@ namespace Final_Project__Cafeteria_Management_System
             int productCost = quantity * 30;
             productTotalCosts[12] = productCost;
             breadOverallTotalCost = 0;
-            for (int i = 0; i < 13; i++)
+            for (int i = 0; i < 14; i++)
+            {
+                breadOverallTotalCost += productTotalCosts[i];
+            }
+        }
+        private void chocolateBtn_Click(object sender, EventArgs e)
+        {
+            chocolate.Visible = true;
+            int quantity = int.Parse(chocolate.Text);
+            quantity++;
+            chocolate.Text = quantity.ToString();
+
+            int productCost = quantity * 30;
+            productTotalCosts[13] = productCost;
+            breadOverallTotalCost = 0;
+            for (int i = 0; i < 14; i++)
             {
                 breadOverallTotalCost += productTotalCosts[i];
             }
@@ -236,6 +251,7 @@ namespace Final_Project__Cafeteria_Management_System
             cortado.Visible = false;
             americano.Visible = false;
             cafeAuLait.Visible = false;
+            chocolate.Visible = false;
 
             petitPain.Text = "0";
             croissant.Text = "0";
@@ -249,8 +265,11 @@ namespace Final_Project__Cafeteria_Management_System
             cortado.Text = "0";
             americano.Text = "0";
             cafeAuLait.Text = "0";
+            chocolate.Text = "0";
 
             amount.Text = "";
         }
+
+       
     }
 }
