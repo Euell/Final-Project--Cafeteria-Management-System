@@ -222,9 +222,6 @@ namespace Final_Project__Cafeteria_Management_System
             }
         }
 
-
-
-
         //incrementing of noodles
         //incrementing of noodles
         //incrementing of noodles
@@ -377,5 +374,388 @@ namespace Final_Project__Cafeteria_Management_System
 
             amount.Text = "";
         }
+
+        //decrement of Sandwich
+        //decrement of Sandwich
+        //decrement of Sandwich
+        private void eggDcBtn_Click(object sender, EventArgs e)
+        {
+            int quantity = int.Parse(eggSandwich.Text);
+
+            if (quantity > 0)
+            {
+                eggSandwich.Visible = true;
+                quantity = int.Parse(eggSandwich.Text);
+                quantity--;
+                eggSandwich.Text = quantity.ToString();
+
+                int productCost = quantity * 25;
+                productTotalCosts[1] = productCost;
+                mainOverallTotalCost = 0;
+                for (int i = 0; i < 18; i++)
+                {
+                    mainOverallTotalCost += productTotalCosts[i];
+                }
+            }
+          
+        }
+
+        private void cheeseDcBtn_Click(object sender, EventArgs e)
+        {
+            int quantity = int.Parse(cheeseSandwich.Text);
+
+            if (quantity > 0)
+            {
+                cheeseSandwich.Visible = true;
+                quantity = int.Parse(cheeseSandwich.Text);
+                quantity--;
+                cheeseSandwich.Text = quantity.ToString();
+
+                int productCost = quantity * 20;
+                productTotalCosts[2] = productCost;
+                mainOverallTotalCost = 0;
+                for (int i = 0; i < 18; i++)
+                {
+                    mainOverallTotalCost += productTotalCosts[i];
+                }
+            }
+
+        }
+
+        private void chickenDcBtn_Click(object sender, EventArgs e)
+        {
+            int quantity = int.Parse(chickenSandwich.Text);
+
+            if (quantity > 0)
+            {
+                chickenSandwich.Visible = true;
+                quantity = int.Parse(chickenSandwich.Text);
+                quantity--;
+                chickenSandwich.Text = quantity.ToString();
+
+                int productCost = quantity * 30;
+                productTotalCosts[3] = productCost;
+                mainOverallTotalCost = 0;
+                for (int i = 0; i < 18; i++)
+                {
+                    mainOverallTotalCost += productTotalCosts[i];
+                }
+
+            }
+        }
+
+        private void vegDcBtn_Click(object sender, EventArgs e)
+        {
+            int quantity = int.Parse(vegSandwich.Text);
+
+            if (quantity > 0)
+            {
+                vegSandwich.Visible = true;
+                quantity = int.Parse(vegSandwich.Text);
+                quantity--;
+                vegSandwich.Text = quantity.ToString();
+
+                int productCost = quantity * 25;
+                productTotalCosts[4] = productCost;
+                mainOverallTotalCost = 0;
+                for (int i = 0; i < 18; i++)
+                {
+                    mainOverallTotalCost += productTotalCosts[i];
+                }
+
+            }
+        }
+
+        private void eggCheeseDcBtn_Click(object sender, EventArgs e)
+        {
+            int quantity = int.Parse(eggAndCheeseSandwich.Text);
+
+            if (quantity > 0)
+            {
+                eggAndCheeseSandwich.Visible = true;
+                quantity = int.Parse(eggAndCheeseSandwich.Text);
+                quantity--;
+                eggAndCheeseSandwich.Text = quantity.ToString();
+
+                int productCost = quantity * 30;
+                productTotalCosts[5] = productCost;
+                mainOverallTotalCost = 0;
+                for (int i = 0; i < 18; i++)
+                {
+                    mainOverallTotalCost += productTotalCosts[i];
+                }
+
+            }
+        }
+
+        private void vegCheeseDcBtn_Click(object sender, EventArgs e)
+        {
+            int quantity = int.Parse(vegAndCheeseSandwich.Text);
+
+            if (quantity > 0)
+            {
+                vegAndCheeseSandwich.Visible = true;
+                quantity = int.Parse(vegAndCheeseSandwich.Text);
+                quantity--;
+                vegAndCheeseSandwich.Text = quantity.ToString();
+
+                int productCost = quantity * 30;
+                productTotalCosts[6] = productCost;
+                mainOverallTotalCost = 0;
+                for (int i = 0; i < 18; i++)
+                {
+                    mainOverallTotalCost += productTotalCosts[i];
+                }
+
+            }
+        }
+
+        private void chickenCheeseDcBtn_Click(object sender, EventArgs e)
+        {
+            int quantity = int.Parse(chickenAndCheeseSandwich.Text);
+
+            if (quantity > 0)
+            {
+                chickenAndCheeseSandwich.Visible = true;
+                quantity = int.Parse(chickenAndCheeseSandwich.Text);
+                quantity--;
+                chickenAndCheeseSandwich.Text = quantity.ToString();
+
+                int productCost = quantity * 35;
+                productTotalCosts[7] = productCost;
+                mainOverallTotalCost = 0;
+                for (int i = 0; i < 18; i++)
+                {
+                    mainOverallTotalCost += productTotalCosts[i];
+                }
+
+            }
+        }
+        //decrement of street foods
+        //decrement of street foods
+        //decrement of street foods
+        private void kwekkwekDcBtn_Click(object sender, EventArgs e)
+        {
+            int quantity = int.Parse(kwekkwek.Text);
+
+            if (quantity > 0)
+            {
+                kwekkwek.Visible = true;
+                quantity = int.Parse(kwekkwek.Text);
+                quantity--;
+                kwekkwek.Text = quantity.ToString();
+
+                int productCost = quantity * 20;
+                productTotalCosts[8] = productCost;
+                mainOverallTotalCost = 0;
+                for (int i = 0; i < 18; i++)
+                {
+                    mainOverallTotalCost += productTotalCosts[i];
+                }
+            }
+        }
+
+        private void fishBallDcBtn_Click(object sender, EventArgs e)
+        {
+            int quantity = int.Parse(fishBalls.Text);
+
+            if (quantity > 0)
+            {
+                fishBalls.Visible = true;
+                quantity = int.Parse(fishBalls.Text);
+                quantity--;
+                fishBalls.Text = quantity.ToString();
+
+                int productCost = quantity * 20;
+                productTotalCosts[9] = productCost;
+                mainOverallTotalCost = 0;
+                for (int i = 0; i < 18; i++)
+                {
+                    mainOverallTotalCost += productTotalCosts[i];
+                }
+
+            }
+        }
+
+        private void squidBallDcBtn_Click(object sender, EventArgs e)
+        {
+            int quantity = int.Parse(squidBalls.Text);
+
+            if (quantity > 0)
+            {
+                squidBalls.Visible = true;
+                quantity = int.Parse(squidBalls.Text);
+                quantity--;
+                squidBalls.Text = quantity.ToString();
+
+                int productCost = quantity * 20;
+                productTotalCosts[10] = productCost;
+                mainOverallTotalCost = 0;
+                for (int i = 0; i < 18; i++)
+                {
+                    mainOverallTotalCost += productTotalCosts[i];
+                }
+
+            }
+        }
+
+        private void bananaCueDcBtn_Click(object sender, EventArgs e)
+        {
+            int quantity = int.Parse(Bananacue.Text);
+
+            if (quantity > 0)
+            {
+                Bananacue.Visible = true;
+                quantity = int.Parse(Bananacue.Text);
+                quantity--;
+                Bananacue.Text = quantity.ToString();
+
+                int productCost = quantity * 25;
+                productTotalCosts[11] = productCost;
+                mainOverallTotalCost = 0;
+                for (int i = 0; i < 18; i++)
+                {
+                    mainOverallTotalCost += productTotalCosts[i];
+                }
+
+            }
+        }
+
+        private void turonDcBtn_Click(object sender, EventArgs e)
+        {
+            int quantity = int.Parse(Turon.Text);
+
+            if (quantity > 0)
+            {
+                Turon.Visible = true;
+                quantity = int.Parse(Turon.Text);
+                quantity--;
+                Turon.Text = quantity.ToString();
+
+                int productCost = quantity * 25;
+                productTotalCosts[12] = productCost;
+                mainOverallTotalCost = 0;
+                for (int i = 0; i < 18; i++)
+                {
+                    mainOverallTotalCost += productTotalCosts[i];
+                }
+
+            }
+        }
+
+        //decrement of noodles
+        //decrement of noodles
+        //decrement of noodles
+        private void chickenNoodlesDcBtn_Click(object sender, EventArgs e)
+        {
+            int quantity = int.Parse(chicken.Text);
+
+            if (quantity > 0)
+            {
+                chicken.Visible = true;
+                quantity = int.Parse(chicken.Text);
+                quantity--;
+                chicken.Text = quantity.ToString();
+
+                int productCost = quantity * 25;
+                productTotalCosts[13] = productCost;
+                mainOverallTotalCost = 0;
+                for (int i = 0; i < 18; i++)
+                {
+                    mainOverallTotalCost += productTotalCosts[i];
+                }
+
+            }
+        }
+
+        private void beefDcBtn_Click(object sender, EventArgs e)
+        {
+            int quantity = int.Parse(beef.Text);
+
+            if (quantity > 0)
+            {
+                beef.Visible = true;
+                quantity = int.Parse(beef.Text);
+                quantity--;
+                beef.Text = quantity.ToString();
+
+                int productCost = quantity * 25;
+                productTotalCosts[14] = productCost;
+                mainOverallTotalCost = 0;
+                for (int i = 0; i < 18; i++)
+                {
+                    mainOverallTotalCost += productTotalCosts[i];
+                }
+
+            }
+        }
+
+        private void porkDcBtn_Click(object sender, EventArgs e)
+        {
+            int quantity = int.Parse(pork.Text);
+
+            if (quantity > 0)
+            {
+                pork.Visible = true;
+                quantity = int.Parse(pork.Text);
+                quantity--;
+                pork.Text = quantity.ToString();
+
+                int productCost = quantity * 25;
+                productTotalCosts[15] = productCost;
+                mainOverallTotalCost = 0;
+                for (int i = 0; i < 18; i++)
+                {
+                    mainOverallTotalCost += productTotalCosts[i];
+                }
+
+            }
+        }
+
+        private void laPazBatchoyDcBtn_Click(object sender, EventArgs e)
+        {
+            int quantity = int.Parse(laPazBatchoy.Text);
+
+            if (quantity > 0)
+            {
+                laPazBatchoy.Visible = true;
+                quantity = int.Parse(laPazBatchoy.Text);
+                quantity--;
+                laPazBatchoy.Text = quantity.ToString();
+
+                int productCost = quantity * 25;
+                productTotalCosts[16] = productCost;
+                mainOverallTotalCost = 0;
+                for (int i = 0; i < 18; i++)
+                {
+                    mainOverallTotalCost += productTotalCosts[i];
+                }
+
+            }
+        }
+
+        private void bulaloDcBtn_Click(object sender, EventArgs e)
+        {
+            int quantity = int.Parse(bulalo.Text);
+
+            if (quantity > 0)
+            {
+                bulalo.Visible = true;
+                quantity = int.Parse(bulalo.Text);
+                quantity--;
+                bulalo.Text = quantity.ToString();
+
+                int productCost = quantity * 25;
+                productTotalCosts[17] = productCost;
+                mainOverallTotalCost = 0;
+                for (int i = 0; i < 18; i++)
+                {
+                    mainOverallTotalCost += productTotalCosts[i];
+                }
+
+            }
+        }
+
+
     }
 }
