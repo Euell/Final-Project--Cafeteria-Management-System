@@ -34,28 +34,31 @@ namespace Final_Project__Cafeteria_Management_System
             this.panel3 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.closebtn = new System.Windows.Forms.Button();
             this.drinksPanel = new System.Windows.Forms.Panel();
             this.homePanel = new System.Windows.Forms.Panel();
             this.breadsPanel = new System.Windows.Forms.Panel();
             this.snacksPanel = new System.Windows.Forms.Panel();
             this.candiesPanel = new System.Windows.Forms.Panel();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.snacksbtn = new System.Windows.Forms.Button();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.breadsbtn = new System.Windows.Forms.Button();
             this.candiesbtn = new System.Windows.Forms.Button();
             this.homebtn = new System.Windows.Forms.Button();
             this.drinksbtn = new System.Windows.Forms.Button();
+            this.paymentPanel = new System.Windows.Forms.Panel();
+            this.paymentBtn = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.mainControl1 = new Final_Project__Cafeteria_Management_System.MainControl();
             this.drinksControl1 = new Final_Project__Cafeteria_Management_System.DrinksControl();
             this.candiesControl11 = new Final_Project__Cafeteria_Management_System.CandiesControl1();
             this.snacksControl11 = new Final_Project__Cafeteria_Management_System.SnacksControl1();
             this.breadControl1 = new Final_Project__Cafeteria_Management_System.BreadControl();
+            this.paymentControl11 = new Final_Project__Cafeteria_Management_System.paymentControl1();
             this.sidebar.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -69,6 +72,8 @@ namespace Final_Project__Cafeteria_Management_System
             // sidebar
             // 
             this.sidebar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(31)))), ((int)(((byte)(32)))));
+            this.sidebar.Controls.Add(this.paymentPanel);
+            this.sidebar.Controls.Add(this.paymentBtn);
             this.sidebar.Controls.Add(this.backbtn);
             this.sidebar.Controls.Add(this.panel3);
             this.sidebar.Controls.Add(this.closebtn);
@@ -148,17 +153,6 @@ namespace Final_Project__Cafeteria_Management_System
             this.label7.TabIndex = 17;
             this.label7.Text = "Cafeteria";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Teal;
-            this.pictureBox1.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.Screenshot_2023_04_20_084940_removebg_preview;
-            this.pictureBox1.Location = new System.Drawing.Point(15, 13);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(111, 96);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
-            // 
             // closebtn
             // 
             this.closebtn.BackColor = System.Drawing.Color.Transparent;
@@ -221,16 +215,6 @@ namespace Final_Project__Cafeteria_Management_System
             this.candiesPanel.TabIndex = 2;
             this.candiesPanel.Visible = false;
             // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.snacks;
-            this.pictureBox5.Location = new System.Drawing.Point(27, 414);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(37, 30);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 15;
-            this.pictureBox5.TabStop = false;
-            // 
             // snacksbtn
             // 
             this.snacksbtn.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -245,46 +229,6 @@ namespace Final_Project__Cafeteria_Management_System
             this.snacksbtn.Text = "Snacks";
             this.snacksbtn.UseVisualStyleBackColor = true;
             this.snacksbtn.Click += new System.EventHandler(this.snacksbtn_Click);
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.bread;
-            this.pictureBox6.Location = new System.Drawing.Point(24, 478);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(37, 30);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 11;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.candy__2_;
-            this.pictureBox4.Location = new System.Drawing.Point(27, 353);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(37, 30);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 9;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.drinks;
-            this.pictureBox3.Location = new System.Drawing.Point(27, 295);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(37, 30);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 8;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.imageedit_2_6258554102;
-            this.pictureBox2.Location = new System.Drawing.Point(27, 235);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(37, 30);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 7;
-            this.pictureBox2.TabStop = false;
             // 
             // breadsbtn
             // 
@@ -346,6 +290,91 @@ namespace Final_Project__Cafeteria_Management_System
             this.drinksbtn.UseVisualStyleBackColor = true;
             this.drinksbtn.Click += new System.EventHandler(this.drinksbtn_Click);
             // 
+            // paymentPanel
+            // 
+            this.paymentPanel.BackColor = System.Drawing.Color.Teal;
+            this.paymentPanel.Location = new System.Drawing.Point(0, 547);
+            this.paymentPanel.Name = "paymentPanel";
+            this.paymentPanel.Size = new System.Drawing.Size(10, 55);
+            this.paymentPanel.TabIndex = 18;
+            this.paymentPanel.Visible = false;
+            // 
+            // paymentBtn
+            // 
+            this.paymentBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.paymentBtn.FlatAppearance.BorderSize = 0;
+            this.paymentBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.paymentBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.paymentBtn.ForeColor = System.Drawing.Color.White;
+            this.paymentBtn.Location = new System.Drawing.Point(0, 547);
+            this.paymentBtn.Name = "paymentBtn";
+            this.paymentBtn.Size = new System.Drawing.Size(228, 55);
+            this.paymentBtn.TabIndex = 19;
+            this.paymentBtn.Text = "Payment";
+            this.paymentBtn.UseVisualStyleBackColor = true;
+            this.paymentBtn.Click += new System.EventHandler(this.paymentBtn_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Teal;
+            this.pictureBox1.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.Screenshot_2023_04_20_084940_removebg_preview;
+            this.pictureBox1.Location = new System.Drawing.Point(15, 13);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(111, 96);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.snacks;
+            this.pictureBox5.Location = new System.Drawing.Point(27, 414);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(37, 30);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 15;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.bread;
+            this.pictureBox6.Location = new System.Drawing.Point(24, 478);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(37, 30);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 11;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.candy__2_;
+            this.pictureBox4.Location = new System.Drawing.Point(27, 353);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(37, 30);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 9;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.drinks;
+            this.pictureBox3.Location = new System.Drawing.Point(27, 295);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(37, 30);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 8;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Final_Project__Cafeteria_Management_System.Properties.Resources.imageedit_2_6258554102;
+            this.pictureBox2.Location = new System.Drawing.Point(27, 235);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(37, 30);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 7;
+            this.pictureBox2.TabStop = false;
+            // 
             // mainControl1
             // 
             this.mainControl1.Location = new System.Drawing.Point(218, 0);
@@ -381,6 +410,13 @@ namespace Final_Project__Cafeteria_Management_System
             this.breadControl1.Size = new System.Drawing.Size(907, 625);
             this.breadControl1.TabIndex = 28;
             // 
+            // paymentControl11
+            // 
+            this.paymentControl11.Location = new System.Drawing.Point(218, 0);
+            this.paymentControl11.Name = "paymentControl11";
+            this.paymentControl11.Size = new System.Drawing.Size(907, 625);
+            this.paymentControl11.TabIndex = 29;
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -393,6 +429,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.Controls.Add(this.candiesControl11);
             this.Controls.Add(this.snacksControl11);
             this.Controls.Add(this.breadControl1);
+            this.Controls.Add(this.paymentControl11);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -440,5 +477,8 @@ namespace Final_Project__Cafeteria_Management_System
         private CandiesControl1 candiesControl11;
         private SnacksControl1 snacksControl11;
         private BreadControl breadControl1;
+        private System.Windows.Forms.Panel paymentPanel;
+        private System.Windows.Forms.Button paymentBtn;
+        private paymentControl1 paymentControl11;
     }
 }
