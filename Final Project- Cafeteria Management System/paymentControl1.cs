@@ -17,6 +17,11 @@ namespace Final_Project__Cafeteria_Management_System
             InitializeComponent();
         }
 
-       
+        private void payBtn_Click(object sender, EventArgs e)
+        {
+            int sum = Convert.ToInt32(amount.Text) - Convert.ToInt32(paymentAmount.Text);
+
+            totalPayment.Text = sum.ToString();
+        }
     }
 }

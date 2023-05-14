@@ -151,6 +151,9 @@ namespace Final_Project__Cafeteria_Management_System
             candiesControl11.SendToBack();
             drinksControl1.SendToBack();
             mainControl1.SendToBack();
+
+            CalculateOverallTotalCost();
+            paymentControl11.amount.Text = overallTotalCost.ToString();
         }
     }
 }
