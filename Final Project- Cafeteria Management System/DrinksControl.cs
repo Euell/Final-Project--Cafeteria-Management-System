@@ -194,6 +194,172 @@ namespace Final_Project__Cafeteria_Management_System
             amount.Text = "";  
         }
 
-        
+        private void leMiniraleDcBtn_Click(object sender, EventArgs e)
+        {
+            int quantity = int.Parse(leMinirale.Text);
+
+            if (quantity > 0)
+            {
+                leMinirale.Visible = true; // the label that holds the quantity of the drink will be visible
+                quantity--;// incrementing the quantity of the drink
+                leMinirale.Text = quantity.ToString(); // converts the converted quantity to string so it can be displayed as "text"
+
+                int productCost = quantity * 15; // A variable that holds the cost of the drink
+                productTotalCosts[1] = productCost; // putting the product cost to the first index of the array 
+
+                drinksOverallTotalCost = 0; // calling a global variable to hold the total value of all the products
+                for (int i = 0; i < 9; i++)
+                {
+                    drinksOverallTotalCost += productTotalCosts[i]; // created a for loop to sum up the total cost and returning it to the global variable
+                }
+            }
+        }
+
+        private void absoluteDcBtn_Click(object sender, EventArgs e)
+        {
+            int quantity = int.Parse(absolute.Text);
+
+            if (quantity > 0)
+            {
+                absolute.Visible = true;
+                quantity--;
+                absolute.Text = quantity.ToString();
+
+                int productCost = quantity * 20;
+                productTotalCosts[2] = productCost;
+                drinksOverallTotalCost = 0;
+                for (int i = 0; i < 9; i++)
+                {
+                    drinksOverallTotalCost += productTotalCosts[i];
+                }
+
+            }
+        }
+
+        private void evianDcBtn_Click(object sender, EventArgs e)
+        {
+            int quantity = int.Parse(evian.Text);
+
+            if (quantity > 0)
+            {
+                evian.Visible = true;
+                quantity--;
+                evian.Text = quantity.ToString();
+
+                int productCost = quantity * 25;
+                productTotalCosts[3] = productCost;
+                drinksOverallTotalCost = 0;
+                for (int i = 0; i < 9; i++)
+                {
+                    drinksOverallTotalCost += productTotalCosts[i];
+                }
+
+            }
+        }
+
+        private void summitDcBtn_Click(object sender, EventArgs e)
+        {
+            int quantity = int.Parse(summit.Text);
+
+            if (quantity > 0)
+            {
+                summit.Visible = true;
+                quantity--;
+                summit.Text = quantity.ToString();
+
+                int productCost = quantity * 20;
+                productTotalCosts[4] = productCost;
+                drinksOverallTotalCost = 0;
+                for (int i = 0; i < 9; i++)
+                {
+                    drinksOverallTotalCost += productTotalCosts[i];
+                }
+
+            }
+        }
+
+        private void cokeDcBtn_Click(object sender, EventArgs e)
+        {
+            int quantity = int.Parse(coke.Text);
+
+            if (quantity > 0)
+            {
+                coke.Visible = true;
+                quantity--;
+                coke.Text = quantity.ToString();
+
+                int productCost = quantity * 30;
+                productTotalCosts[5] = productCost;
+                drinksOverallTotalCost = 0;
+                for (int i = 0; i < 9; i++)
+                {
+                    drinksOverallTotalCost += productTotalCosts[i];
+                }
+
+            }
+        }
+
+        private void royalDcBtn_Click(object sender, EventArgs e)
+        {
+            int quantity = int.Parse(royal.Text);
+
+            if (quantity > 0)
+            {
+                royal.Visible = true;
+                quantity--;
+                royal.Text = quantity.ToString();
+
+                int productCost = quantity * 30;
+                productTotalCosts[6] = productCost;
+                drinksOverallTotalCost = 0;
+                for (int i = 0; i < 9; i++)
+                {
+                    drinksOverallTotalCost += productTotalCosts[i];
+                }
+
+            }
+        }
+
+        private void spriteDcBtn_Click(object sender, EventArgs e)
+        {
+            int quantity = int.Parse(sprite.Text);
+
+            if (quantity > 0)
+            {
+                sprite.Visible = true;
+                quantity--;
+                sprite.Text = quantity.ToString();
+
+                int productCost = quantity * 30;
+                productTotalCosts[7] = productCost;
+                drinksOverallTotalCost = 0;
+                for (int i = 0; i < 9; i++)
+                {
+                    drinksOverallTotalCost += productTotalCosts[i];
+                }
+
+            }
+        }
+
+        private void rootBeerDcBtn_Click(object sender, EventArgs e)
+        {
+            int quantity = int.Parse(rootBeer.Text);
+
+            if (quantity > 0)
+            {
+                rootBeer.Visible = true;
+                quantity--;
+                rootBeer.Text = quantity.ToString();
+
+                int productCost = quantity * 30;
+                productTotalCosts[8] = productCost;
+                drinksOverallTotalCost = 0;
+                for (int i = 0; i < 9; i++)
+                {
+                    drinksOverallTotalCost += productTotalCosts[i];
+                }
+
+            }
+        }
     }
 }

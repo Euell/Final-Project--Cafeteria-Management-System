@@ -385,7 +385,6 @@ namespace Final_Project__Cafeteria_Management_System
             if (quantity > 0)
             {
                 eggSandwich.Visible = true;
-                quantity = int.Parse(eggSandwich.Text);
                 quantity--;
                 eggSandwich.Text = quantity.ToString();
 
@@ -407,7 +406,6 @@ namespace Final_Project__Cafeteria_Management_System
             if (quantity > 0)
             {
                 cheeseSandwich.Visible = true;
-                quantity = int.Parse(cheeseSandwich.Text);
                 quantity--;
                 cheeseSandwich.Text = quantity.ToString();
 
@@ -429,7 +427,6 @@ namespace Final_Project__Cafeteria_Management_System
             if (quantity > 0)
             {
                 chickenSandwich.Visible = true;
-                quantity = int.Parse(chickenSandwich.Text);
                 quantity--;
                 chickenSandwich.Text = quantity.ToString();
 
@@ -451,7 +448,6 @@ namespace Final_Project__Cafeteria_Management_System
             if (quantity > 0)
             {
                 vegSandwich.Visible = true;
-                quantity = int.Parse(vegSandwich.Text);
                 quantity--;
                 vegSandwich.Text = quantity.ToString();
 
@@ -473,7 +469,6 @@ namespace Final_Project__Cafeteria_Management_System
             if (quantity > 0)
             {
                 eggAndCheeseSandwich.Visible = true;
-                quantity = int.Parse(eggAndCheeseSandwich.Text);
                 quantity--;
                 eggAndCheeseSandwich.Text = quantity.ToString();
 
@@ -495,7 +490,6 @@ namespace Final_Project__Cafeteria_Management_System
             if (quantity > 0)
             {
                 vegAndCheeseSandwich.Visible = true;
-                quantity = int.Parse(vegAndCheeseSandwich.Text);
                 quantity--;
                 vegAndCheeseSandwich.Text = quantity.ToString();
 
@@ -517,7 +511,6 @@ namespace Final_Project__Cafeteria_Management_System
             if (quantity > 0)
             {
                 chickenAndCheeseSandwich.Visible = true;
-                quantity = int.Parse(chickenAndCheeseSandwich.Text);
                 quantity--;
                 chickenAndCheeseSandwich.Text = quantity.ToString();
 
@@ -541,7 +534,6 @@ namespace Final_Project__Cafeteria_Management_System
             if (quantity > 0)
             {
                 kwekkwek.Visible = true;
-                quantity = int.Parse(kwekkwek.Text);
                 quantity--;
                 kwekkwek.Text = quantity.ToString();
 
@@ -562,7 +554,6 @@ namespace Final_Project__Cafeteria_Management_System
             if (quantity > 0)
             {
                 fishBalls.Visible = true;
-                quantity = int.Parse(fishBalls.Text);
                 quantity--;
                 fishBalls.Text = quantity.ToString();
 
@@ -584,7 +575,6 @@ namespace Final_Project__Cafeteria_Management_System
             if (quantity > 0)
             {
                 squidBalls.Visible = true;
-                quantity = int.Parse(squidBalls.Text);
                 quantity--;
                 squidBalls.Text = quantity.ToString();
 
@@ -606,7 +596,6 @@ namespace Final_Project__Cafeteria_Management_System
             if (quantity > 0)
             {
                 Bananacue.Visible = true;
-                quantity = int.Parse(Bananacue.Text);
                 quantity--;
                 Bananacue.Text = quantity.ToString();
 
@@ -628,7 +617,6 @@ namespace Final_Project__Cafeteria_Management_System
             if (quantity > 0)
             {
                 Turon.Visible = true;
-                quantity = int.Parse(Turon.Text);
                 quantity--;
                 Turon.Text = quantity.ToString();
 
@@ -653,7 +641,6 @@ namespace Final_Project__Cafeteria_Management_System
             if (quantity > 0)
             {
                 chicken.Visible = true;
-                quantity = int.Parse(chicken.Text);
                 quantity--;
                 chicken.Text = quantity.ToString();
 
@@ -675,7 +662,6 @@ namespace Final_Project__Cafeteria_Management_System
             if (quantity > 0)
             {
                 beef.Visible = true;
-                quantity = int.Parse(beef.Text);
                 quantity--;
                 beef.Text = quantity.ToString();
 
@@ -697,7 +683,6 @@ namespace Final_Project__Cafeteria_Management_System
             if (quantity > 0)
             {
                 pork.Visible = true;
-                quantity = int.Parse(pork.Text);
                 quantity--;
                 pork.Text = quantity.ToString();
 
@@ -719,7 +704,6 @@ namespace Final_Project__Cafeteria_Management_System
             if (quantity > 0)
             {
                 laPazBatchoy.Visible = true;
-                quantity = int.Parse(laPazBatchoy.Text);
                 quantity--;
                 laPazBatchoy.Text = quantity.ToString();
 
@@ -741,7 +725,6 @@ namespace Final_Project__Cafeteria_Management_System
             if (quantity > 0)
             {
                 bulalo.Visible = true;
-                quantity = int.Parse(bulalo.Text);
                 quantity--;
                 bulalo.Text = quantity.ToString();
 
