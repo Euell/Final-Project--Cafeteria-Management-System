@@ -154,6 +154,7 @@ namespace Final_Project__Cafeteria_Management_System
 
             CalculateOverallTotalCost();
             paymentControl11.amount.Text = overallTotalCost.ToString();
+           
         }
     }
 }
