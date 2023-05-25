@@ -12,16 +12,12 @@ namespace Final_Project__Cafeteria_Management_System
 {
     public partial class Main : Form
     {
-        decimal overallTotalCost = 0;
-        private decimal CalculateOverallTotalCost()
+        public decimal overallTotalCost = 0;
+        public decimal CalculateOverallTotalCost()
         {
-            overallTotalCost += mainControl1.mainOverallTotalCost;
-            overallTotalCost += drinksControl1.drinksOverallTotalCost;
-            overallTotalCost += candiesControl11.candiesOverallTotalCost;
-            overallTotalCost += snacksControl11.snacksOverallTotalCost;
-            overallTotalCost += breadControl1.breadOverallTotalCost;
-
-            return overallTotalCost;
+            return overallTotalCost = mainControl1.mainOverallTotalCost + drinksControl1.drinksOverallTotalCost +
+                candiesControl11.candiesOverallTotalCost + snacksControl11.snacksOverallTotalCost +
+                breadControl1.breadOverallTotalCost ;
         }
 
         public Main()
@@ -153,7 +149,7 @@ namespace Final_Project__Cafeteria_Management_System
             mainControl1.SendToBack();
 
             CalculateOverallTotalCost();
-            paymentControl11.amount.Text = overallTotalCost.ToString();
+            paymentControl11.totalPriceLbl.Text = overallTotalCost.ToString();
            
         }
     }

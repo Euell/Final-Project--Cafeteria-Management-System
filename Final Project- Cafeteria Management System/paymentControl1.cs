@@ -19,9 +19,34 @@ namespace Final_Project__Cafeteria_Management_System
 
         private void payBtn_Click(object sender, EventArgs e)
         {
-            int sum = Convert.ToInt32(amount.Text) - Convert.ToInt32(paymentAmount.Text);
-            dataGridView1.Rows.Add("test", "test", "test");
-            totalPayment.Text = sum.ToString();
+          
+            dataGridView1.Rows.Add(customerName.Text, totalPriceLbl.Text, paymentAmountLbl.Text, totalChange.Text, DateTime.Now.ToString());
+            //price.Visible = true;
+        }
+
+        private void okayBtn_Click(object sender, EventArgs e)
+        {
+          
+            int sum = Convert.ToInt32(paymentAmountLbl.Text) - Convert.ToInt32(totalPriceLbl.Text);
+           
+            int price, amount;
+            price = Convert.ToInt32(totalPriceLbl.Text);
+            amount = Convert.ToInt32(paymentAmountLbl.Text);
+            if (price > amount)
+            {
+                MessageBox.Show("Invalid amount");
+            }
+            else if (amount > price)
+            {
+                totalChange.Text = sum.ToString();
+            }
+        }
+
+        private void purchaseMoreBtn_Click(object sender, EventArgs e)
+        {
+            totalPriceLbl.Text = "0";
+            customerName.Text = "";
+           
         }
     }
 }
