@@ -142,6 +142,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.payBtn.TabIndex = 35;
             this.payBtn.Text = "Pay";
             this.payBtn.UseVisualStyleBackColor = false;
+            this.payBtn.Visible = false;
             this.payBtn.Click += new System.EventHandler(this.payBtn_Click);
             // 
             // label3
@@ -166,6 +167,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.paymentAmountLbl.Name = "paymentAmountLbl";
             this.paymentAmountLbl.Size = new System.Drawing.Size(196, 22);
             this.paymentAmountLbl.TabIndex = 36;
+            this.paymentAmountLbl.TextChanged += new System.EventHandler(this.paymentAmountLbl_TextChanged);
             // 
             // label2
             // 

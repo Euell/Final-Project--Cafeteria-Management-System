@@ -19,6 +19,8 @@ namespace Final_Project__Cafeteria_Management_System
 
         private void payBtn_Click(object sender, EventArgs e)
         {
+            int price = Convert.ToInt32(totalPriceLbl.Text);
+            int amount = Convert.ToInt32(paymentAmountLbl.Text);
             if (customerName.Text == "")
             {
                 MessageBox.Show("Please input a username");
@@ -27,7 +29,18 @@ namespace Final_Project__Cafeteria_Management_System
               
              MessageBox.Show("Please input payment amount");
                 
-            }else
+            }else if (totalPriceLbl.Text == "0" || totalPriceLbl.Text == "")
+            {
+                MessageBox.Show("Please try to order something");
+            }else if (totalChange.Text == "")
+            {
+                MessageBox.Show("Please click the Okay button");
+
+            }else if (price > amount)
+            {
+                MessageBox.Show("Invalid payment amount");
+            }
+            else
             {
                 dataGridView1.Rows.Add(customerName.Text, totalPriceLbl.Text, paymentAmountLbl.Text, totalChange.Text, DateTime.Now.ToString());
                 //price.Visible = true;
@@ -49,18 +62,17 @@ namespace Final_Project__Cafeteria_Management_System
             {
                 MessageBox.Show("Please check your inputted details");            
             }
+           
 
             if (price > amount)
             {
                 MessageBox.Show("Invalid payment amount");
             }
-            else if (amount > price)
+            else if (amount > price || amount == price)
             {
                 totalChange.Text = sum.ToString();
-            }else if (amount == price)
-            {
-                totalChange.Text = "0";
             }
+            payBtn.Visible = true;
         }
 
         private void purchaseMoreBtn_Click(object sender, EventArgs e)
@@ -69,6 +81,12 @@ namespace Final_Project__Cafeteria_Management_System
             customerName.Text = "";
             paymentAmountLbl.Text = "";
             totalChange.Text = "";
+        }
+
+        private void paymentAmountLbl_TextChanged(object sender, EventArgs e)
+        {
+            payBtn.Visible = false;
+
         }
     }
 }
