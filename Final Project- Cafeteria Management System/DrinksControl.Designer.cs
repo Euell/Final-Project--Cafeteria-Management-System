@@ -83,6 +83,14 @@ namespace Final_Project__Cafeteria_Management_System
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.leMiniraleDcBtn = new System.Windows.Forms.Button();
+            this.absoluteDcBtn = new System.Windows.Forms.Button();
+            this.evianDcBtn = new System.Windows.Forms.Button();
+            this.summitDcBtn = new System.Windows.Forms.Button();
+            this.cokeDcBtn = new System.Windows.Forms.Button();
+            this.royalDcBtn = new System.Windows.Forms.Button();
+            this.spriteDcBtn = new System.Windows.Forms.Button();
+            this.rootBeerDcBtn = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -126,6 +134,7 @@ namespace Final_Project__Cafeteria_Management_System
             // 
             this.panel2.BackColor = System.Drawing.Color.DimGray;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel2.Controls.Add(this.leMiniraleDcBtn);
             this.panel2.Controls.Add(this.leMinirale);
             this.panel2.Controls.Add(this.leMiniraleBtn);
             this.panel2.Controls.Add(this.label13);
@@ -267,6 +276,7 @@ namespace Final_Project__Cafeteria_Management_System
             // 
             this.panel6.BackColor = System.Drawing.Color.DimGray;
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel6.Controls.Add(this.rootBeerDcBtn);
             this.panel6.Controls.Add(this.rootBeer);
             this.panel6.Controls.Add(this.rootBeerBtn);
             this.panel6.Controls.Add(this.label12);
@@ -343,6 +353,7 @@ namespace Final_Project__Cafeteria_Management_System
             // 
             this.panel5.BackColor = System.Drawing.Color.DimGray;
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel5.Controls.Add(this.summitDcBtn);
             this.panel5.Controls.Add(this.summit);
             this.panel5.Controls.Add(this.summitBtn);
             this.panel5.Controls.Add(this.label9);
@@ -419,6 +430,7 @@ namespace Final_Project__Cafeteria_Management_System
             // 
             this.panel7.BackColor = System.Drawing.Color.DimGray;
             this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel7.Controls.Add(this.spriteDcBtn);
             this.panel7.Controls.Add(this.sprite);
             this.panel7.Controls.Add(this.spriteBtn);
             this.panel7.Controls.Add(this.label17);
@@ -495,6 +507,7 @@ namespace Final_Project__Cafeteria_Management_System
             // 
             this.panel4.BackColor = System.Drawing.Color.DimGray;
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel4.Controls.Add(this.evianDcBtn);
             this.panel4.Controls.Add(this.evian);
             this.panel4.Controls.Add(this.evianBtn);
             this.panel4.Controls.Add(this.label6);
@@ -571,6 +584,7 @@ namespace Final_Project__Cafeteria_Management_System
             // 
             this.panel8.BackColor = System.Drawing.Color.DimGray;
             this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel8.Controls.Add(this.royalDcBtn);
             this.panel8.Controls.Add(this.royal);
             this.panel8.Controls.Add(this.royalBtn);
             this.panel8.Controls.Add(this.label20);
@@ -647,6 +661,7 @@ namespace Final_Project__Cafeteria_Management_System
             // 
             this.panel9.BackColor = System.Drawing.Color.DimGray;
             this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel9.Controls.Add(this.cokeDcBtn);
             this.panel9.Controls.Add(this.coke);
             this.panel9.Controls.Add(this.cokeBtn);
             this.panel9.Controls.Add(this.label23);
@@ -723,6 +738,7 @@ namespace Final_Project__Cafeteria_Management_System
             // 
             this.panel3.BackColor = System.Drawing.Color.DimGray;
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel3.Controls.Add(this.absoluteDcBtn);
             this.panel3.Controls.Add(this.absolute);
             this.panel3.Controls.Add(this.absoluteBtn);
             this.panel3.Controls.Add(this.label2);
@@ -794,6 +810,126 @@ namespace Final_Project__Cafeteria_Management_System
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
+            // 
+            // leMiniraleDcBtn
+            // 
+            this.leMiniraleDcBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.leMiniraleDcBtn.FlatAppearance.BorderSize = 0;
+            this.leMiniraleDcBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.leMiniraleDcBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.leMiniraleDcBtn.ForeColor = System.Drawing.Color.White;
+            this.leMiniraleDcBtn.Location = new System.Drawing.Point(124, 11);
+            this.leMiniraleDcBtn.Name = "leMiniraleDcBtn";
+            this.leMiniraleDcBtn.Size = new System.Drawing.Size(28, 29);
+            this.leMiniraleDcBtn.TabIndex = 25;
+            this.leMiniraleDcBtn.Text = "-";
+            this.leMiniraleDcBtn.UseVisualStyleBackColor = true;
+            this.leMiniraleDcBtn.Click += new System.EventHandler(this.leMiniraleDcBtn_Click);
+            // 
+            // absoluteDcBtn
+            // 
+            this.absoluteDcBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.absoluteDcBtn.FlatAppearance.BorderSize = 0;
+            this.absoluteDcBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.absoluteDcBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.absoluteDcBtn.ForeColor = System.Drawing.Color.White;
+            this.absoluteDcBtn.Location = new System.Drawing.Point(124, 11);
+            this.absoluteDcBtn.Name = "absoluteDcBtn";
+            this.absoluteDcBtn.Size = new System.Drawing.Size(28, 29);
+            this.absoluteDcBtn.TabIndex = 26;
+            this.absoluteDcBtn.Text = "-";
+            this.absoluteDcBtn.UseVisualStyleBackColor = true;
+            this.absoluteDcBtn.Click += new System.EventHandler(this.absoluteDcBtn_Click);
+            // 
+            // evianDcBtn
+            // 
+            this.evianDcBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.evianDcBtn.FlatAppearance.BorderSize = 0;
+            this.evianDcBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.evianDcBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.evianDcBtn.ForeColor = System.Drawing.Color.White;
+            this.evianDcBtn.Location = new System.Drawing.Point(124, 11);
+            this.evianDcBtn.Name = "evianDcBtn";
+            this.evianDcBtn.Size = new System.Drawing.Size(28, 29);
+            this.evianDcBtn.TabIndex = 26;
+            this.evianDcBtn.Text = "-";
+            this.evianDcBtn.UseVisualStyleBackColor = true;
+            this.evianDcBtn.Click += new System.EventHandler(this.evianDcBtn_Click);
+            // 
+            // summitDcBtn
+            // 
+            this.summitDcBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.summitDcBtn.FlatAppearance.BorderSize = 0;
+            this.summitDcBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.summitDcBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.summitDcBtn.ForeColor = System.Drawing.Color.White;
+            this.summitDcBtn.Location = new System.Drawing.Point(124, 11);
+            this.summitDcBtn.Name = "summitDcBtn";
+            this.summitDcBtn.Size = new System.Drawing.Size(28, 29);
+            this.summitDcBtn.TabIndex = 26;
+            this.summitDcBtn.Text = "-";
+            this.summitDcBtn.UseVisualStyleBackColor = true;
+            this.summitDcBtn.Click += new System.EventHandler(this.summitDcBtn_Click);
+            // 
+            // cokeDcBtn
+            // 
+            this.cokeDcBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cokeDcBtn.FlatAppearance.BorderSize = 0;
+            this.cokeDcBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cokeDcBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cokeDcBtn.ForeColor = System.Drawing.Color.White;
+            this.cokeDcBtn.Location = new System.Drawing.Point(124, 11);
+            this.cokeDcBtn.Name = "cokeDcBtn";
+            this.cokeDcBtn.Size = new System.Drawing.Size(28, 29);
+            this.cokeDcBtn.TabIndex = 26;
+            this.cokeDcBtn.Text = "-";
+            this.cokeDcBtn.UseVisualStyleBackColor = true;
+            this.cokeDcBtn.Click += new System.EventHandler(this.cokeDcBtn_Click);
+            // 
+            // royalDcBtn
+            // 
+            this.royalDcBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.royalDcBtn.FlatAppearance.BorderSize = 0;
+            this.royalDcBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.royalDcBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.royalDcBtn.ForeColor = System.Drawing.Color.White;
+            this.royalDcBtn.Location = new System.Drawing.Point(124, 11);
+            this.royalDcBtn.Name = "royalDcBtn";
+            this.royalDcBtn.Size = new System.Drawing.Size(28, 29);
+            this.royalDcBtn.TabIndex = 26;
+            this.royalDcBtn.Text = "-";
+            this.royalDcBtn.UseVisualStyleBackColor = true;
+            this.royalDcBtn.Click += new System.EventHandler(this.royalDcBtn_Click);
+            // 
+            // spriteDcBtn
+            // 
+            this.spriteDcBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.spriteDcBtn.FlatAppearance.BorderSize = 0;
+            this.spriteDcBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.spriteDcBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spriteDcBtn.ForeColor = System.Drawing.Color.White;
+            this.spriteDcBtn.Location = new System.Drawing.Point(124, 11);
+            this.spriteDcBtn.Name = "spriteDcBtn";
+            this.spriteDcBtn.Size = new System.Drawing.Size(28, 29);
+            this.spriteDcBtn.TabIndex = 26;
+            this.spriteDcBtn.Text = "-";
+            this.spriteDcBtn.UseVisualStyleBackColor = true;
+            this.spriteDcBtn.Click += new System.EventHandler(this.spriteDcBtn_Click);
+            // 
+            // rootBeerDcBtn
+            // 
+            this.rootBeerDcBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.rootBeerDcBtn.FlatAppearance.BorderSize = 0;
+            this.rootBeerDcBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rootBeerDcBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rootBeerDcBtn.ForeColor = System.Drawing.Color.White;
+            this.rootBeerDcBtn.Location = new System.Drawing.Point(124, 11);
+            this.rootBeerDcBtn.Name = "rootBeerDcBtn";
+            this.rootBeerDcBtn.Size = new System.Drawing.Size(28, 29);
+            this.rootBeerDcBtn.TabIndex = 26;
+            this.rootBeerDcBtn.Text = "-";
+            this.rootBeerDcBtn.UseVisualStyleBackColor = true;
+            this.rootBeerDcBtn.Click += new System.EventHandler(this.rootBeerDcBtn_Click);
             // 
             // DrinksControl
             // 
@@ -888,5 +1024,13 @@ namespace Final_Project__Cafeteria_Management_System
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button leMiniraleDcBtn;
+        private System.Windows.Forms.Button rootBeerDcBtn;
+        private System.Windows.Forms.Button summitDcBtn;
+        private System.Windows.Forms.Button spriteDcBtn;
+        private System.Windows.Forms.Button evianDcBtn;
+        private System.Windows.Forms.Button royalDcBtn;
+        private System.Windows.Forms.Button cokeDcBtn;
+        private System.Windows.Forms.Button absoluteDcBtn;
     }
 }
