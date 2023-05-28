@@ -263,5 +263,257 @@ namespace Final_Project__Cafeteria_Management_System
 
             amount.Text = "";
         }
+
+        private void vcutDcBtn_Click(object sender, EventArgs e)
+        {
+            int quantity = int.Parse(vcut.Text);
+
+            if (quantity > 0)
+            {
+                vcut.Visible = true;
+                quantity--;
+                vcut.Text = quantity.ToString();
+
+                int productCost = quantity * 15;
+                productTotalCosts[1] = productCost;
+                snacksOverallTotalCost = 0;
+                for (int i = 0; i < 16; i++)
+                {
+                    snacksOverallTotalCost += productTotalCosts[i];
+                }
+
+            }
+        }
+
+        private void cracklingsDcBtn_Click(object sender, EventArgs e)
+        {
+            int quantity = int.Parse(cracklings.Text);
+
+            if (quantity > 0)
+            {
+                cracklings.Visible = true;
+                quantity--;
+                cracklings.Text = quantity.ToString();
+
+                int productCost = quantity * 12;
+                productTotalCosts[2] = productCost;
+                snacksOverallTotalCost = 0;
+                for (int i = 0; i < 13; i++)
+                {
+                    snacksOverallTotalCost += productTotalCosts[i];
+                }
+
+            }
+        }
+
+        private void mangJuanDcBtn_Click(object sender, EventArgs e)
+        {
+            int quantity = int.Parse(mangJuan.Text);
+
+            if (quantity > 0)
+            {
+                mangJuan.Visible = true;
+                quantity--;
+                mangJuan.Text = quantity.ToString();
+
+                int productCost = quantity * 15;
+                productTotalCosts[3] = productCost;
+                snacksOverallTotalCost = 0;
+                for (int i = 0; i < 13; i++)
+                {
+                    snacksOverallTotalCost += productTotalCosts[i];
+                }
+
+            }
+        }
+
+        private void piattosDcBtn_Click(object sender, EventArgs e)
+        {
+            int quantity = int.Parse(piattos.Text);
+
+            if (quantity > 0)
+            {
+                piattos.Visible = true;
+                quantity--;
+                piattos.Text = quantity.ToString();
+
+                int productCost = quantity * 15;
+                productTotalCosts[4] = productCost;
+                snacksOverallTotalCost = 0;
+                for (int i = 0; i < 13; i++)
+                {
+                    snacksOverallTotalCost += productTotalCosts[i];
+                }
+
+            }
+        }
+
+        private void cloverDcBtn_Click(object sender, EventArgs e)
+        {
+            int quantity = int.Parse(clover.Text);
+
+            if (quantity > 0)
+            {
+                clover.Visible = true;
+                quantity--;
+                clover.Text = quantity.ToString();
+
+                int productCost = quantity * 10;
+                productTotalCosts[5] = productCost;
+                snacksOverallTotalCost = 0;
+                for (int i = 0; i < 13; i++)
+                {
+                    snacksOverallTotalCost += productTotalCosts[i];
+                }
+
+            }
+        }
+
+        private void pillowsDcBtn_Click(object sender, EventArgs e)
+        {
+            int quantity = int.Parse(pillows.Text);
+
+            if (quantity > 0)
+            {
+                pillows.Visible = true;
+                quantity--;
+                pillows.Text = quantity.ToString();
+
+                int productCost = quantity * 10;
+                productTotalCosts[6] = productCost;
+                snacksOverallTotalCost = 0;
+                for (int i = 0; i < 13; i++)
+                {
+                    snacksOverallTotalCost += productTotalCosts[i];
+                }
+
+            }
+        }
+
+        private void dingDongDcBtn_Click(object sender, EventArgs e)
+        {
+            int quantity = int.Parse(dingDong.Text);
+
+            if (quantity > 0)
+            {
+                dingDong.Visible = true;
+                quantity--;
+                dingDong.Text = quantity.ToString();
+
+                int productCost = quantity * 18;
+                productTotalCosts[7] = productCost;
+                snacksOverallTotalCost = 0;
+                for (int i = 0; i < 13; i++)
+                {
+                    snacksOverallTotalCost += productTotalCosts[i];
+                }
+
+            }
+        }
+
+        private void laysDcBtn_Click(object sender, EventArgs e)
+        {
+            int quantity = int.Parse(lays.Text);
+
+            if (quantity > 0)
+            {
+                lays.Visible = true;
+                quantity--;
+                lays.Text = quantity.ToString();
+
+                int productCost = quantity * 25;
+                productTotalCosts[8] = productCost;
+                snacksOverallTotalCost = 0;
+                for (int i = 0; i < 13; i++)
+                {
+                    snacksOverallTotalCost += productTotalCosts[i];
+                }
+
+            }
+        }
+
+        private void cheetosDcBtn_Click(object sender, EventArgs e)
+        {
+            int quantity = int.Parse(cheetos.Text);
+
+            if (quantity > 0)
+            {
+                cheetos.Visible = true;
+                quantity--;
+                cheetos.Text = quantity.ToString();
+
+                int productCost = quantity * 20;
+                productTotalCosts[9] = productCost;
+                snacksOverallTotalCost = 0;
+                for (int i = 0; i < 13; i++)
+                {
+                    snacksOverallTotalCost += productTotalCosts[i];
+                }
+
+            }
+        }
+
+        private void potatoChipsDcBtn_Click(object sender, EventArgs e)
+        {
+            int quantity = int.Parse(potatoChips.Text);
+
+            if (quantity > 0)
+            {
+                potatoChips.Visible = true;
+                quantity--;
+                potatoChips.Text = quantity.ToString();
+
+                int productCost = quantity * 18;
+                productTotalCosts[10] = productCost;
+                snacksOverallTotalCost = 0;
+                for (int i = 0; i < 13; i++)
+                {
+                    snacksOverallTotalCost += productTotalCosts[i];
+                }
+
+            }
+        }
+
+        private void potatoFriesDcBtn_Click(object sender, EventArgs e)
+        {
+            int quantity = int.Parse(potatoFries.Text);
+
+            if (quantity > 0)
+            {
+                potatoFries.Visible = true;
+                quantity--;
+                potatoFries.Text = quantity.ToString();
+
+                int productCost = quantity * 12;
+                productTotalCosts[11] = productCost;
+                snacksOverallTotalCost = 0;
+                for (int i = 0; i < 13; i++)
+                {
+                    snacksOverallTotalCost += productTotalCosts[i];
+                }
+
+            }
+        }
+
+        private void patataDcBtn_Click(object sender, EventArgs e)
+        {
+            int quantity = int.Parse(patata.Text);
+
+            if (quantity > 0)
+            {
+                patata.Visible = true;
+                quantity--;
+                patata.Text = quantity.ToString();
+
+                int productCost = quantity * 10;
+                productTotalCosts[12] = productCost;
+                snacksOverallTotalCost = 0;
+                for (int i = 0; i < 13; i++)
+                {
+                    snacksOverallTotalCost += productTotalCosts[i];
+                }
+
+            }
+        }
     }
 }
