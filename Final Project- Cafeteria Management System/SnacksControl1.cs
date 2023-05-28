@@ -263,6 +263,9 @@ namespace Final_Project__Cafeteria_Management_System
 
             amount.Text = "";
         }
+        //decrement buttons
+        //decrement buttons
+        //decrement buttons
 
         private void vcutDcBtn_Click(object sender, EventArgs e)
         {
