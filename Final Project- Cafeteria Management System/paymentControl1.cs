@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace Final_Project__Cafeteria_Management_System
 {
@@ -97,6 +98,13 @@ namespace Final_Project__Cafeteria_Management_System
         {
             payBtn.Visible = false;
 
+        }
+
+        private void receiptBtn_Click(object sender, EventArgs e)
+        {
+            receipt form = new receipt();
+            form.Show();
+           
         }
     }
 }
