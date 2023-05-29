@@ -49,7 +49,6 @@ namespace Final_Project__Cafeteria_Management_System
             this.Controls.Add(this.listBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "receipt";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "receipt";
             this.Load += new System.EventHandler(this.receipt_Load);
             this.ResumeLayout(false);
