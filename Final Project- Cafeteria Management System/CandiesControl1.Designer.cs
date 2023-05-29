@@ -31,84 +31,98 @@ namespace Final_Project__Cafeteria_Management_System
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel14 = new System.Windows.Forms.Panel();
+            this.kopikoDcBtn = new System.Windows.Forms.Button();
             this.label30 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.kopiko = new System.Windows.Forms.Label();
             this.kopikoBtn = new System.Windows.Forms.Button();
             this.panel7 = new System.Windows.Forms.Panel();
+            this.reesesDcBtn = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.reeses = new System.Windows.Forms.Label();
             this.reesesBtn = new System.Windows.Forms.Button();
             this.panel15 = new System.Windows.Forms.Panel();
+            this.mentosDcBtn = new System.Windows.Forms.Button();
             this.label14 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.mentos = new System.Windows.Forms.Label();
             this.mentosBtn = new System.Windows.Forms.Button();
             this.panel16 = new System.Windows.Forms.Panel();
+            this.crunchDcBtn = new System.Windows.Forms.Button();
             this.label12 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.crunch = new System.Windows.Forms.Label();
             this.crunchBtn = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.vfreshDcBtn = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.vfresh = new System.Windows.Forms.Label();
             this.vfreshBtn = new System.Windows.Forms.Button();
             this.panel17 = new System.Windows.Forms.Panel();
+            this.twixDcBtn = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.twix = new System.Windows.Forms.Label();
             this.twixBtn = new System.Windows.Forms.Button();
             this.panel8 = new System.Windows.Forms.Panel();
+            this.snickersDcBtn = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.snickers = new System.Windows.Forms.Label();
             this.snickersBtn = new System.Windows.Forms.Button();
             this.panel18 = new System.Windows.Forms.Panel();
+            this.hersheysDcBtn = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.hersheys = new System.Windows.Forms.Label();
             this.hersheysBtn = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.hanyDcBtn = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.hany = new System.Windows.Forms.Label();
             this.hanyBtn = new System.Windows.Forms.Button();
             this.panel9 = new System.Windows.Forms.Panel();
+            this.goyaDcBtn = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.goya = new System.Windows.Forms.Label();
             this.goyaBtn = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.lushDcBtn = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.lush = new System.Windows.Forms.Label();
             this.lushBtn = new System.Windows.Forms.Button();
             this.panel12 = new System.Windows.Forms.Panel();
+            this.chocNutDcBtn = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.chocnut = new System.Windows.Forms.Label();
             this.chochnutBtn = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.maxxDcBtn = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.maxx = new System.Windows.Forms.Label();
             this.maxxBtn = new System.Windows.Forms.Button();
             this.panel13 = new System.Windows.Forms.Panel();
+            this.nipsDcBtn = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
@@ -120,26 +134,27 @@ namespace Final_Project__Cafeteria_Management_System
             this.clearBtn = new System.Windows.Forms.Button();
             this.amount = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.frutosDcBtn = new System.Windows.Forms.Button();
             this.label13 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.frutos = new System.Windows.Forms.Label();
             this.frutosBtn = new System.Windows.Forms.Button();
-            this.frutosDcBtn = new System.Windows.Forms.Button();
-            this.maxxDcBtn = new System.Windows.Forms.Button();
-            this.lushDcBtn = new System.Windows.Forms.Button();
-            this.hanyDcBtn = new System.Windows.Forms.Button();
-            this.vfreshDcBtn = new System.Windows.Forms.Button();
-            this.nipsDcBtn = new System.Windows.Forms.Button();
-            this.chocNutDcBtn = new System.Windows.Forms.Button();
-            this.goyaDcBtn = new System.Windows.Forms.Button();
-            this.snickersDcBtn = new System.Windows.Forms.Button();
-            this.reesesDcBtn = new System.Windows.Forms.Button();
-            this.hersheysDcBtn = new System.Windows.Forms.Button();
-            this.twixDcBtn = new System.Windows.Forms.Button();
-            this.crunchDcBtn = new System.Windows.Forms.Button();
-            this.kopikoDcBtn = new System.Windows.Forms.Button();
-            this.mentosDcBtn = new System.Windows.Forms.Button();
+            this.frutosAdd = new System.Windows.Forms.Button();
+            this.maxxAdd = new System.Windows.Forms.Button();
+            this.lushAdd = new System.Windows.Forms.Button();
+            this.hanyAdd = new System.Windows.Forms.Button();
+            this.vfreshAdd = new System.Windows.Forms.Button();
+            this.nipsAdd = new System.Windows.Forms.Button();
+            this.chocNutAdd = new System.Windows.Forms.Button();
+            this.goyaAdd = new System.Windows.Forms.Button();
+            this.snickersAdd = new System.Windows.Forms.Button();
+            this.reesesAdd = new System.Windows.Forms.Button();
+            this.hersheysAdd = new System.Windows.Forms.Button();
+            this.twixAdd = new System.Windows.Forms.Button();
+            this.crunchAdd = new System.Windows.Forms.Button();
+            this.mentosAdd = new System.Windows.Forms.Button();
+            this.kopikoAdd = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel14.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
@@ -204,6 +219,7 @@ namespace Final_Project__Cafeteria_Management_System
             // 
             this.panel14.BackColor = System.Drawing.Color.DimGray;
             this.panel14.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel14.Controls.Add(this.kopikoAdd);
             this.panel14.Controls.Add(this.kopikoDcBtn);
             this.panel14.Controls.Add(this.label30);
             this.panel14.Controls.Add(this.label29);
@@ -214,6 +230,21 @@ namespace Final_Project__Cafeteria_Management_System
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(156, 153);
             this.panel14.TabIndex = 27;
+            // 
+            // kopikoDcBtn
+            // 
+            this.kopikoDcBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.kopikoDcBtn.FlatAppearance.BorderSize = 0;
+            this.kopikoDcBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.kopikoDcBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.kopikoDcBtn.ForeColor = System.Drawing.Color.White;
+            this.kopikoDcBtn.Location = new System.Drawing.Point(100, 3);
+            this.kopikoDcBtn.Name = "kopikoDcBtn";
+            this.kopikoDcBtn.Size = new System.Drawing.Size(28, 29);
+            this.kopikoDcBtn.TabIndex = 48;
+            this.kopikoDcBtn.Text = "-";
+            this.kopikoDcBtn.UseVisualStyleBackColor = true;
+            this.kopikoDcBtn.Click += new System.EventHandler(this.kopikoDcBtn_Click);
             // 
             // label30
             // 
@@ -254,7 +285,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.kopiko.AutoSize = true;
             this.kopiko.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.kopiko.ForeColor = System.Drawing.Color.White;
-            this.kopiko.Location = new System.Drawing.Point(129, 117);
+            this.kopiko.Location = new System.Drawing.Point(96, 117);
             this.kopiko.Name = "kopiko";
             this.kopiko.Size = new System.Drawing.Size(22, 24);
             this.kopiko.TabIndex = 24;
@@ -280,6 +311,7 @@ namespace Final_Project__Cafeteria_Management_System
             // 
             this.panel7.BackColor = System.Drawing.Color.DimGray;
             this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel7.Controls.Add(this.reesesAdd);
             this.panel7.Controls.Add(this.reesesDcBtn);
             this.panel7.Controls.Add(this.label9);
             this.panel7.Controls.Add(this.label24);
@@ -290,6 +322,21 @@ namespace Final_Project__Cafeteria_Management_System
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(156, 153);
             this.panel7.TabIndex = 27;
+            // 
+            // reesesDcBtn
+            // 
+            this.reesesDcBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.reesesDcBtn.FlatAppearance.BorderSize = 0;
+            this.reesesDcBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.reesesDcBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.reesesDcBtn.ForeColor = System.Drawing.Color.White;
+            this.reesesDcBtn.Location = new System.Drawing.Point(100, 3);
+            this.reesesDcBtn.Name = "reesesDcBtn";
+            this.reesesDcBtn.Size = new System.Drawing.Size(28, 29);
+            this.reesesDcBtn.TabIndex = 43;
+            this.reesesDcBtn.Text = "-";
+            this.reesesDcBtn.UseVisualStyleBackColor = true;
+            this.reesesDcBtn.Click += new System.EventHandler(this.reesesDcBtn_Click);
             // 
             // label9
             // 
@@ -330,7 +377,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.reeses.AutoSize = true;
             this.reeses.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.reeses.ForeColor = System.Drawing.Color.White;
-            this.reeses.Location = new System.Drawing.Point(129, 117);
+            this.reeses.Location = new System.Drawing.Point(96, 117);
             this.reeses.Name = "reeses";
             this.reeses.Size = new System.Drawing.Size(22, 24);
             this.reeses.TabIndex = 24;
@@ -356,6 +403,7 @@ namespace Final_Project__Cafeteria_Management_System
             // 
             this.panel15.BackColor = System.Drawing.Color.DimGray;
             this.panel15.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel15.Controls.Add(this.mentosAdd);
             this.panel15.Controls.Add(this.mentosDcBtn);
             this.panel15.Controls.Add(this.label14);
             this.panel15.Controls.Add(this.label28);
@@ -366,6 +414,21 @@ namespace Final_Project__Cafeteria_Management_System
             this.panel15.Name = "panel15";
             this.panel15.Size = new System.Drawing.Size(156, 153);
             this.panel15.TabIndex = 28;
+            // 
+            // mentosDcBtn
+            // 
+            this.mentosDcBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.mentosDcBtn.FlatAppearance.BorderSize = 0;
+            this.mentosDcBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.mentosDcBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mentosDcBtn.ForeColor = System.Drawing.Color.White;
+            this.mentosDcBtn.Location = new System.Drawing.Point(100, 3);
+            this.mentosDcBtn.Name = "mentosDcBtn";
+            this.mentosDcBtn.Size = new System.Drawing.Size(28, 29);
+            this.mentosDcBtn.TabIndex = 48;
+            this.mentosDcBtn.Text = "-";
+            this.mentosDcBtn.UseVisualStyleBackColor = true;
+            this.mentosDcBtn.Click += new System.EventHandler(this.mentosDcBtn_Click);
             // 
             // label14
             // 
@@ -406,7 +469,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.mentos.AutoSize = true;
             this.mentos.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mentos.ForeColor = System.Drawing.Color.White;
-            this.mentos.Location = new System.Drawing.Point(129, 117);
+            this.mentos.Location = new System.Drawing.Point(96, 117);
             this.mentos.Name = "mentos";
             this.mentos.Size = new System.Drawing.Size(22, 24);
             this.mentos.TabIndex = 24;
@@ -432,6 +495,7 @@ namespace Final_Project__Cafeteria_Management_System
             // 
             this.panel16.BackColor = System.Drawing.Color.DimGray;
             this.panel16.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel16.Controls.Add(this.crunchAdd);
             this.panel16.Controls.Add(this.crunchDcBtn);
             this.panel16.Controls.Add(this.label12);
             this.panel16.Controls.Add(this.label27);
@@ -442,6 +506,21 @@ namespace Final_Project__Cafeteria_Management_System
             this.panel16.Name = "panel16";
             this.panel16.Size = new System.Drawing.Size(156, 153);
             this.panel16.TabIndex = 29;
+            // 
+            // crunchDcBtn
+            // 
+            this.crunchDcBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.crunchDcBtn.FlatAppearance.BorderSize = 0;
+            this.crunchDcBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.crunchDcBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.crunchDcBtn.ForeColor = System.Drawing.Color.White;
+            this.crunchDcBtn.Location = new System.Drawing.Point(100, 3);
+            this.crunchDcBtn.Name = "crunchDcBtn";
+            this.crunchDcBtn.Size = new System.Drawing.Size(28, 29);
+            this.crunchDcBtn.TabIndex = 46;
+            this.crunchDcBtn.Text = "-";
+            this.crunchDcBtn.UseVisualStyleBackColor = true;
+            this.crunchDcBtn.Click += new System.EventHandler(this.crunchDcBtn_Click);
             // 
             // label12
             // 
@@ -482,7 +561,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.crunch.AutoSize = true;
             this.crunch.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.crunch.ForeColor = System.Drawing.Color.White;
-            this.crunch.Location = new System.Drawing.Point(129, 117);
+            this.crunch.Location = new System.Drawing.Point(93, 115);
             this.crunch.Name = "crunch";
             this.crunch.Size = new System.Drawing.Size(22, 24);
             this.crunch.TabIndex = 24;
@@ -508,6 +587,7 @@ namespace Final_Project__Cafeteria_Management_System
             // 
             this.panel6.BackColor = System.Drawing.Color.DimGray;
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel6.Controls.Add(this.vfreshAdd);
             this.panel6.Controls.Add(this.vfreshDcBtn);
             this.panel6.Controls.Add(this.label4);
             this.panel6.Controls.Add(this.label19);
@@ -518,6 +598,21 @@ namespace Final_Project__Cafeteria_Management_System
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(156, 153);
             this.panel6.TabIndex = 25;
+            // 
+            // vfreshDcBtn
+            // 
+            this.vfreshDcBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.vfreshDcBtn.FlatAppearance.BorderSize = 0;
+            this.vfreshDcBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.vfreshDcBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.vfreshDcBtn.ForeColor = System.Drawing.Color.White;
+            this.vfreshDcBtn.Location = new System.Drawing.Point(100, 3);
+            this.vfreshDcBtn.Name = "vfreshDcBtn";
+            this.vfreshDcBtn.Size = new System.Drawing.Size(28, 29);
+            this.vfreshDcBtn.TabIndex = 38;
+            this.vfreshDcBtn.Text = "-";
+            this.vfreshDcBtn.UseVisualStyleBackColor = true;
+            this.vfreshDcBtn.Click += new System.EventHandler(this.vfreshDcBtn_Click);
             // 
             // label4
             // 
@@ -558,7 +653,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.vfresh.AutoSize = true;
             this.vfresh.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vfresh.ForeColor = System.Drawing.Color.White;
-            this.vfresh.Location = new System.Drawing.Point(129, 117);
+            this.vfresh.Location = new System.Drawing.Point(96, 117);
             this.vfresh.Name = "vfresh";
             this.vfresh.Size = new System.Drawing.Size(22, 24);
             this.vfresh.TabIndex = 24;
@@ -584,6 +679,7 @@ namespace Final_Project__Cafeteria_Management_System
             // 
             this.panel17.BackColor = System.Drawing.Color.DimGray;
             this.panel17.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel17.Controls.Add(this.twixAdd);
             this.panel17.Controls.Add(this.twixDcBtn);
             this.panel17.Controls.Add(this.label11);
             this.panel17.Controls.Add(this.label26);
@@ -594,6 +690,21 @@ namespace Final_Project__Cafeteria_Management_System
             this.panel17.Name = "panel17";
             this.panel17.Size = new System.Drawing.Size(156, 153);
             this.panel17.TabIndex = 30;
+            // 
+            // twixDcBtn
+            // 
+            this.twixDcBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.twixDcBtn.FlatAppearance.BorderSize = 0;
+            this.twixDcBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.twixDcBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.twixDcBtn.ForeColor = System.Drawing.Color.White;
+            this.twixDcBtn.Location = new System.Drawing.Point(100, 3);
+            this.twixDcBtn.Name = "twixDcBtn";
+            this.twixDcBtn.Size = new System.Drawing.Size(28, 29);
+            this.twixDcBtn.TabIndex = 45;
+            this.twixDcBtn.Text = "-";
+            this.twixDcBtn.UseVisualStyleBackColor = true;
+            this.twixDcBtn.Click += new System.EventHandler(this.twixDcBtn_Click);
             // 
             // label11
             // 
@@ -634,7 +745,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.twix.AutoSize = true;
             this.twix.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.twix.ForeColor = System.Drawing.Color.White;
-            this.twix.Location = new System.Drawing.Point(129, 117);
+            this.twix.Location = new System.Drawing.Point(96, 115);
             this.twix.Name = "twix";
             this.twix.Size = new System.Drawing.Size(22, 24);
             this.twix.TabIndex = 24;
@@ -660,16 +771,32 @@ namespace Final_Project__Cafeteria_Management_System
             // 
             this.panel8.BackColor = System.Drawing.Color.DimGray;
             this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel8.Controls.Add(this.snickersAdd);
+            this.panel8.Controls.Add(this.snickers);
             this.panel8.Controls.Add(this.snickersDcBtn);
             this.panel8.Controls.Add(this.label8);
             this.panel8.Controls.Add(this.label23);
             this.panel8.Controls.Add(this.pictureBox9);
-            this.panel8.Controls.Add(this.snickers);
             this.panel8.Controls.Add(this.snickersBtn);
             this.panel8.Location = new System.Drawing.Point(536, 235);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(156, 153);
             this.panel8.TabIndex = 28;
+            // 
+            // snickersDcBtn
+            // 
+            this.snickersDcBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.snickersDcBtn.FlatAppearance.BorderSize = 0;
+            this.snickersDcBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.snickersDcBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.snickersDcBtn.ForeColor = System.Drawing.Color.White;
+            this.snickersDcBtn.Location = new System.Drawing.Point(100, 3);
+            this.snickersDcBtn.Name = "snickersDcBtn";
+            this.snickersDcBtn.Size = new System.Drawing.Size(28, 29);
+            this.snickersDcBtn.TabIndex = 42;
+            this.snickersDcBtn.Text = "-";
+            this.snickersDcBtn.UseVisualStyleBackColor = true;
+            this.snickersDcBtn.Click += new System.EventHandler(this.snickersDcBtn_Click);
             // 
             // label8
             // 
@@ -710,7 +837,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.snickers.AutoSize = true;
             this.snickers.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.snickers.ForeColor = System.Drawing.Color.White;
-            this.snickers.Location = new System.Drawing.Point(129, 117);
+            this.snickers.Location = new System.Drawing.Point(103, 115);
             this.snickers.Name = "snickers";
             this.snickers.Size = new System.Drawing.Size(22, 24);
             this.snickers.TabIndex = 24;
@@ -736,6 +863,7 @@ namespace Final_Project__Cafeteria_Management_System
             // 
             this.panel18.BackColor = System.Drawing.Color.DimGray;
             this.panel18.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel18.Controls.Add(this.hersheysAdd);
             this.panel18.Controls.Add(this.hersheysDcBtn);
             this.panel18.Controls.Add(this.label10);
             this.panel18.Controls.Add(this.label25);
@@ -746,6 +874,21 @@ namespace Final_Project__Cafeteria_Management_System
             this.panel18.Name = "panel18";
             this.panel18.Size = new System.Drawing.Size(156, 153);
             this.panel18.TabIndex = 26;
+            // 
+            // hersheysDcBtn
+            // 
+            this.hersheysDcBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.hersheysDcBtn.FlatAppearance.BorderSize = 0;
+            this.hersheysDcBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.hersheysDcBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hersheysDcBtn.ForeColor = System.Drawing.Color.White;
+            this.hersheysDcBtn.Location = new System.Drawing.Point(100, 3);
+            this.hersheysDcBtn.Name = "hersheysDcBtn";
+            this.hersheysDcBtn.Size = new System.Drawing.Size(28, 29);
+            this.hersheysDcBtn.TabIndex = 44;
+            this.hersheysDcBtn.Text = "-";
+            this.hersheysDcBtn.UseVisualStyleBackColor = true;
+            this.hersheysDcBtn.Click += new System.EventHandler(this.hersheysDcBtn_Click);
             // 
             // label10
             // 
@@ -763,7 +906,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Bradley Hand ITC", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.ForeColor = System.Drawing.Color.White;
-            this.label25.Location = new System.Drawing.Point(3, 113);
+            this.label25.Location = new System.Drawing.Point(-2, 113);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(106, 26);
             this.label25.TabIndex = 28;
@@ -786,7 +929,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.hersheys.AutoSize = true;
             this.hersheys.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.hersheys.ForeColor = System.Drawing.Color.White;
-            this.hersheys.Location = new System.Drawing.Point(129, 117);
+            this.hersheys.Location = new System.Drawing.Point(103, 117);
             this.hersheys.Name = "hersheys";
             this.hersheys.Size = new System.Drawing.Size(22, 24);
             this.hersheys.TabIndex = 24;
@@ -812,6 +955,7 @@ namespace Final_Project__Cafeteria_Management_System
             // 
             this.panel5.BackColor = System.Drawing.Color.DimGray;
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel5.Controls.Add(this.hanyAdd);
             this.panel5.Controls.Add(this.hanyDcBtn);
             this.panel5.Controls.Add(this.label3);
             this.panel5.Controls.Add(this.label18);
@@ -822,6 +966,21 @@ namespace Final_Project__Cafeteria_Management_System
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(156, 153);
             this.panel5.TabIndex = 25;
+            // 
+            // hanyDcBtn
+            // 
+            this.hanyDcBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.hanyDcBtn.FlatAppearance.BorderSize = 0;
+            this.hanyDcBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.hanyDcBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hanyDcBtn.ForeColor = System.Drawing.Color.White;
+            this.hanyDcBtn.Location = new System.Drawing.Point(100, 3);
+            this.hanyDcBtn.Name = "hanyDcBtn";
+            this.hanyDcBtn.Size = new System.Drawing.Size(28, 29);
+            this.hanyDcBtn.TabIndex = 37;
+            this.hanyDcBtn.Text = "-";
+            this.hanyDcBtn.UseVisualStyleBackColor = true;
+            this.hanyDcBtn.Click += new System.EventHandler(this.hanyDcBtn_Click);
             // 
             // label3
             // 
@@ -862,7 +1021,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.hany.AutoSize = true;
             this.hany.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.hany.ForeColor = System.Drawing.Color.White;
-            this.hany.Location = new System.Drawing.Point(129, 117);
+            this.hany.Location = new System.Drawing.Point(96, 117);
             this.hany.Name = "hany";
             this.hany.Size = new System.Drawing.Size(22, 24);
             this.hany.TabIndex = 24;
@@ -888,6 +1047,7 @@ namespace Final_Project__Cafeteria_Management_System
             // 
             this.panel9.BackColor = System.Drawing.Color.DimGray;
             this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel9.Controls.Add(this.goyaAdd);
             this.panel9.Controls.Add(this.goyaDcBtn);
             this.panel9.Controls.Add(this.label7);
             this.panel9.Controls.Add(this.label22);
@@ -898,6 +1058,21 @@ namespace Final_Project__Cafeteria_Management_System
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(156, 153);
             this.panel9.TabIndex = 29;
+            // 
+            // goyaDcBtn
+            // 
+            this.goyaDcBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.goyaDcBtn.FlatAppearance.BorderSize = 0;
+            this.goyaDcBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.goyaDcBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.goyaDcBtn.ForeColor = System.Drawing.Color.White;
+            this.goyaDcBtn.Location = new System.Drawing.Point(100, 3);
+            this.goyaDcBtn.Name = "goyaDcBtn";
+            this.goyaDcBtn.Size = new System.Drawing.Size(28, 29);
+            this.goyaDcBtn.TabIndex = 41;
+            this.goyaDcBtn.Text = "-";
+            this.goyaDcBtn.UseVisualStyleBackColor = true;
+            this.goyaDcBtn.Click += new System.EventHandler(this.goyaDcBtn_Click);
             // 
             // label7
             // 
@@ -938,7 +1113,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.goya.AutoSize = true;
             this.goya.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.goya.ForeColor = System.Drawing.Color.White;
-            this.goya.Location = new System.Drawing.Point(129, 117);
+            this.goya.Location = new System.Drawing.Point(96, 117);
             this.goya.Name = "goya";
             this.goya.Size = new System.Drawing.Size(22, 24);
             this.goya.TabIndex = 24;
@@ -964,6 +1139,7 @@ namespace Final_Project__Cafeteria_Management_System
             // 
             this.panel4.BackColor = System.Drawing.Color.DimGray;
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel4.Controls.Add(this.lushAdd);
             this.panel4.Controls.Add(this.lushDcBtn);
             this.panel4.Controls.Add(this.label2);
             this.panel4.Controls.Add(this.label17);
@@ -974,6 +1150,21 @@ namespace Final_Project__Cafeteria_Management_System
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(156, 153);
             this.panel4.TabIndex = 25;
+            // 
+            // lushDcBtn
+            // 
+            this.lushDcBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lushDcBtn.FlatAppearance.BorderSize = 0;
+            this.lushDcBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lushDcBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lushDcBtn.ForeColor = System.Drawing.Color.White;
+            this.lushDcBtn.Location = new System.Drawing.Point(100, 3);
+            this.lushDcBtn.Name = "lushDcBtn";
+            this.lushDcBtn.Size = new System.Drawing.Size(28, 29);
+            this.lushDcBtn.TabIndex = 36;
+            this.lushDcBtn.Text = "-";
+            this.lushDcBtn.UseVisualStyleBackColor = true;
+            this.lushDcBtn.Click += new System.EventHandler(this.lushDcBtn_Click);
             // 
             // label2
             // 
@@ -1014,7 +1205,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.lush.AutoSize = true;
             this.lush.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lush.ForeColor = System.Drawing.Color.White;
-            this.lush.Location = new System.Drawing.Point(129, 117);
+            this.lush.Location = new System.Drawing.Point(96, 117);
             this.lush.Name = "lush";
             this.lush.Size = new System.Drawing.Size(22, 24);
             this.lush.TabIndex = 24;
@@ -1040,6 +1231,7 @@ namespace Final_Project__Cafeteria_Management_System
             // 
             this.panel12.BackColor = System.Drawing.Color.DimGray;
             this.panel12.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel12.Controls.Add(this.chocNutAdd);
             this.panel12.Controls.Add(this.chocNutDcBtn);
             this.panel12.Controls.Add(this.label6);
             this.panel12.Controls.Add(this.label21);
@@ -1050,6 +1242,21 @@ namespace Final_Project__Cafeteria_Management_System
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(156, 153);
             this.panel12.TabIndex = 30;
+            // 
+            // chocNutDcBtn
+            // 
+            this.chocNutDcBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chocNutDcBtn.FlatAppearance.BorderSize = 0;
+            this.chocNutDcBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.chocNutDcBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chocNutDcBtn.ForeColor = System.Drawing.Color.White;
+            this.chocNutDcBtn.Location = new System.Drawing.Point(100, 3);
+            this.chocNutDcBtn.Name = "chocNutDcBtn";
+            this.chocNutDcBtn.Size = new System.Drawing.Size(28, 29);
+            this.chocNutDcBtn.TabIndex = 40;
+            this.chocNutDcBtn.Text = "-";
+            this.chocNutDcBtn.UseVisualStyleBackColor = true;
+            this.chocNutDcBtn.Click += new System.EventHandler(this.chocNutDcBtn_Click);
             // 
             // label6
             // 
@@ -1067,7 +1274,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Bradley Hand ITC", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label21.ForeColor = System.Drawing.Color.White;
-            this.label21.Location = new System.Drawing.Point(3, 113);
+            this.label21.Location = new System.Drawing.Point(-3, 113);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(104, 26);
             this.label21.TabIndex = 28;
@@ -1090,7 +1297,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.chocnut.AutoSize = true;
             this.chocnut.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chocnut.ForeColor = System.Drawing.Color.White;
-            this.chocnut.Location = new System.Drawing.Point(129, 117);
+            this.chocnut.Location = new System.Drawing.Point(100, 115);
             this.chocnut.Name = "chocnut";
             this.chocnut.Size = new System.Drawing.Size(22, 24);
             this.chocnut.TabIndex = 24;
@@ -1116,6 +1323,7 @@ namespace Final_Project__Cafeteria_Management_System
             // 
             this.panel3.BackColor = System.Drawing.Color.DimGray;
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel3.Controls.Add(this.maxxAdd);
             this.panel3.Controls.Add(this.maxxDcBtn);
             this.panel3.Controls.Add(this.label1);
             this.panel3.Controls.Add(this.label16);
@@ -1126,6 +1334,21 @@ namespace Final_Project__Cafeteria_Management_System
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(156, 153);
             this.panel3.TabIndex = 25;
+            // 
+            // maxxDcBtn
+            // 
+            this.maxxDcBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.maxxDcBtn.FlatAppearance.BorderSize = 0;
+            this.maxxDcBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.maxxDcBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.maxxDcBtn.ForeColor = System.Drawing.Color.White;
+            this.maxxDcBtn.Location = new System.Drawing.Point(100, 3);
+            this.maxxDcBtn.Name = "maxxDcBtn";
+            this.maxxDcBtn.Size = new System.Drawing.Size(28, 29);
+            this.maxxDcBtn.TabIndex = 35;
+            this.maxxDcBtn.Text = "-";
+            this.maxxDcBtn.UseVisualStyleBackColor = true;
+            this.maxxDcBtn.Click += new System.EventHandler(this.maxxDcBtn_Click);
             // 
             // label1
             // 
@@ -1166,7 +1389,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.maxx.AutoSize = true;
             this.maxx.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.maxx.ForeColor = System.Drawing.Color.White;
-            this.maxx.Location = new System.Drawing.Point(129, 117);
+            this.maxx.Location = new System.Drawing.Point(96, 117);
             this.maxx.Name = "maxx";
             this.maxx.Size = new System.Drawing.Size(22, 24);
             this.maxx.TabIndex = 24;
@@ -1192,6 +1415,7 @@ namespace Final_Project__Cafeteria_Management_System
             // 
             this.panel13.BackColor = System.Drawing.Color.DimGray;
             this.panel13.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel13.Controls.Add(this.nipsAdd);
             this.panel13.Controls.Add(this.nipsDcBtn);
             this.panel13.Controls.Add(this.label5);
             this.panel13.Controls.Add(this.label20);
@@ -1202,6 +1426,21 @@ namespace Final_Project__Cafeteria_Management_System
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(156, 153);
             this.panel13.TabIndex = 26;
+            // 
+            // nipsDcBtn
+            // 
+            this.nipsDcBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.nipsDcBtn.FlatAppearance.BorderSize = 0;
+            this.nipsDcBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.nipsDcBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nipsDcBtn.ForeColor = System.Drawing.Color.White;
+            this.nipsDcBtn.Location = new System.Drawing.Point(100, 3);
+            this.nipsDcBtn.Name = "nipsDcBtn";
+            this.nipsDcBtn.Size = new System.Drawing.Size(28, 29);
+            this.nipsDcBtn.TabIndex = 39;
+            this.nipsDcBtn.Text = "-";
+            this.nipsDcBtn.UseVisualStyleBackColor = true;
+            this.nipsDcBtn.Click += new System.EventHandler(this.nipsDcBtn_Click);
             // 
             // label5
             // 
@@ -1242,7 +1481,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.nips.AutoSize = true;
             this.nips.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nips.ForeColor = System.Drawing.Color.White;
-            this.nips.Location = new System.Drawing.Point(129, 117);
+            this.nips.Location = new System.Drawing.Point(96, 117);
             this.nips.Name = "nips";
             this.nips.Size = new System.Drawing.Size(22, 24);
             this.nips.TabIndex = 24;
@@ -1334,6 +1573,7 @@ namespace Final_Project__Cafeteria_Management_System
             // 
             this.panel2.BackColor = System.Drawing.Color.DimGray;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel2.Controls.Add(this.frutosAdd);
             this.panel2.Controls.Add(this.frutosDcBtn);
             this.panel2.Controls.Add(this.label13);
             this.panel2.Controls.Add(this.label15);
@@ -1344,6 +1584,21 @@ namespace Final_Project__Cafeteria_Management_System
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(156, 153);
             this.panel2.TabIndex = 0;
+            // 
+            // frutosDcBtn
+            // 
+            this.frutosDcBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.frutosDcBtn.FlatAppearance.BorderSize = 0;
+            this.frutosDcBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.frutosDcBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.frutosDcBtn.ForeColor = System.Drawing.Color.White;
+            this.frutosDcBtn.Location = new System.Drawing.Point(100, 3);
+            this.frutosDcBtn.Name = "frutosDcBtn";
+            this.frutosDcBtn.Size = new System.Drawing.Size(28, 29);
+            this.frutosDcBtn.TabIndex = 34;
+            this.frutosDcBtn.Text = "-";
+            this.frutosDcBtn.UseVisualStyleBackColor = true;
+            this.frutosDcBtn.Click += new System.EventHandler(this.frutosDcBtn_Click);
             // 
             // label13
             // 
@@ -1385,7 +1640,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.frutos.BackColor = System.Drawing.Color.DimGray;
             this.frutos.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.frutos.ForeColor = System.Drawing.Color.White;
-            this.frutos.Location = new System.Drawing.Point(129, 117);
+            this.frutos.Location = new System.Drawing.Point(96, 117);
             this.frutos.Name = "frutos";
             this.frutos.Size = new System.Drawing.Size(22, 24);
             this.frutos.TabIndex = 24;
@@ -1407,230 +1662,245 @@ namespace Final_Project__Cafeteria_Management_System
             this.frutosBtn.UseVisualStyleBackColor = true;
             this.frutosBtn.Click += new System.EventHandler(this.frutosBtn_Click);
             // 
-            // frutosDcBtn
+            // frutosAdd
             // 
-            this.frutosDcBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.frutosDcBtn.FlatAppearance.BorderSize = 0;
-            this.frutosDcBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.frutosDcBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.frutosDcBtn.ForeColor = System.Drawing.Color.White;
-            this.frutosDcBtn.Location = new System.Drawing.Point(100, 3);
-            this.frutosDcBtn.Name = "frutosDcBtn";
-            this.frutosDcBtn.Size = new System.Drawing.Size(28, 29);
-            this.frutosDcBtn.TabIndex = 34;
-            this.frutosDcBtn.Text = "-";
-            this.frutosDcBtn.UseVisualStyleBackColor = true;
-            this.frutosDcBtn.Click += new System.EventHandler(this.frutosDcBtn_Click);
+            this.frutosAdd.BackgroundImage = global::Final_Project__Cafeteria_Management_System.Properties.Resources.addToCart;
+            this.frutosAdd.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.frutosAdd.FlatAppearance.BorderSize = 0;
+            this.frutosAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.frutosAdd.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.frutosAdd.ForeColor = System.Drawing.Color.White;
+            this.frutosAdd.Location = new System.Drawing.Point(121, 116);
+            this.frutosAdd.Name = "frutosAdd";
+            this.frutosAdd.Size = new System.Drawing.Size(28, 29);
+            this.frutosAdd.TabIndex = 35;
+            this.frutosAdd.UseVisualStyleBackColor = true;
+            this.frutosAdd.Visible = false;
+            this.frutosAdd.Click += new System.EventHandler(this.frutosAdd_Click);
             // 
-            // maxxDcBtn
+            // maxxAdd
             // 
-            this.maxxDcBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.maxxDcBtn.FlatAppearance.BorderSize = 0;
-            this.maxxDcBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.maxxDcBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maxxDcBtn.ForeColor = System.Drawing.Color.White;
-            this.maxxDcBtn.Location = new System.Drawing.Point(100, 3);
-            this.maxxDcBtn.Name = "maxxDcBtn";
-            this.maxxDcBtn.Size = new System.Drawing.Size(28, 29);
-            this.maxxDcBtn.TabIndex = 35;
-            this.maxxDcBtn.Text = "-";
-            this.maxxDcBtn.UseVisualStyleBackColor = true;
-            this.maxxDcBtn.Click += new System.EventHandler(this.maxxDcBtn_Click);
+            this.maxxAdd.BackgroundImage = global::Final_Project__Cafeteria_Management_System.Properties.Resources.addToCart;
+            this.maxxAdd.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.maxxAdd.FlatAppearance.BorderSize = 0;
+            this.maxxAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.maxxAdd.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.maxxAdd.ForeColor = System.Drawing.Color.White;
+            this.maxxAdd.Location = new System.Drawing.Point(121, 116);
+            this.maxxAdd.Name = "maxxAdd";
+            this.maxxAdd.Size = new System.Drawing.Size(28, 29);
+            this.maxxAdd.TabIndex = 36;
+            this.maxxAdd.UseVisualStyleBackColor = true;
+            this.maxxAdd.Visible = false;
+            this.maxxAdd.Click += new System.EventHandler(this.maxxAdd_Click);
             // 
-            // lushDcBtn
+            // lushAdd
             // 
-            this.lushDcBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lushDcBtn.FlatAppearance.BorderSize = 0;
-            this.lushDcBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lushDcBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lushDcBtn.ForeColor = System.Drawing.Color.White;
-            this.lushDcBtn.Location = new System.Drawing.Point(100, 3);
-            this.lushDcBtn.Name = "lushDcBtn";
-            this.lushDcBtn.Size = new System.Drawing.Size(28, 29);
-            this.lushDcBtn.TabIndex = 36;
-            this.lushDcBtn.Text = "-";
-            this.lushDcBtn.UseVisualStyleBackColor = true;
-            this.lushDcBtn.Click += new System.EventHandler(this.lushDcBtn_Click);
+            this.lushAdd.BackgroundImage = global::Final_Project__Cafeteria_Management_System.Properties.Resources.addToCart;
+            this.lushAdd.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lushAdd.FlatAppearance.BorderSize = 0;
+            this.lushAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lushAdd.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lushAdd.ForeColor = System.Drawing.Color.White;
+            this.lushAdd.Location = new System.Drawing.Point(121, 116);
+            this.lushAdd.Name = "lushAdd";
+            this.lushAdd.Size = new System.Drawing.Size(28, 29);
+            this.lushAdd.TabIndex = 37;
+            this.lushAdd.UseVisualStyleBackColor = true;
+            this.lushAdd.Visible = false;
+            this.lushAdd.Click += new System.EventHandler(this.lushAdd_Click);
             // 
-            // hanyDcBtn
+            // hanyAdd
             // 
-            this.hanyDcBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.hanyDcBtn.FlatAppearance.BorderSize = 0;
-            this.hanyDcBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.hanyDcBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hanyDcBtn.ForeColor = System.Drawing.Color.White;
-            this.hanyDcBtn.Location = new System.Drawing.Point(100, 3);
-            this.hanyDcBtn.Name = "hanyDcBtn";
-            this.hanyDcBtn.Size = new System.Drawing.Size(28, 29);
-            this.hanyDcBtn.TabIndex = 37;
-            this.hanyDcBtn.Text = "-";
-            this.hanyDcBtn.UseVisualStyleBackColor = true;
-            this.hanyDcBtn.Click += new System.EventHandler(this.hanyDcBtn_Click);
+            this.hanyAdd.BackgroundImage = global::Final_Project__Cafeteria_Management_System.Properties.Resources.addToCart;
+            this.hanyAdd.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.hanyAdd.FlatAppearance.BorderSize = 0;
+            this.hanyAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.hanyAdd.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hanyAdd.ForeColor = System.Drawing.Color.White;
+            this.hanyAdd.Location = new System.Drawing.Point(121, 116);
+            this.hanyAdd.Name = "hanyAdd";
+            this.hanyAdd.Size = new System.Drawing.Size(28, 29);
+            this.hanyAdd.TabIndex = 38;
+            this.hanyAdd.UseVisualStyleBackColor = true;
+            this.hanyAdd.Visible = false;
+            this.hanyAdd.Click += new System.EventHandler(this.hanyAdd_Click);
             // 
-            // vfreshDcBtn
+            // vfreshAdd
             // 
-            this.vfreshDcBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.vfreshDcBtn.FlatAppearance.BorderSize = 0;
-            this.vfreshDcBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.vfreshDcBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.vfreshDcBtn.ForeColor = System.Drawing.Color.White;
-            this.vfreshDcBtn.Location = new System.Drawing.Point(100, 3);
-            this.vfreshDcBtn.Name = "vfreshDcBtn";
-            this.vfreshDcBtn.Size = new System.Drawing.Size(28, 29);
-            this.vfreshDcBtn.TabIndex = 38;
-            this.vfreshDcBtn.Text = "-";
-            this.vfreshDcBtn.UseVisualStyleBackColor = true;
-            this.vfreshDcBtn.Click += new System.EventHandler(this.vfreshDcBtn_Click);
+            this.vfreshAdd.BackgroundImage = global::Final_Project__Cafeteria_Management_System.Properties.Resources.addToCart;
+            this.vfreshAdd.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.vfreshAdd.FlatAppearance.BorderSize = 0;
+            this.vfreshAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.vfreshAdd.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.vfreshAdd.ForeColor = System.Drawing.Color.White;
+            this.vfreshAdd.Location = new System.Drawing.Point(121, 116);
+            this.vfreshAdd.Name = "vfreshAdd";
+            this.vfreshAdd.Size = new System.Drawing.Size(28, 29);
+            this.vfreshAdd.TabIndex = 39;
+            this.vfreshAdd.UseVisualStyleBackColor = true;
+            this.vfreshAdd.Visible = false;
+            this.vfreshAdd.Click += new System.EventHandler(this.vfreshAdd_Click);
             // 
-            // nipsDcBtn
+            // nipsAdd
             // 
-            this.nipsDcBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.nipsDcBtn.FlatAppearance.BorderSize = 0;
-            this.nipsDcBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.nipsDcBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nipsDcBtn.ForeColor = System.Drawing.Color.White;
-            this.nipsDcBtn.Location = new System.Drawing.Point(100, 3);
-            this.nipsDcBtn.Name = "nipsDcBtn";
-            this.nipsDcBtn.Size = new System.Drawing.Size(28, 29);
-            this.nipsDcBtn.TabIndex = 39;
-            this.nipsDcBtn.Text = "-";
-            this.nipsDcBtn.UseVisualStyleBackColor = true;
-            this.nipsDcBtn.Click += new System.EventHandler(this.nipsDcBtn_Click);
+            this.nipsAdd.BackgroundImage = global::Final_Project__Cafeteria_Management_System.Properties.Resources.addToCart;
+            this.nipsAdd.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.nipsAdd.FlatAppearance.BorderSize = 0;
+            this.nipsAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.nipsAdd.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nipsAdd.ForeColor = System.Drawing.Color.White;
+            this.nipsAdd.Location = new System.Drawing.Point(121, 116);
+            this.nipsAdd.Name = "nipsAdd";
+            this.nipsAdd.Size = new System.Drawing.Size(28, 29);
+            this.nipsAdd.TabIndex = 40;
+            this.nipsAdd.UseVisualStyleBackColor = true;
+            this.nipsAdd.Visible = false;
+            this.nipsAdd.Click += new System.EventHandler(this.nipsAdd_Click);
             // 
-            // chocNutDcBtn
+            // chocNutAdd
             // 
-            this.chocNutDcBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.chocNutDcBtn.FlatAppearance.BorderSize = 0;
-            this.chocNutDcBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.chocNutDcBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chocNutDcBtn.ForeColor = System.Drawing.Color.White;
-            this.chocNutDcBtn.Location = new System.Drawing.Point(100, 3);
-            this.chocNutDcBtn.Name = "chocNutDcBtn";
-            this.chocNutDcBtn.Size = new System.Drawing.Size(28, 29);
-            this.chocNutDcBtn.TabIndex = 40;
-            this.chocNutDcBtn.Text = "-";
-            this.chocNutDcBtn.UseVisualStyleBackColor = true;
-            this.chocNutDcBtn.Click += new System.EventHandler(this.chocNutDcBtn_Click);
+            this.chocNutAdd.BackgroundImage = global::Final_Project__Cafeteria_Management_System.Properties.Resources.addToCart;
+            this.chocNutAdd.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.chocNutAdd.FlatAppearance.BorderSize = 0;
+            this.chocNutAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.chocNutAdd.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chocNutAdd.ForeColor = System.Drawing.Color.White;
+            this.chocNutAdd.Location = new System.Drawing.Point(123, 113);
+            this.chocNutAdd.Name = "chocNutAdd";
+            this.chocNutAdd.Size = new System.Drawing.Size(28, 29);
+            this.chocNutAdd.TabIndex = 41;
+            this.chocNutAdd.UseVisualStyleBackColor = true;
+            this.chocNutAdd.Visible = false;
+            this.chocNutAdd.Click += new System.EventHandler(this.chocNutAdd_Click);
             // 
-            // goyaDcBtn
+            // goyaAdd
             // 
-            this.goyaDcBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.goyaDcBtn.FlatAppearance.BorderSize = 0;
-            this.goyaDcBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.goyaDcBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.goyaDcBtn.ForeColor = System.Drawing.Color.White;
-            this.goyaDcBtn.Location = new System.Drawing.Point(100, 3);
-            this.goyaDcBtn.Name = "goyaDcBtn";
-            this.goyaDcBtn.Size = new System.Drawing.Size(28, 29);
-            this.goyaDcBtn.TabIndex = 41;
-            this.goyaDcBtn.Text = "-";
-            this.goyaDcBtn.UseVisualStyleBackColor = true;
-            this.goyaDcBtn.Click += new System.EventHandler(this.goyaDcBtn_Click);
+            this.goyaAdd.BackgroundImage = global::Final_Project__Cafeteria_Management_System.Properties.Resources.addToCart;
+            this.goyaAdd.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.goyaAdd.FlatAppearance.BorderSize = 0;
+            this.goyaAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.goyaAdd.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.goyaAdd.ForeColor = System.Drawing.Color.White;
+            this.goyaAdd.Location = new System.Drawing.Point(121, 113);
+            this.goyaAdd.Name = "goyaAdd";
+            this.goyaAdd.Size = new System.Drawing.Size(28, 29);
+            this.goyaAdd.TabIndex = 42;
+            this.goyaAdd.UseVisualStyleBackColor = true;
+            this.goyaAdd.Visible = false;
+            this.goyaAdd.Click += new System.EventHandler(this.goyaAdd_Click);
             // 
-            // snickersDcBtn
+            // snickersAdd
             // 
-            this.snickersDcBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.snickersDcBtn.FlatAppearance.BorderSize = 0;
-            this.snickersDcBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.snickersDcBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.snickersDcBtn.ForeColor = System.Drawing.Color.White;
-            this.snickersDcBtn.Location = new System.Drawing.Point(100, 3);
-            this.snickersDcBtn.Name = "snickersDcBtn";
-            this.snickersDcBtn.Size = new System.Drawing.Size(28, 29);
-            this.snickersDcBtn.TabIndex = 42;
-            this.snickersDcBtn.Text = "-";
-            this.snickersDcBtn.UseVisualStyleBackColor = true;
-            this.snickersDcBtn.Click += new System.EventHandler(this.snickersDcBtn_Click);
+            this.snickersAdd.BackgroundImage = global::Final_Project__Cafeteria_Management_System.Properties.Resources.addToCart;
+            this.snickersAdd.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.snickersAdd.FlatAppearance.BorderSize = 0;
+            this.snickersAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.snickersAdd.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.snickersAdd.ForeColor = System.Drawing.Color.White;
+            this.snickersAdd.Location = new System.Drawing.Point(122, 116);
+            this.snickersAdd.Name = "snickersAdd";
+            this.snickersAdd.Size = new System.Drawing.Size(28, 29);
+            this.snickersAdd.TabIndex = 43;
+            this.snickersAdd.UseVisualStyleBackColor = true;
+            this.snickersAdd.Visible = false;
+            this.snickersAdd.Click += new System.EventHandler(this.snickersAdd_Click);
             // 
-            // reesesDcBtn
+            // reesesAdd
             // 
-            this.reesesDcBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.reesesDcBtn.FlatAppearance.BorderSize = 0;
-            this.reesesDcBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.reesesDcBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.reesesDcBtn.ForeColor = System.Drawing.Color.White;
-            this.reesesDcBtn.Location = new System.Drawing.Point(100, 3);
-            this.reesesDcBtn.Name = "reesesDcBtn";
-            this.reesesDcBtn.Size = new System.Drawing.Size(28, 29);
-            this.reesesDcBtn.TabIndex = 43;
-            this.reesesDcBtn.Text = "-";
-            this.reesesDcBtn.UseVisualStyleBackColor = true;
-            this.reesesDcBtn.Click += new System.EventHandler(this.reesesDcBtn_Click);
+            this.reesesAdd.BackgroundImage = global::Final_Project__Cafeteria_Management_System.Properties.Resources.addToCart;
+            this.reesesAdd.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.reesesAdd.FlatAppearance.BorderSize = 0;
+            this.reesesAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.reesesAdd.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.reesesAdd.ForeColor = System.Drawing.Color.White;
+            this.reesesAdd.Location = new System.Drawing.Point(121, 114);
+            this.reesesAdd.Name = "reesesAdd";
+            this.reesesAdd.Size = new System.Drawing.Size(28, 29);
+            this.reesesAdd.TabIndex = 44;
+            this.reesesAdd.UseVisualStyleBackColor = true;
+            this.reesesAdd.Visible = false;
+            this.reesesAdd.Click += new System.EventHandler(this.reesesAdd_Click);
             // 
-            // hersheysDcBtn
+            // hersheysAdd
             // 
-            this.hersheysDcBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.hersheysDcBtn.FlatAppearance.BorderSize = 0;
-            this.hersheysDcBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.hersheysDcBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hersheysDcBtn.ForeColor = System.Drawing.Color.White;
-            this.hersheysDcBtn.Location = new System.Drawing.Point(100, 3);
-            this.hersheysDcBtn.Name = "hersheysDcBtn";
-            this.hersheysDcBtn.Size = new System.Drawing.Size(28, 29);
-            this.hersheysDcBtn.TabIndex = 44;
-            this.hersheysDcBtn.Text = "-";
-            this.hersheysDcBtn.UseVisualStyleBackColor = true;
-            this.hersheysDcBtn.Click += new System.EventHandler(this.hersheysDcBtn_Click);
+            this.hersheysAdd.BackgroundImage = global::Final_Project__Cafeteria_Management_System.Properties.Resources.addToCart;
+            this.hersheysAdd.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.hersheysAdd.FlatAppearance.BorderSize = 0;
+            this.hersheysAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.hersheysAdd.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hersheysAdd.ForeColor = System.Drawing.Color.White;
+            this.hersheysAdd.Location = new System.Drawing.Point(123, 116);
+            this.hersheysAdd.Name = "hersheysAdd";
+            this.hersheysAdd.Size = new System.Drawing.Size(28, 29);
+            this.hersheysAdd.TabIndex = 45;
+            this.hersheysAdd.UseVisualStyleBackColor = true;
+            this.hersheysAdd.Visible = false;
+            this.hersheysAdd.Click += new System.EventHandler(this.hersheysAdd_Click);
             // 
-            // twixDcBtn
+            // twixAdd
             // 
-            this.twixDcBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.twixDcBtn.FlatAppearance.BorderSize = 0;
-            this.twixDcBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.twixDcBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.twixDcBtn.ForeColor = System.Drawing.Color.White;
-            this.twixDcBtn.Location = new System.Drawing.Point(100, 3);
-            this.twixDcBtn.Name = "twixDcBtn";
-            this.twixDcBtn.Size = new System.Drawing.Size(28, 29);
-            this.twixDcBtn.TabIndex = 45;
-            this.twixDcBtn.Text = "-";
-            this.twixDcBtn.UseVisualStyleBackColor = true;
-            this.twixDcBtn.Click += new System.EventHandler(this.twixDcBtn_Click);
+            this.twixAdd.BackgroundImage = global::Final_Project__Cafeteria_Management_System.Properties.Resources.addToCart;
+            this.twixAdd.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.twixAdd.FlatAppearance.BorderSize = 0;
+            this.twixAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.twixAdd.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.twixAdd.ForeColor = System.Drawing.Color.White;
+            this.twixAdd.Location = new System.Drawing.Point(121, 114);
+            this.twixAdd.Name = "twixAdd";
+            this.twixAdd.Size = new System.Drawing.Size(28, 29);
+            this.twixAdd.TabIndex = 46;
+            this.twixAdd.UseVisualStyleBackColor = true;
+            this.twixAdd.Visible = false;
+            this.twixAdd.Click += new System.EventHandler(this.twixAdd_Click);
             // 
-            // crunchDcBtn
+            // crunchAdd
             // 
-            this.crunchDcBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.crunchDcBtn.FlatAppearance.BorderSize = 0;
-            this.crunchDcBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.crunchDcBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.crunchDcBtn.ForeColor = System.Drawing.Color.White;
-            this.crunchDcBtn.Location = new System.Drawing.Point(100, 3);
-            this.crunchDcBtn.Name = "crunchDcBtn";
-            this.crunchDcBtn.Size = new System.Drawing.Size(28, 29);
-            this.crunchDcBtn.TabIndex = 46;
-            this.crunchDcBtn.Text = "-";
-            this.crunchDcBtn.UseVisualStyleBackColor = true;
-            this.crunchDcBtn.Click += new System.EventHandler(this.crunchDcBtn_Click);
+            this.crunchAdd.BackgroundImage = global::Final_Project__Cafeteria_Management_System.Properties.Resources.addToCart;
+            this.crunchAdd.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.crunchAdd.FlatAppearance.BorderSize = 0;
+            this.crunchAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.crunchAdd.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.crunchAdd.ForeColor = System.Drawing.Color.White;
+            this.crunchAdd.Location = new System.Drawing.Point(121, 114);
+            this.crunchAdd.Name = "crunchAdd";
+            this.crunchAdd.Size = new System.Drawing.Size(28, 29);
+            this.crunchAdd.TabIndex = 47;
+            this.crunchAdd.UseVisualStyleBackColor = true;
+            this.crunchAdd.Visible = false;
+            this.crunchAdd.Click += new System.EventHandler(this.crunchAdd_Click);
             // 
-            // kopikoDcBtn
+            // mentosAdd
             // 
-            this.kopikoDcBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.kopikoDcBtn.FlatAppearance.BorderSize = 0;
-            this.kopikoDcBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.kopikoDcBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.kopikoDcBtn.ForeColor = System.Drawing.Color.White;
-            this.kopikoDcBtn.Location = new System.Drawing.Point(100, 3);
-            this.kopikoDcBtn.Name = "kopikoDcBtn";
-            this.kopikoDcBtn.Size = new System.Drawing.Size(28, 29);
-            this.kopikoDcBtn.TabIndex = 48;
-            this.kopikoDcBtn.Text = "-";
-            this.kopikoDcBtn.UseVisualStyleBackColor = true;
-            this.kopikoDcBtn.Click += new System.EventHandler(this.kopikoDcBtn_Click);
+            this.mentosAdd.BackgroundImage = global::Final_Project__Cafeteria_Management_System.Properties.Resources.addToCart;
+            this.mentosAdd.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.mentosAdd.FlatAppearance.BorderSize = 0;
+            this.mentosAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.mentosAdd.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mentosAdd.ForeColor = System.Drawing.Color.White;
+            this.mentosAdd.Location = new System.Drawing.Point(121, 116);
+            this.mentosAdd.Name = "mentosAdd";
+            this.mentosAdd.Size = new System.Drawing.Size(28, 29);
+            this.mentosAdd.TabIndex = 48;
+            this.mentosAdd.UseVisualStyleBackColor = true;
+            this.mentosAdd.Visible = false;
+            this.mentosAdd.Click += new System.EventHandler(this.mentosAdd_Click);
             // 
-            // mentosDcBtn
+            // kopikoAdd
             // 
-            this.mentosDcBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.mentosDcBtn.FlatAppearance.BorderSize = 0;
-            this.mentosDcBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.mentosDcBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mentosDcBtn.ForeColor = System.Drawing.Color.White;
-            this.mentosDcBtn.Location = new System.Drawing.Point(100, 3);
-            this.mentosDcBtn.Name = "mentosDcBtn";
-            this.mentosDcBtn.Size = new System.Drawing.Size(28, 29);
-            this.mentosDcBtn.TabIndex = 48;
-            this.mentosDcBtn.Text = "-";
-            this.mentosDcBtn.UseVisualStyleBackColor = true;
-            this.mentosDcBtn.Click += new System.EventHandler(this.mentosDcBtn_Click);
+            this.kopikoAdd.BackgroundImage = global::Final_Project__Cafeteria_Management_System.Properties.Resources.addToCart;
+            this.kopikoAdd.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.kopikoAdd.FlatAppearance.BorderSize = 0;
+            this.kopikoAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.kopikoAdd.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.kopikoAdd.ForeColor = System.Drawing.Color.White;
+            this.kopikoAdd.Location = new System.Drawing.Point(121, 114);
+            this.kopikoAdd.Name = "kopikoAdd";
+            this.kopikoAdd.Size = new System.Drawing.Size(28, 29);
+            this.kopikoAdd.TabIndex = 49;
+            this.kopikoAdd.UseVisualStyleBackColor = true;
+            this.kopikoAdd.Visible = false;
+            this.kopikoAdd.Click += new System.EventHandler(this.kopikoAdd_Click);
             // 
             // CandiesControl1
             // 
@@ -1803,5 +2073,20 @@ namespace Final_Project__Cafeteria_Management_System
         private System.Windows.Forms.Button nipsDcBtn;
         private System.Windows.Forms.Button frutosDcBtn;
         private System.Windows.Forms.Button mentosDcBtn;
+        private System.Windows.Forms.Button kopikoAdd;
+        private System.Windows.Forms.Button reesesAdd;
+        private System.Windows.Forms.Button mentosAdd;
+        private System.Windows.Forms.Button crunchAdd;
+        private System.Windows.Forms.Button vfreshAdd;
+        private System.Windows.Forms.Button twixAdd;
+        private System.Windows.Forms.Button snickersAdd;
+        private System.Windows.Forms.Button hersheysAdd;
+        private System.Windows.Forms.Button hanyAdd;
+        private System.Windows.Forms.Button goyaAdd;
+        private System.Windows.Forms.Button lushAdd;
+        private System.Windows.Forms.Button chocNutAdd;
+        private System.Windows.Forms.Button maxxAdd;
+        private System.Windows.Forms.Button nipsAdd;
+        private System.Windows.Forms.Button frutosAdd;
     }
 }
