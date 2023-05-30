@@ -31,6 +31,7 @@ namespace Final_Project__Cafeteria_Management_System
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.receiptBtn = new System.Windows.Forms.Button();
             this.purchaseMoreBtn = new System.Windows.Forms.Button();
             this.okayBtn = new System.Windows.Forms.Button();
             this.customerName = new System.Windows.Forms.TextBox();
@@ -42,15 +43,14 @@ namespace Final_Project__Cafeteria_Management_System
             this.label8 = new System.Windows.Forms.Label();
             this.totalChange = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.panel10 = new System.Windows.Forms.Panel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.totalCost = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.totalPrice = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.change = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.date = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.receiptBtn = new System.Windows.Forms.Button();
-            this.panel11 = new System.Windows.Forms.Panel();
-            this.panel10 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -90,6 +90,21 @@ namespace Final_Project__Cafeteria_Management_System
             this.panel2.Size = new System.Drawing.Size(402, 529);
             this.panel2.TabIndex = 40;
             // 
+            // receiptBtn
+            // 
+            this.receiptBtn.BackColor = System.Drawing.Color.Teal;
+            this.receiptBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.receiptBtn.FlatAppearance.BorderSize = 0;
+            this.receiptBtn.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.receiptBtn.ForeColor = System.Drawing.Color.White;
+            this.receiptBtn.Location = new System.Drawing.Point(188, 329);
+            this.receiptBtn.Name = "receiptBtn";
+            this.receiptBtn.Size = new System.Drawing.Size(182, 35);
+            this.receiptBtn.TabIndex = 43;
+            this.receiptBtn.Text = "Show purchased items";
+            this.receiptBtn.UseVisualStyleBackColor = false;
+            this.receiptBtn.Click += new System.EventHandler(this.receiptBtn_Click);
+            // 
             // purchaseMoreBtn
             // 
             this.purchaseMoreBtn.BackColor = System.Drawing.Color.Teal;
@@ -101,7 +116,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.purchaseMoreBtn.Name = "purchaseMoreBtn";
             this.purchaseMoreBtn.Size = new System.Drawing.Size(138, 32);
             this.purchaseMoreBtn.TabIndex = 42;
-            this.purchaseMoreBtn.Text = "purchase again";
+            this.purchaseMoreBtn.Text = "purchase more";
             this.purchaseMoreBtn.UseVisualStyleBackColor = false;
             this.purchaseMoreBtn.Click += new System.EventHandler(this.purchaseMoreBtn_Click);
             // 
@@ -229,6 +244,25 @@ namespace Final_Project__Cafeteria_Management_System
             this.label1.TabIndex = 35;
             this.label1.Text = "Payment amount";
             // 
+            // panel11
+            // 
+            this.panel11.BackgroundImage = global::Final_Project__Cafeteria_Management_System.Properties.Resources._411dd3d08336a70457a3d8ef578f66b9;
+            this.panel11.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel11.Location = new System.Drawing.Point(0, 0);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(907, 48);
+            this.panel11.TabIndex = 31;
+            // 
+            // panel10
+            // 
+            this.panel10.BackgroundImage = global::Final_Project__Cafeteria_Management_System.Properties.Resources._411dd3d08336a70457a3d8ef578f66b9;
+            this.panel10.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel10.Location = new System.Drawing.Point(0, 577);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(907, 48);
+            this.panel10.TabIndex = 30;
+            this.panel10.Paint += new System.Windows.Forms.PaintEventHandler(this.panel10_Paint);
+            // 
             // dataGridView1
             // 
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
@@ -261,7 +295,7 @@ namespace Final_Project__Cafeteria_Management_System
             // 
             // totalPrice
             // 
-            this.totalPrice.HeaderText = "Payment";
+            this.totalPrice.HeaderText = "Payment Amount";
             this.totalPrice.Name = "totalPrice";
             this.totalPrice.ReadOnly = true;
             // 
@@ -276,39 +310,6 @@ namespace Final_Project__Cafeteria_Management_System
             this.date.HeaderText = "Date";
             this.date.Name = "date";
             this.date.ReadOnly = true;
-            // 
-            // receiptBtn
-            // 
-            this.receiptBtn.BackColor = System.Drawing.Color.Teal;
-            this.receiptBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.receiptBtn.FlatAppearance.BorderSize = 0;
-            this.receiptBtn.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.receiptBtn.ForeColor = System.Drawing.Color.White;
-            this.receiptBtn.Location = new System.Drawing.Point(202, 329);
-            this.receiptBtn.Name = "receiptBtn";
-            this.receiptBtn.Size = new System.Drawing.Size(151, 35);
-            this.receiptBtn.TabIndex = 43;
-            this.receiptBtn.Text = "Show Receipt";
-            this.receiptBtn.UseVisualStyleBackColor = false;
-            this.receiptBtn.Click += new System.EventHandler(this.receiptBtn_Click);
-            // 
-            // panel11
-            // 
-            this.panel11.BackgroundImage = global::Final_Project__Cafeteria_Management_System.Properties.Resources._411dd3d08336a70457a3d8ef578f66b9;
-            this.panel11.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel11.Location = new System.Drawing.Point(0, 0);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(907, 48);
-            this.panel11.TabIndex = 31;
-            // 
-            // panel10
-            // 
-            this.panel10.BackgroundImage = global::Final_Project__Cafeteria_Management_System.Properties.Resources._411dd3d08336a70457a3d8ef578f66b9;
-            this.panel10.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel10.Location = new System.Drawing.Point(0, 577);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(907, 48);
-            this.panel10.TabIndex = 30;
             // 
             // paymentControl1
             // 
@@ -342,12 +343,12 @@ namespace Final_Project__Cafeteria_Management_System
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button okayBtn;
         public System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button purchaseMoreBtn;
+        private System.Windows.Forms.Button receiptBtn;
         private System.Windows.Forms.DataGridViewTextBoxColumn name;
         private System.Windows.Forms.DataGridViewTextBoxColumn totalCost;
         private System.Windows.Forms.DataGridViewTextBoxColumn totalPrice;
         private System.Windows.Forms.DataGridViewTextBoxColumn change;
         private System.Windows.Forms.DataGridViewTextBoxColumn date;
-        private System.Windows.Forms.Button purchaseMoreBtn;
-        private System.Windows.Forms.Button receiptBtn;
     }
 }

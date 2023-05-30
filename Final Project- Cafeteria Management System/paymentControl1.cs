@@ -16,6 +16,7 @@ namespace Final_Project__Cafeteria_Management_System
         public paymentControl1()
         {
             InitializeComponent();
+          
         }
 
         private void payBtn_Click(object sender, EventArgs e)
@@ -89,9 +90,21 @@ namespace Final_Project__Cafeteria_Management_System
         private void purchaseMoreBtn_Click(object sender, EventArgs e)
         {
             totalPriceLbl.Text = "";
-            customerName.Text = "";
+            //customerName.Text = "";
             paymentAmountLbl.Text = "";
             totalChange.Text = "";
+
+            using (StreamWriter writer = new StreamWriter("item.txt", true))
+            {
+                writer.WriteLine("******************************************************************************************");
+                writer.WriteLine("------------------------------------------------------------------------------------------");
+                writer.WriteLine("ANOTHER PURCHASED ITEMS ");
+                writer.WriteLine("------------------------------------------------------------------------------------------");
+                writer.WriteLine("******************************************************************************************");
+            }
+
+            receipt form = new receipt();
+            form.Hide();
         }
 
         private void paymentAmountLbl_TextChanged(object sender, EventArgs e)
@@ -105,6 +118,11 @@ namespace Final_Project__Cafeteria_Management_System
             receipt form = new receipt();
             form.Show();
            
+        }
+
+        private void panel10_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
