@@ -39,6 +39,15 @@ namespace Final_Project__Cafeteria_Management_System
                 MessageBox.Show("Error: " + ex.Message);
             }
         }
+
+       
+        private void closebtn_Click(object sender, EventArgs e)
+        {
+            paymentControl1 payment = new paymentControl1();
+            this.Hide();
+            payment.Show();
+            // receipt back = new receipt();
+        }
     }
 
 }

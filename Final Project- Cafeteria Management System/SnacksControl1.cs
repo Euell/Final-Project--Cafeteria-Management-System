@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace Final_Project__Cafeteria_Management_System
 {
@@ -34,7 +35,7 @@ namespace Final_Project__Cafeteria_Management_System
             {
                 snacksOverallTotalCost += productTotalCosts[i]; // created a for loop to sum up the total cost and returning it to the global variable
             }
-
+            vcutAdd.Visible = true;
         }
 
         private void cracklingsBtn_Click(object sender, EventArgs e)
@@ -51,6 +52,7 @@ namespace Final_Project__Cafeteria_Management_System
             {
                 snacksOverallTotalCost += productTotalCosts[i];
             }
+            cracklingsAdd.Visible = true;
         }
 
         private void mangJuanBtn_Click(object sender, EventArgs e)
@@ -67,6 +69,7 @@ namespace Final_Project__Cafeteria_Management_System
             {
                 snacksOverallTotalCost += productTotalCosts[i];
             }
+            mangJuanAdd.Visible = true;
         }
 
         private void piattosBtn_Click(object sender, EventArgs e)
@@ -83,6 +86,7 @@ namespace Final_Project__Cafeteria_Management_System
             {
                 snacksOverallTotalCost += productTotalCosts[i];
             }
+            piattosAdd.Visible = true;
         }
 
         private void cloverBtn_Click(object sender, EventArgs e)
@@ -99,6 +103,7 @@ namespace Final_Project__Cafeteria_Management_System
             {
                 snacksOverallTotalCost += productTotalCosts[i];
             }
+            cloverAdd.Visible = true;
         }
 
         private void pillowsBtn_Click(object sender, EventArgs e)
@@ -115,6 +120,7 @@ namespace Final_Project__Cafeteria_Management_System
             {
                 snacksOverallTotalCost += productTotalCosts[i];
             }
+            pillowsAdd.Visible = true;
         }
 
         private void dingDongBtn_Click(object sender, EventArgs e)
@@ -131,6 +137,7 @@ namespace Final_Project__Cafeteria_Management_System
             {
                 snacksOverallTotalCost += productTotalCosts[i];
             }
+            dingDongAdd.Visible = true;
         }
 
         private void laysBtn_Click(object sender, EventArgs e)
@@ -147,6 +154,7 @@ namespace Final_Project__Cafeteria_Management_System
             {
                 snacksOverallTotalCost += productTotalCosts[i];
             }
+            laysAdd.Visible = true;
         }
 
         private void cheetosBtn_Click(object sender, EventArgs e)
@@ -163,6 +171,7 @@ namespace Final_Project__Cafeteria_Management_System
             {
                 snacksOverallTotalCost += productTotalCosts[i];
             }
+            cheetosAdd.Visible = true;
         }
 
         private void potatoChipsBtn_Click(object sender, EventArgs e)
@@ -179,6 +188,7 @@ namespace Final_Project__Cafeteria_Management_System
             {
                 snacksOverallTotalCost += productTotalCosts[i];
             }
+            potatoChipsAdd.Visible = true;
         }
 
         private void potatoFriesBtn_Click(object sender, EventArgs e)
@@ -195,6 +205,7 @@ namespace Final_Project__Cafeteria_Management_System
             {
                 snacksOverallTotalCost += productTotalCosts[i];
             }
+            potatoFriesAdd.Visible = true;
         }
 
         private void patataBtn_Click(object sender, EventArgs e)
@@ -211,6 +222,7 @@ namespace Final_Project__Cafeteria_Management_System
             {
                 snacksOverallTotalCost += productTotalCosts[i];
             }
+            patataAdd.Visible = true;
         }
 
         private void checkPriceBtn_Click(object sender, EventArgs e)
@@ -517,6 +529,114 @@ namespace Final_Project__Cafeteria_Management_System
                 }
 
             }
+        }
+
+        private void vcutAdd_Click(object sender, EventArgs e)
+        {
+            using (StreamWriter writer = new StreamWriter("item.txt", true))
+            {
+                writer.WriteLine("Vcut x " + vcut.Text);
+            }
+            vcutAdd.Visible = false;
+        }
+
+        private void cracklingsAdd_Click(object sender, EventArgs e)
+        {
+            using (StreamWriter writer = new StreamWriter("item.txt", true))
+            {
+                writer.WriteLine("Cracklings x " + cracklings.Text);
+            }
+            cracklingsAdd.Visible = false;
+        }
+
+        private void mangJuanAdd_Click(object sender, EventArgs e)
+        {
+            using (StreamWriter writer = new StreamWriter("item.txt", true))
+            {
+                writer.WriteLine("Mang Juan x " + mangJuan.Text);
+            }
+            mangJuanAdd.Visible = false;
+        }
+
+        private void piattosAdd_Click(object sender, EventArgs e)
+        {
+            using (StreamWriter writer = new StreamWriter("item.txt", true))
+            {
+                writer.WriteLine("Piattos x " + piattos.Text);
+            }
+            piattosAdd.Visible = false;
+        }
+
+        private void cloverAdd_Click(object sender, EventArgs e)
+        {
+            using (StreamWriter writer = new StreamWriter("item.txt", true))
+            {
+                writer.WriteLine("Clover x " + clover.Text);
+            }
+            cloverAdd.Visible = false;
+        }
+
+        private void pillowsAdd_Click(object sender, EventArgs e)
+        {
+            using (StreamWriter writer = new StreamWriter("item.txt", true))
+            {
+                writer.WriteLine("Pillows x " + pillows.Text);
+            }
+            pillowsAdd.Visible = false;
+        }
+
+        private void dingDongAdd_Click(object sender, EventArgs e)
+        {
+            using (StreamWriter writer = new StreamWriter("item.txt", true))
+            {
+                writer.WriteLine("Ding Dong x " + dingDong.Text);
+            }
+            dingDongAdd.Visible = false;
+        }
+
+        private void laysAdd_Click(object sender, EventArgs e)
+        {
+            using (StreamWriter writer = new StreamWriter("item.txt", true))
+            {
+                writer.WriteLine("Lays x " + lays.Text);
+            }
+            laysAdd.Visible = false;
+        }
+
+        private void cheetosAdd_Click(object sender, EventArgs e)
+        {
+            using (StreamWriter writer = new StreamWriter("item.txt", true))
+            {
+                writer.WriteLine("Cheetos x " + cheetos.Text);
+            }
+            cheetosAdd.Visible = false;
+        }
+
+        private void potatoChipsAdd_Click(object sender, EventArgs e)
+        {
+            using (StreamWriter writer = new StreamWriter("item.txt", true))
+            {
+                writer.WriteLine("Potato Chips x " + potatoChips.Text);
+            }
+            potatoChipsAdd.Visible = false;
+        }
+
+        private void potatoFriesAdd_Click(object sender, EventArgs e)
+        {
+            using (StreamWriter writer = new StreamWriter("item.txt", true))
+            {
+                writer.WriteLine("Potato Fries x " + potatoFries.Text);
+            }
+            potatoFriesAdd.Visible = false;
+        }
+
+        private void patataAdd_Click(object sender, EventArgs e)
+        {
+            using (StreamWriter writer = new StreamWriter("item.txt", true))
+            {
+                writer.WriteLine("Patata x " + patata.Text);
+            }
+            patataAdd.Visible = false;
         }
     }
 }
