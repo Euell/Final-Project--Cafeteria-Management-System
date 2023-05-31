@@ -249,7 +249,8 @@ namespace Final_Project__Cafeteria_Management_System
             // 
             // dataGridView1
             // 
-            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView1.AllowUserToResizeColumns = false;
+            this.dataGridView1.AllowUserToResizeRows = false;
             this.dataGridView1.BackgroundColor = System.Drawing.Color.Gray;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -270,30 +271,35 @@ namespace Final_Project__Cafeteria_Management_System
             this.name.HeaderText = "Name";
             this.name.Name = "name";
             this.name.ReadOnly = true;
+            this.name.Width = 101;
             // 
             // totalCost
             // 
             this.totalCost.HeaderText = "Total cost";
             this.totalCost.Name = "totalCost";
             this.totalCost.ReadOnly = true;
+            this.totalCost.Width = 101;
             // 
             // totalPrice
             // 
             this.totalPrice.HeaderText = "Payment Amount";
             this.totalPrice.Name = "totalPrice";
             this.totalPrice.ReadOnly = true;
+            this.totalPrice.Width = 101;
             // 
             // change
             // 
             this.change.HeaderText = "Change";
             this.change.Name = "change";
             this.change.ReadOnly = true;
+            this.change.Width = 101;
             // 
             // date
             // 
             this.date.HeaderText = "Date";
             this.date.Name = "date";
             this.date.ReadOnly = true;
+            this.date.Width = 101;
             // 
             // paymentControl1
             // 
