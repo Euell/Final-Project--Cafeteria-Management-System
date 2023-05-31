@@ -39,18 +39,20 @@ namespace Final_Project__Cafeteria_Management_System
             {
                 sw.Write(string.Empty);
             }
-            Application.Exit();
-            using (StreamWriter sw = new StreamWriter("credentials.txt"))
-            {
-                sw.Write(string.Empty);
-            }
+          
         }
 
         private void backbtn_Click(object sender, EventArgs e)
         {
-            Login login = new Login();
-            this.Hide();
-            login.Show();
+            DialogResult d;
+            d = MessageBox.Show("Are you sure you want to log out?", "log out", MessageBoxButtons.YesNo,MessageBoxIcon.Question );
+            if (d == DialogResult.Yes)
+            {
+                Login login = new Login();
+                this.Hide();
+                login.Show();
+            } 
+           
         }
 
         private void homebtn_Click(object sender, EventArgs e)

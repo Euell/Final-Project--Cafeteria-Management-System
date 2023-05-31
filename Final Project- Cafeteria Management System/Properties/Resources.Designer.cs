@@ -423,6 +423,16 @@ namespace Final_Project__Cafeteria_Management_System.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap imageedit_4_9650859803 {
+            get {
+                object obj = ResourceManager.GetObject("imageedit_4_9650859803", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap imageedit_41_7678297079 {
             get {
                 object obj = ResourceManager.GetObject("imageedit_41_7678297079", resourceCulture);

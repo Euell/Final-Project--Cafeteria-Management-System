@@ -419,5 +419,8 @@
   <ItemGroup>
     <None Include="Resources\addToCart.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imageedit_4_9650859803.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
