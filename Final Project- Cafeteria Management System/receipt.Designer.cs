@@ -35,9 +35,9 @@ namespace Final_Project__Cafeteria_Management_System
             // listBox
             // 
             this.listBox.FormattingEnabled = true;
-            this.listBox.Location = new System.Drawing.Point(13, 13);
+            this.listBox.Location = new System.Drawing.Point(-1, -1);
             this.listBox.Name = "listBox";
-            this.listBox.Size = new System.Drawing.Size(280, 615);
+            this.listBox.Size = new System.Drawing.Size(267, 641);
             this.listBox.TabIndex = 0;
             // 
             // receipt
@@ -45,7 +45,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Teal;
-            this.ClientSize = new System.Drawing.Size(309, 640);
+            this.ClientSize = new System.Drawing.Size(265, 640);
             this.Controls.Add(this.listBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "receipt";

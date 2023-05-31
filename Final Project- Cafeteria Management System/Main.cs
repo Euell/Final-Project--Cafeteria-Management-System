@@ -32,12 +32,18 @@ namespace Final_Project__Cafeteria_Management_System
         }
         private void closebtn_Click(object sender, EventArgs e)
         {
+           
             Application.Exit();
             using (StreamWriter sw = new StreamWriter("item.txt"))
             {
                 sw.Write(string.Empty);
             }
-           
+            Application.Exit();
+            using (StreamWriter sw = new StreamWriter("credentials.txt"))
+            {
+                sw.Write(string.Empty);
+            }
+
         }
 
         private void backbtn_Click(object sender, EventArgs e)

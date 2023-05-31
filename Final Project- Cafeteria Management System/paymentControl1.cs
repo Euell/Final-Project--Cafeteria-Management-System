@@ -50,6 +50,7 @@ namespace Final_Project__Cafeteria_Management_System
             }else if (price > amount)
             {
                 MessageBox.Show("Invalid payment amount");
+                paymentAmountLbl.Text = "";
             }
             else
             {
@@ -79,6 +80,7 @@ namespace Final_Project__Cafeteria_Management_System
             if (price > amount)
             {
                 MessageBox.Show("Invalid payment amount");
+                paymentAmountLbl.Text = "";
             }
             else if (amount > price || amount == price)
             {
