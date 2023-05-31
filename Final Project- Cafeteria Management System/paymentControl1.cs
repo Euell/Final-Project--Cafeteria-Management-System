@@ -16,11 +16,20 @@ namespace Final_Project__Cafeteria_Management_System
         public paymentControl1()
         {
             InitializeComponent();
-          
+
         }
 
         private void payBtn_Click(object sender, EventArgs e)
         {
+
+            if (customerName.Text == "" || paymentAmountLbl.Text == "")
+            {
+                receiptBtn.Visible = false;
+            }
+            else
+            {
+                receiptBtn.Visible = true;
+            }
 
             int price = 0, amount = 0;
             try
@@ -31,10 +40,12 @@ namespace Final_Project__Cafeteria_Management_System
             catch
             {
                 MessageBox.Show("Please check your inputted details");
+             
             }
             if (customerName.Text == "")
             {
                 MessageBox.Show("Please input a username");
+               
             } else if (paymentAmountLbl.Text == "")
             {
               
@@ -59,7 +70,7 @@ namespace Final_Project__Cafeteria_Management_System
                 //price.Visible = true;
             }
 
-            receiptBtn.Visible = true;
+          
         }
 
         private void okayBtn_Click(object sender, EventArgs e)
