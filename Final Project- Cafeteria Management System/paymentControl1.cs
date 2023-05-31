@@ -58,7 +58,7 @@ namespace Final_Project__Cafeteria_Management_System
                 //price.Visible = true;
             }
 
-           
+            receiptBtn.Visible = true;
         }
 
         private void okayBtn_Click(object sender, EventArgs e)
@@ -87,25 +87,7 @@ namespace Final_Project__Cafeteria_Management_System
             payBtn.Visible = true;
         }
 
-        private void purchaseMoreBtn_Click(object sender, EventArgs e)
-        {
-            totalPriceLbl.Text = "";
-            //customerName.Text = "";
-            paymentAmountLbl.Text = "";
-            totalChange.Text = "";
-
-            using (StreamWriter writer = new StreamWriter("item.txt", true))
-            {
-                writer.WriteLine("******************************************************************************************");
-                writer.WriteLine("------------------------------------------------------------------------------------------");
-                writer.WriteLine("ANOTHER PURCHASED ITEMS ");
-                writer.WriteLine("------------------------------------------------------------------------------------------");
-                writer.WriteLine("******************************************************************************************");
-            }
-
-            receipt form = new receipt();
-            form.Hide();
-        }
+    
 
         private void paymentAmountLbl_TextChanged(object sender, EventArgs e)
         {
@@ -115,8 +97,23 @@ namespace Final_Project__Cafeteria_Management_System
 
         private void receiptBtn_Click(object sender, EventArgs e)
         {
+            using (StreamWriter writer = new StreamWriter("item.txt", true))
+            {
+                writer.WriteLine("");
+                writer.WriteLine("*****************************************************************************************************");
+                writer.WriteLine("----------------------------------------------------------------------------------------------------");
+                writer.WriteLine("CUSTOMER NAME: " + customerName.Text);
+                writer.WriteLine("TOTAL: " + totalPriceLbl.Text);
+                writer.WriteLine("PAYMENT AMOUNT: " + paymentAmountLbl.Text);
+                writer.WriteLine("CHANGE: " + totalChange.Text);
+                writer.WriteLine("DATE OF ORDER: " + DateTime.Now.ToString());
+                writer.WriteLine("-----------------------------------------------------------------------------------------------------");
+                writer.WriteLine("*****************************************************************************************************");
+
+            }
             receipt form = new receipt();
             form.Show();
+
            
         }
 

@@ -32,7 +32,6 @@ namespace Final_Project__Cafeteria_Management_System
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.receiptBtn = new System.Windows.Forms.Button();
-            this.purchaseMoreBtn = new System.Windows.Forms.Button();
             this.okayBtn = new System.Windows.Forms.Button();
             this.customerName = new System.Windows.Forms.TextBox();
             this.payBtn = new System.Windows.Forms.Button();
@@ -73,7 +72,6 @@ namespace Final_Project__Cafeteria_Management_System
             // 
             this.panel2.BackColor = System.Drawing.Color.Teal;
             this.panel2.Controls.Add(this.receiptBtn);
-            this.panel2.Controls.Add(this.purchaseMoreBtn);
             this.panel2.Controls.Add(this.okayBtn);
             this.panel2.Controls.Add(this.customerName);
             this.panel2.Controls.Add(this.payBtn);
@@ -103,22 +101,8 @@ namespace Final_Project__Cafeteria_Management_System
             this.receiptBtn.TabIndex = 43;
             this.receiptBtn.Text = "Show purchased items";
             this.receiptBtn.UseVisualStyleBackColor = false;
+            this.receiptBtn.Visible = false;
             this.receiptBtn.Click += new System.EventHandler(this.receiptBtn_Click);
-            // 
-            // purchaseMoreBtn
-            // 
-            this.purchaseMoreBtn.BackColor = System.Drawing.Color.Teal;
-            this.purchaseMoreBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.purchaseMoreBtn.FlatAppearance.BorderSize = 0;
-            this.purchaseMoreBtn.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.purchaseMoreBtn.ForeColor = System.Drawing.Color.White;
-            this.purchaseMoreBtn.Location = new System.Drawing.Point(246, 186);
-            this.purchaseMoreBtn.Name = "purchaseMoreBtn";
-            this.purchaseMoreBtn.Size = new System.Drawing.Size(138, 32);
-            this.purchaseMoreBtn.TabIndex = 42;
-            this.purchaseMoreBtn.Text = "purchase more";
-            this.purchaseMoreBtn.UseVisualStyleBackColor = false;
-            this.purchaseMoreBtn.Click += new System.EventHandler(this.purchaseMoreBtn_Click);
             // 
             // okayBtn
             // 
@@ -127,7 +111,7 @@ namespace Final_Project__Cafeteria_Management_System
             this.okayBtn.FlatAppearance.BorderSize = 0;
             this.okayBtn.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.okayBtn.ForeColor = System.Drawing.Color.White;
-            this.okayBtn.Location = new System.Drawing.Point(188, 186);
+            this.okayBtn.Location = new System.Drawing.Point(254, 190);
             this.okayBtn.Name = "okayBtn";
             this.okayBtn.Size = new System.Drawing.Size(52, 32);
             this.okayBtn.TabIndex = 41;
@@ -343,7 +327,6 @@ namespace Final_Project__Cafeteria_Management_System
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button okayBtn;
         public System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button purchaseMoreBtn;
         private System.Windows.Forms.Button receiptBtn;
         private System.Windows.Forms.DataGridViewTextBoxColumn name;
         private System.Windows.Forms.DataGridViewTextBoxColumn totalCost;

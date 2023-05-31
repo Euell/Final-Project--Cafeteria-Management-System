@@ -22,7 +22,7 @@ namespace Final_Project__Cafeteria_Management_System
         private void receipt_Load(object sender, EventArgs e)
         {
             string filePath = "item.txt"; // Replace with the path to your file
-
+           
             try
             {
                 using (StreamReader sr = new StreamReader(filePath))
@@ -42,13 +42,7 @@ namespace Final_Project__Cafeteria_Management_System
         }
 
        
-        private void closebtn_Click(object sender, EventArgs e)
-        {
-            paymentControl1 payment = new paymentControl1();
-            this.Hide();
-            payment.Show();
-            // receipt back = new receipt();
-        }
+      
     }
 
 }
