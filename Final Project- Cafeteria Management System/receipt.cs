@@ -41,8 +41,19 @@ namespace Final_Project__Cafeteria_Management_System
 
         }
 
-       
-      
+        private void OkBtn_Click(object sender, EventArgs e)
+        {
+            using (StreamWriter sw = new StreamWriter("item.txt"))
+            {
+                sw.Write(string.Empty);
+            }
+            this.Close();
+        }
+
+        private void purchaseBtn_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 
 }

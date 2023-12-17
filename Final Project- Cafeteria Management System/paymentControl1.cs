@@ -110,24 +110,32 @@ namespace Final_Project__Cafeteria_Management_System
 
         private void receiptBtn_Click(object sender, EventArgs e)
         {
-            using (StreamWriter writer = new StreamWriter("item.txt", true))
+            Queue<string> customerQueue = new Queue<string>();
             {
-                writer.WriteLine("");
-                writer.WriteLine("*****************************************************************************************************");
-                writer.WriteLine("----------------------------------------------------------------------------------------------------");
-                writer.WriteLine("CUSTOMER NAME: " + customerName.Text);
-                writer.WriteLine("TOTAL: " + totalPriceLbl.Text);
-                writer.WriteLine("PAYMENT AMOUNT: " + paymentAmountLbl.Text);
-                writer.WriteLine("CHANGE: " + totalChange.Text);
-                writer.WriteLine("DATE OF ORDER: " + DateTime.Now.ToString());
-                writer.WriteLine("-----------------------------------------------------------------------------------------------------");
-                writer.WriteLine("*****************************************************************************************************");
-
-            }
-            receipt form = new receipt();
-            form.Show();
-
-           
+                using (StreamWriter writer = new StreamWriter("item.txt", true))
+                {
+                    customerQueue.Enqueue(customerName.Text);
+                    writer.WriteLine($"{customerName.Text} has arrived.");
+                    writer.WriteLine("*****************************************************************************************************");
+                    writer.WriteLine("");
+                    writer.WriteLine("*****************************************************************************************************");
+                    writer.WriteLine("----------------------------------------------------------------------------------------------------");
+                    writer.WriteLine("CUSTOMER NAME: " + customerName.Text);
+                    writer.WriteLine("TOTAL: " + totalPriceLbl.Text);
+                    writer.WriteLine("PAYMENT AMOUNT: " + paymentAmountLbl.Text);
+                    writer.WriteLine("CHANGE: " + totalChange.Text);
+                    writer.WriteLine("DATE OF ORDER: " + DateTime.Now.ToString());
+                    writer.WriteLine("-----------------------------------------------------------------------------------------------------");
+                    writer.WriteLine("*****************************************************************************************************");
+   
+                }
+                receipt form = new receipt();
+                form.Show();
+                MessageBox.Show("Press ok", "Receipt", MessageBoxButtons.OK);
+                {
+                    MessageBox.Show($"{customerName.Text} has been served.");
+                }
+            } 
         }
 
         private void panel10_Paint(object sender, PaintEventArgs e)
